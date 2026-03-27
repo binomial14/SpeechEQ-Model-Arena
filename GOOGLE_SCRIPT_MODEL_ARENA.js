@@ -1,11 +1,62 @@
 // Google Apps Script backend for SpeechEQ-Model-Arena
 // Configure before deployment.
 const SHEET_ID = 'YOUR_SHEET_ID'
+/** Direct HTTPS URL to raw JSON (must start with { not <!DOCTYPE). See GOOGLE_SHEETS_SETUP.md */
 const QUESTIONS_JSON_URL = 'YOUR_QUESTIONS_JSON_URL'
 const QUESTION_COUNT = 5
 const MAX_ASSIGNMENTS_PER_QUESTION = 5
 /** Max model slots per question (columns Qn_model_m_name / Qn_model_m_rate). */
 const MAX_MODELS_PER_QUESTION = 6
+
+/**
+ * Fetches questions.json from QUESTIONS_JSON_URL with clear errors if the server returns HTML.
+ */
+function fetchQuestionsJsonPayload() {
+  if (
+    !QUESTIONS_JSON_URL ||
+    QUESTIONS_JSON_URL.indexOf('YOUR_') === 0 ||
+    QUESTIONS_JSON_URL === 'YOUR_QUESTIONS_JSON_URL'
+  ) {
+    throw new Error(
+      'Set QUESTIONS_JSON_URL in the script to a direct HTTPS URL that returns raw JSON (e.g. https://your-site.com/questions.json).'
+    )
+  }
+  const response = UrlFetchApp.fetch(QUESTIONS_JSON_URL, {
+    muteHttpExceptions: true,
+    followRedirects: true
+  })
+  const code = response.getResponseCode()
+  const text = response.getContentText()
+  if (code !== 200) {
+    throw new Error(
+      'QUESTIONS_JSON_URL returned HTTP ' +
+        code +
+        '. Body starts with: ' +
+        String(text).substring(0, 200)
+    )
+  }
+  const trimmed = String(text).trim()
+  if (trimmed.charAt(0) === '<') {
+    throw new Error(
+      'QUESTIONS_JSON_URL returned HTML, not JSON (common if the URL is a repo page, login, 404, or SPA index.html). ' +
+        'Use the raw file URL. Examples: deployed https://.../questions.json, or GitHub raw (raw.githubusercontent.com/.../questions.json). ' +
+        'Snippet: ' +
+        trimmed.substring(0, 120)
+    )
+  }
+  try {
+    return JSON.parse(text)
+  } catch (err) {
+    throw new Error('Invalid JSON from QUESTIONS_JSON_URL: ' + err + '. Start of body: ' + trimmed.substring(0, 200))
+  }
+}
+
+/** Run from the Apps Script editor to verify QUESTIONS_JSON_URL before syncQuestionsFromJSON(). */
+function testQuestionsJsonUrl() {
+  const payload = fetchQuestionsJsonPayload()
+  const n = (payload.questions || []).length
+  return { ok: true, questionCount: n, message: 'OK: parsed questions.json with ' + n + ' question(s)' }
+}
 
 function getOrCreateSheet(spreadsheet, name) {
   let sheet = spreadsheet.getSheetByName(name)
@@ -211,8 +262,7 @@ function syncQuestionsFromJSON() {
   const spreadsheet = SpreadsheetApp.openById(SHEET_ID)
   const sheet = getOrCreateSheet(spreadsheet, 'Questions')
   ensureQuestionsHeader(sheet)
-  const response = UrlFetchApp.fetch(QUESTIONS_JSON_URL)
-  const payload = JSON.parse(response.getContentText())
+  const payload = fetchQuestionsJsonPayload()
   const questions = payload.questions || []
 
   const lastRow = sheet.getLastRow()

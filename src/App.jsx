@@ -1,14 +1,56 @@
 import { useEffect, useMemo, useState } from 'react'
 
-const GOOGLE_FORM_URL = import.meta.env.VITE_GOOGLE_FORM_URL || ''
+import questionsManifest from '../questions.json'
+
+/**
+ * Browsers block cross-origin fetch to script.google.com (CORS). When the Vite dev/preview proxy
+ * is in use, call `/api/google-macro/...` instead (vite.config.js).
+ */
+function shouldUseAppsScriptProxy() {
+  if (import.meta.env.DEV) {
+    return true
+  }
+  if (typeof window === 'undefined') {
+    return false
+  }
+  const h = window.location.hostname
+  if (h === 'localhost' || h === '127.0.0.1' || h === '::1') {
+    return true
+  }
+  // `vite preview` default port — works for http://LAN_IP:4173 as well as loopback.
+  const p = window.location.port
+  if (p === '4173' || p === '4174') {
+    return true
+  }
+  return false
+}
+
+function resolveAppsScriptUrl(raw) {
+  if (!raw || typeof raw !== 'string') {
+    return ''
+  }
+  const trimmed = raw.trim()
+  if (!trimmed.startsWith('https://script.google.com')) {
+    return trimmed
+  }
+  if (shouldUseAppsScriptProxy()) {
+    return `/api/google-macro${trimmed.slice('https://script.google.com'.length)}`
+  }
+  return trimmed
+}
+
+function getGoogleFormUrl() {
+  return resolveAppsScriptUrl(import.meta.env.VITE_GOOGLE_FORM_URL || '')
+}
 const PROLIFIC_EXIT_URL =
   import.meta.env.VITE_PROLIFIC_EXIT_URL ||
   'https://app.prolific.com/submissions/complete?cc=C1GDHKVZ'
 const QUESTION_COUNT = 5
-const selectedIndexModules = import.meta.glob('../data/selected_15_examples_index.json', {
-  eager: true,
-  import: 'default'
-})
+/** Same ids as `npm run generate-questions` / Google Sheet `question_id` column */
+const QUESTION_POOL = (questionsManifest.questions || []).map((q) => ({
+  dataset_id: q.id,
+  subscale_slug: q.subscale
+}))
 const metadataModules = import.meta.glob('../data/**/metadata.json', {
   eager: true,
   import: 'default'
@@ -84,7 +126,7 @@ function normalizeReasoningForLabels(preferred) {
     return 'No reasoning provided.'
   }
   const reasoning = preferred.reasoning.trim()
-  // In our display, "Option 1" is always resonant and "Option 2" is always disonant.
+  // In our display, "Option 1" is always resonant and "Option 2" is always dissonant.
   // In raw model text, resonant may correspond to either raw option1 or option2 depending on `high_eq_option`,
   // so we swap the option numbers when needed.
   const highEq = normalizeOptionKey(preferred.high_eq_option)
@@ -133,7 +175,7 @@ function extractSentenceDetails(sentenceData) {
       : highEq === 'option2'
         ? parsedRaw?.acoustic_profile_2 || ''
         : ''
-  const disonantProfile =
+  const dissonantProfile =
     highEq === 'option1'
       ? parsedRaw?.acoustic_profile_2 || ''
       : highEq === 'option2'
@@ -156,8 +198,8 @@ function extractSentenceDetails(sentenceData) {
       resonantProfile,
       preferred?.high_eq_option
     ),
-    disonantDescription: normalizeOptionMentionsForDisplayOrder(
-      disonantProfile,
+    dissonantDescription: normalizeOptionMentionsForDisplayOrder(
+      dissonantProfile,
       preferred?.high_eq_option
     ),
     situationalDemand:
@@ -171,7 +213,7 @@ function selectedLabelFromCorrectness(sentenceData) {
     return 'resonant'
   }
   if (sentenceData?.correct === false) {
-    return 'disonant'
+    return 'dissonant'
   }
   return 'unknown'
 }
@@ -218,7 +260,7 @@ function buildAudioOptions(metadata, sentenceNumber, metadataModuleKey) {
     (item) => item?.speaker === 'speaker2' && item?.sentence_number === sentenceNumber
   )
   const normalized = candidates.map((item, idx) => {
-    const label = item.eq_level === 'high' ? 'resonant' : 'disonant'
+    const label = item.eq_level === 'high' ? 'resonant' : 'dissonant'
     return {
       optionId: `s${sentenceNumber}_opt_${idx + 1}_${item.eq_level || 'unknown'}`,
       sentenceNumber,
@@ -229,12 +271,13 @@ function buildAudioOptions(metadata, sentenceNumber, metadataModuleKey) {
   })
   return {
     resonant: normalized.find((item) => item.label === 'resonant') || null,
-    disonant: normalized.find((item) => item.label === 'disonant') || null
+    dissonant: normalized.find((item) => item.label === 'dissonant') || null
   }
 }
 
 function App() {
-  const [loading, setLoading] = useState(true)
+  /** Only true while loading scenarios after "Start Study" (not on first paint). */
+  const [loading, setLoading] = useState(false)
   const [errorMessage, setErrorMessage] = useState('')
   const [showIntro, setShowIntro] = useState(true)
   const [questions, setQuestions] = useState([])
@@ -255,7 +298,6 @@ function App() {
       studyId: urlParams.get('STUDY_ID') || '',
       sessionId: urlParams.get('SESSION_ID') || ''
     })
-    loadSession()
   }, [])
 
   /**
@@ -263,16 +305,38 @@ function App() {
    * If VITE_GOOGLE_FORM_URL is unset, returns { skipped: true } and the caller uses local fallback.
    */
   const fetchQuestionAllocation = async () => {
-    if (!GOOGLE_FORM_URL) {
+    const formUrl = getGoogleFormUrl()
+    if (!formUrl) {
       return { skipped: true, ids: [] }
     }
-    const response = await fetch(
-      `${GOOGLE_FORM_URL}?action=getQuestions&count=${QUESTION_COUNT}`
-    )
-    if (!response.ok) {
-      throw new Error('Unable to allocate questions from Google Sheets.')
+    let response
+    try {
+      response = await fetch(
+        `${formUrl}?action=getQuestions&count=${QUESTION_COUNT}`
+      )
+    } catch (err) {
+      throw new Error(
+        `Network error talking to Apps Script (${err?.message || 'Failed to fetch'}). ` +
+          'If you are on localhost, keep VITE_GOOGLE_FORM_URL as the full https://script.google.com/.../exec URL; ' +
+          'the dev server proxies it. If this is a static production host, you need a same-origin proxy or host that allows CORS to script.google.com.'
+      )
     }
-    const body = await response.json()
+    const rawText = await response.text()
+    let body
+    try {
+      body = JSON.parse(rawText)
+    } catch {
+      throw new Error(
+        `Apps Script did not return JSON (HTTP ${response.status}). ` +
+          `Check VITE_GOOGLE_FORM_URL and redeploy the Web App. Body starts with: ${rawText.slice(0, 240)}`
+      )
+    }
+    if (!response.ok) {
+      throw new Error(
+        `Apps Script HTTP ${response.status} ${response.statusText}. ` +
+          (body.error || body.message || rawText.slice(0, 240) || 'No error detail.')
+      )
+    }
     if (body.exhausted) {
       throw new Error(
         body.message ||
@@ -294,22 +358,33 @@ function App() {
 
   const loadSession = async () => {
     try {
-      const selectedIndex = Object.values(selectedIndexModules)[0]
       const modelPayloads = Object.entries(modelResponseModules).map(([path, payload]) => ({
         path,
         payload
       }))
 
-      if (Array.isArray(selectedIndex) && selectedIndex.length > 0 && modelPayloads.length > 0) {
+      if (QUESTION_POOL.length > 0 && modelPayloads.length > 0) {
         const allocation = await fetchQuestionAllocation()
-        const byDatasetId = new Map(selectedIndex.map((entry) => [entry.dataset_id, entry]))
-        const chosenEntries = allocation.skipped
-          ? selectedIndex.slice(0, QUESTION_COUNT)
-          : allocation.ids.map((id) => byDatasetId.get(id)).filter(Boolean)
+        const byDatasetId = new Map(QUESTION_POOL.map((entry) => [entry.dataset_id, entry]))
+        let chosenEntries
+        if (allocation.skipped) {
+          chosenEntries = QUESTION_POOL.slice(0, QUESTION_COUNT)
+        } else {
+          chosenEntries = allocation.ids.map((id) => byDatasetId.get(id)).filter(Boolean)
+          if (chosenEntries.length !== QUESTION_COUNT) {
+            const missing = allocation.ids.filter((id) => !byDatasetId.has(id))
+            throw new Error(
+              `Sheet returned ${allocation.ids.length} id(s) but only ${chosenEntries.length} match questions.json / local data. ` +
+                `Missing or unknown ids: ${missing.join(', ') || '(none)'}. ` +
+                `Run npm run generate-questions and sync the same ids to the Sheet.`
+            )
+          }
+        }
 
         if (chosenEntries.length !== QUESTION_COUNT) {
           throw new Error(
-            `Expected ${QUESTION_COUNT} questions but found ${chosenEntries.length}`
+            `Expected ${QUESTION_COUNT} questions but found ${chosenEntries.length}. ` +
+              `QUESTION_POOL has ${QUESTION_POOL.length} entries (run npm run generate-questions).`
           )
         }
 
@@ -416,6 +491,13 @@ function App() {
     }
   }
 
+  const handleStartStudy = async () => {
+    setErrorMessage('')
+    setShowIntro(false)
+    setLoading(true)
+    await loadSession()
+  }
+
   const currentQuestion = questions[currentQuestionIndex]
 
   const currentQuestionRating = useMemo(
@@ -477,7 +559,8 @@ function App() {
       setErrorMessage('Please complete all 1-10 ratings for all 5 questions.')
       return
     }
-    if (!GOOGLE_FORM_URL) {
+    const formUrl = getGoogleFormUrl()
+    if (!formUrl) {
       setErrorMessage('Missing VITE_GOOGLE_FORM_URL.')
       return
     }
@@ -506,13 +589,21 @@ function App() {
     }
 
     try {
-      const response = await fetch(GOOGLE_FORM_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded'
-        },
-        body: `data=${encodeURIComponent(JSON.stringify(payload))}`
-      })
+      let response
+      try {
+        response = await fetch(formUrl, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: `data=${encodeURIComponent(JSON.stringify(payload))}`
+        })
+      } catch (err) {
+        throw new Error(
+          `Network error submitting to Apps Script (${err?.message || 'Failed to fetch'}). ` +
+            'Same fix as loading questions: use dev proxy on localhost with full script URL in .env.'
+        )
+      }
       const text = await response.text()
       let isSuccess = response.ok
       try {
@@ -532,39 +623,134 @@ function App() {
     }
   }
 
-  if (loading) {
-    return <div className="center-panel">Loading model arena...</div>
-  }
-
-  if (errorMessage && questions.length === 0) {
-    return <div className="center-panel error">{errorMessage}</div>
-  }
-
   if (showIntro) {
     return (
       <main className="container">
         <h1>SpeechEQ Model Arena</h1>
-        <h2>Welcome and Thank You!</h2>
+        <h2 className="intro-title">Welcome and Thank You!</h2>
         <p className="lead">
-          In this task, you will evaluate the emotional intelligence of AI models in social
-          situations.
+          In this task, you will help us evaluate the &quot;Emotional Intelligence&quot; of various
+          Artificial Intelligence models. We want to know if these AI models can genuinely understand
+          complex human social situations.
         </p>
-        <p className="lead">
-          You will complete 5 scenarios. In each scenario, the model makes two forced choices
-          (Sentence 4 and Sentence 6). We show whether each choice is right or wrong using
-          green/red highlighting.
-        </p>
-        <p className="lead">
-          Your job is to judge the model explanation quality: how socially aware the model is, and
-          how strong its reasoning is.
-        </p>
-        <p className="lead">
-          Use the score buttons (1 to 10) for each model. Focus on emotional intelligence, not
-          grammar or writing style.
-        </p>
-        <button className="btn primary" onClick={() => setShowIntro(false)}>
-          Start Study
-        </button>
+
+        <section className="intro-section">
+          <h3>What you will do</h3>
+          <p>You will read <strong>5 short scenarios</strong>. For each scenario, you will follow these steps:</p>
+          <ol className="intro-list">
+            <li>
+              <strong>Read the context:</strong> Read a short dialogue between two people experiencing
+              social friction or emotional stress.
+            </li>
+            <li>
+              <strong>Review the two options:</strong> You will see two possible ways the conversation
+              could continue (Option A and Option B). One response is emotionally intelligent, and the
+              other is socially inappropriate. In the study interface they are labeled{' '}
+              <strong>Option 1 (Resonant)</strong> and <strong>Option 2 (Dissonant)</strong>, with audio
+              for the key continuation lines.
+            </li>
+            <li>
+              <strong>Evaluate the AI&apos;s comparative reasoning:</strong> The AI was presented with
+              both options and asked to analyze them. You will read the AI&apos;s explanation, where it
+              discusses both options and makes its final choice.{' '}
+              <strong>
+                The AI may have analyzed them incorrectly or chosen the wrong final option.
+              </strong>{' '}
+              Green and red highlighting shows whether its final choice matched the better option for
+              this task.
+            </li>
+            <li>
+              <strong>Rate the AI:</strong> Give a <strong>single overall score from 1 to 10</strong> per
+              model based on how well it evaluated the two options. If several models are shown, rate
+              each independently.
+            </li>
+          </ol>
+        </section>
+
+        <section className="intro-section">
+          <h3>How to score the AI (the 1–10 scale)</h3>
+          <p>
+            When deciding on your single score from 1 to 10, please evaluate the AI based on these three
+            dimensions:
+          </p>
+          <ul className="intro-inline-list">
+            <li>
+              <strong>Contextual awareness:</strong> Did the AI accurately identify the underlying social
+              tension in the original dialogue?
+            </li>
+            <li>
+              <strong>Comparative decision quality:</strong> Did the AI accurately recognize why the good
+              option was appropriate <em>and</em> why the bad option was offensive or awkward?
+            </li>
+            <li>
+              <strong>Reasoning quality:</strong> Is the AI&apos;s justification logical, insightful, and
+              convincingly grounded in emotional intelligence?
+            </li>
+          </ul>
+          <div className="intro-guide">
+            <p className="intro-guide-label">The scoring guide</p>
+            <ul>
+              <li>
+                <strong>1–3 (Fail):</strong> The AI completely misunderstood both options, picked the
+                wrong final answer, or its reasoning makes no sense.
+              </li>
+              <li>
+                <strong>4–7 (Mediocre):</strong> The AI understands the basic topic but misses the deeper
+                emotional nuance. It might have picked the right option, but failed to adequately explain
+                why the other option was bad (or vice versa).
+              </li>
+              <li>
+                <strong>8–10 (Excellent):</strong> The AI provided a highly insightful, human-like
+                comparison of both options, perfectly articulated why the bad option was inappropriate,
+                and confidently selected the correct response.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="intro-callout">
+          <h3>⚠️ Important guidelines before you start ⚠️</h3>
+          <ul>
+            <li>
+              <strong>The AI can be wrong.</strong> If the AI confidently defends a terrible social
+              choice or misunderstands the nuance of the two options, give it a low score.
+            </li>
+            <li>
+              <strong>Ignore grammar.</strong> Do not penalize an AI for using bullet points or robotic
+              phrasing like &quot;As an AI…&quot; Focus exclusively on its emotional intelligence.
+            </li>
+          </ul>
+        </section>
+
+        <div className="intro-actions">
+          <button className="btn primary" type="button" onClick={handleStartStudy}>
+            Start study
+          </button>
+        </div>
+      </main>
+    )
+  }
+
+  if (loading) {
+    return <div className="center-panel">Loading scenarios from Google Sheets…</div>
+  }
+
+  if (errorMessage && questions.length === 0) {
+    return (
+      <main className="container">
+        <div className="center-panel error">{errorMessage}</div>
+        <div className="actions" style={{ justifyContent: 'center', marginTop: 16 }}>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => {
+              setErrorMessage('')
+              setShowIntro(true)
+            }}
+          >
+            Back to introduction
+          </button>
+        </div>
       </main>
     )
   }
@@ -573,58 +759,71 @@ function App() {
     <main className="container">
       <h1>SpeechEQ Model Arena</h1>
       <div className="progress">Question {currentQuestionIndex + 1} / {questions.length}</div>
-      <section className="question-card">
-        <h2>{currentQuestion.metadata?.scenario?.title || 'Scenario'}</h2>
-        <p className="subscale">Subscale: {currentQuestion.subscale}</p>
-        <p>{currentQuestion.metadata?.scenario?.context || ''}</p>
-        {(currentQuestion.conversationLines || []).map((line) => (
-          <div key={line.id}>
-            <p>
-              <strong>Sentence {line.sentenceNumber} - {line.label}:</strong> {line.text}
-            </p>
-            {(line.sentenceNumber === 4 || line.sentenceNumber === 6) ? (
-              <div className="model-row">
-                <div className="model-header">
-                  <strong>Sentence {line.sentenceNumber} Audio Options</strong>
-                </div>
-                <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-                  <div>
-                    <p className="subscale">Option 1 (Resonant)</p>
-                    {currentQuestion.sentenceAudio?.[line.sentenceNumber]?.resonant?.audioPath ? (
-                      <audio
-                        controls
-                        preload="none"
-                        src={currentQuestion.sentenceAudio?.[line.sentenceNumber]?.resonant?.audioPath}
-                      >
-                        Your browser does not support the audio element.
-                      </audio>
-                    ) : (
-                      <p className="model-response">Missing Option 1 audio.</p>
-                    )}
+      <section className="scenario-panel" aria-labelledby="scenario-heading">
+        <div className="section-eyebrow">Scenario context</div>
+        <h2 id="scenario-heading">{currentQuestion.metadata?.scenario?.title || 'Scenario'}</h2>
+        {currentQuestion.metadata?.scenario?.context ? (
+          <p className="scenario-setup">{currentQuestion.metadata.scenario.context}</p>
+        ) : null}
+        {(currentQuestion.conversationLines || []).length > 0 ? (
+          <div className="scenario-dialogue">
+            <p className="scenario-dialogue-label">Dialogue and continuation options (shared setup)</p>
+            {(currentQuestion.conversationLines || []).map((line) => (
+              <div key={line.id}>
+                <p>
+                  <strong>Sentence {line.sentenceNumber} - {line.label}:</strong> {line.text}
+                </p>
+                {(line.sentenceNumber === 4 || line.sentenceNumber === 6) ? (
+                  <div className="model-row">
+                    <div className="model-header">
+                      <strong>Sentence {line.sentenceNumber} audio options</strong>
+                    </div>
+                    <div className="audio-options-row">
+                      <div>
+                        <p className="audio-option-caption">Option 1 (Resonant)</p>
+                        {currentQuestion.sentenceAudio?.[line.sentenceNumber]?.resonant?.audioPath ? (
+                          <audio
+                            controls
+                            preload="none"
+                            src={currentQuestion.sentenceAudio?.[line.sentenceNumber]?.resonant?.audioPath}
+                          >
+                            Your browser does not support the audio element.
+                          </audio>
+                        ) : (
+                          <p className="model-response">Missing Option 1 audio.</p>
+                        )}
+                      </div>
+                      <div>
+                        <p className="audio-option-caption">Option 2 (Dissonant)</p>
+                        {currentQuestion.sentenceAudio?.[line.sentenceNumber]?.dissonant?.audioPath ? (
+                          <audio
+                            controls
+                            preload="none"
+                            src={currentQuestion.sentenceAudio?.[line.sentenceNumber]?.dissonant?.audioPath}
+                          >
+                            Your browser does not support the audio element.
+                          </audio>
+                        ) : (
+                          <p className="model-response">Missing Option 2 audio.</p>
+                        )}
+                      </div>
+                    </div>
                   </div>
-                  <div>
-                    <p className="subscale">Option 2 (Disonant)</p>
-                    {currentQuestion.sentenceAudio?.[line.sentenceNumber]?.disonant?.audioPath ? (
-                      <audio
-                        controls
-                        preload="none"
-                        src={currentQuestion.sentenceAudio?.[line.sentenceNumber]?.disonant?.audioPath}
-                      >
-                        Your browser does not support the audio element.
-                      </audio>
-                    ) : (
-                      <p className="model-response">Missing Option 2 audio.</p>
-                    )}
-                  </div>
-                </div>
+                ) : null}
               </div>
-            ) : null}
+            ))}
           </div>
-        ))}
+        ) : null}
       </section>
 
-      <section className="ranking-card">
-        <h3>Rate all model responses independently</h3>
+      <section className="rating-panel" aria-labelledby="rating-heading">
+        <div className="section-eyebrow section-eyebrow--rating">Model responses</div>
+        <p className="rating-panel-hint">
+          Below is each model&apos;s forced choices and written explanations for this scenario. This
+          material is <strong>not</strong> part of the dialogue above—use it only to judge the models
+          and assign scores.
+        </p>
+        <h3 id="rating-heading">Rate all model responses independently</h3>
         {currentQuestion.shownModels.map((model, modelIdx) => (
           <div key={model.modelId} className="model-row">
             <div className="model-header">
@@ -640,9 +839,9 @@ function App() {
                   <strong>Option 1 (Resonant) description:</strong> {model.evaluation?.sentence4?.resonantDescription}
                 </p>
               ) : null}
-              {model.evaluation?.sentence4?.disonantDescription ? (
+              {model.evaluation?.sentence4?.dissonantDescription ? (
                 <p className="model-response">
-                  <strong>Option 2 (Disonant) description:</strong> {model.evaluation?.sentence4?.disonantDescription}
+                  <strong>Option 2 (Dissonant) description:</strong> {model.evaluation?.sentence4?.dissonantDescription}
                 </p>
               ) : null}
               {model.evaluation?.sentence4?.situationalDemand ? (
@@ -663,9 +862,9 @@ function App() {
                   <strong>Option 1 (Resonant) description:</strong> {model.evaluation?.sentence6?.resonantDescription}
                 </p>
               ) : null}
-              {model.evaluation?.sentence6?.disonantDescription ? (
+              {model.evaluation?.sentence6?.dissonantDescription ? (
                 <p className="model-response">
-                  <strong>Option 2 (Disonant) description:</strong> {model.evaluation?.sentence6?.disonantDescription}
+                  <strong>Option 2 (Dissonant) description:</strong> {model.evaluation?.sentence6?.dissonantDescription}
                 </p>
               ) : null}
               {model.evaluation?.sentence6?.situationalDemand ? (
