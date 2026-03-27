@@ -1,0 +1,77 @@
+[
+  {
+    "subscale_slug": "decision_making_impulse_control",
+    "dataset_id": "20260308_233939_cf32f97e67e4",
+    "source_dir": "v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4"
+  },
+  {
+    "subscale_slug": "decision_making_problem_solving",
+    "dataset_id": "20260308_233752_2e4c4f32bcb4",
+    "source_dir": "v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4"
+  },
+  {
+    "subscale_slug": "decision_making_reality_testing",
+    "dataset_id": "20260308_233850_2b3021eff25a",
+    "source_dir": "v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a"
+  },
+  {
+    "subscale_slug": "interpersonal_empathy",
+    "dataset_id": "20260308_233506_18b6f6a17e59",
+    "source_dir": "v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59"
+  },
+  {
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "dataset_id": "20260308_233403_42a4f69ad22e",
+    "source_dir": "v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e"
+  },
+  {
+    "subscale_slug": "interpersonal_social_responsibility",
+    "dataset_id": "20260308_233550_2bd0061435f8",
+    "source_dir": "v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8"
+  },
+  {
+    "subscale_slug": "self_expression_assertiveness",
+    "dataset_id": "20260308_233209_da5156af0b2a",
+    "source_dir": "v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a"
+  },
+  {
+    "subscale_slug": "self_expression_emotional_expression",
+    "dataset_id": "20260308_233102_a196d418df2d",
+    "source_dir": "v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d"
+  },
+  {
+    "subscale_slug": "self_expression_independence",
+    "dataset_id": "20260308_233258_fed38989d5e3",
+    "source_dir": "v2_data/self_expression_independence/20260308_233258_fed38989d5e3"
+  },
+  {
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "dataset_id": "20260308_233014_359d51ff0d5b",
+    "source_dir": "v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b"
+  },
+  {
+    "subscale_slug": "self_perception_self_actualization",
+    "dataset_id": "20260308_232915_602f7006a997",
+    "source_dir": "v2_data/self_perception_self_actualization/20260308_232915_602f7006a997"
+  },
+  {
+    "subscale_slug": "self_perception_self_regard",
+    "dataset_id": "20260308_232818_14328a3687d5",
+    "source_dir": "v2_data/self_perception_self_regard/20260308_232818_14328a3687d5"
+  },
+  {
+    "subscale_slug": "stress_management_flexibility",
+    "dataset_id": "20260308_234047_3b55f669ca73",
+    "source_dir": "v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73"
+  },
+  {
+    "subscale_slug": "stress_management_optimism",
+    "dataset_id": "20260308_234257_eb0d46086e04",
+    "source_dir": "v2_data/stress_management_optimism/20260308_234257_eb0d46086e04"
+  },
+  {
+    "subscale_slug": "stress_management_stress_tolerance",
+    "dataset_id": "20260308_234141_3419cf190062",
+    "source_dir": "v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062"
+  }
+]

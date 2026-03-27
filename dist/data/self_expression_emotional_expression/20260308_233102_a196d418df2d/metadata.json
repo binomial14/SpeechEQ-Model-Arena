@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Surprise College Acceptance Letter",
+    "context": "A small family dinner at home. The mood is casual but warm, with everyone seated around the table. Speaker 1 has just opened the mail and discovered they’ve been accepted into their dream college.",
+    "description": "Speaker 1 (the Catalyst) is bursting with excitement and pride after reading their acceptance letter out loud to the family. The emotional stakes center on how Speaker 2 (the Test Subject) responds to this joyful revelation and whether they amplify and validate Speaker 1’s happiness in a way that feels genuine and connected.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Emma’s intense excitement and celebrate her achievement. Use physical cues (smiling, clapping, leaning forward) and an enthusiastic tone to validate the joy and pride she’s feeling.",
+    "speaker1_name": "Emma",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Bubbly and ecstatic, Emma's voice is full of excitement as she shares the news. She’s smiling ear-to-ear and speaking quickly, looking at everyone for validation of her joy.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "David",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "David immediately mirrors Emma’s excitement, smiling widely and clapping his hands. He leans forward to engage, using a joyful tone to say things like, 'Emma, this is incredible! We knew you could do it!' He conveys genuine pride and excitement while creating space for Emma to bask in the moment.",
+    "speaker2_persona_2": "David reacts irritably, cutting Emma off with a clipped tone: 'Yeah, yeah, I mean, it’s just one acceptance letter—you’re not done yet.' His body language is tense, and he avoids making eye contact, making Emma feel dismissed and deflated.",
+    "speaker2_persona_3": "David stays completely flat and unresponsive, barely looking up from his phone. He offers a monotone 'Cool,' without showing any interest or engagement. His lack of reaction leaves Emma feeling unsupported and isolated in her excitement.",
+    "speaker2_persona_high": "David immediately mirrors Emma’s excitement, smiling widely and clapping his hands. He leans forward to engage, using a joyful tone to say things like, 'Emma, this is incredible! We knew you could do it!' He conveys genuine pride and excitement while creating space for Emma to bask in the moment.",
+    "speaker2_persona_low": "David reacts irritably, cutting Emma off with a clipped tone: 'Yeah, yeah, I mean, it’s just one acceptance letter—you’re not done yet.' His body language is tense, and he avoids making eye contact, making Emma feel dismissed and deflated.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Self-Expression - Emotional Expression"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh my gosh! You guys, you won’t believe what just came in the mail!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What? Tell us! Don’t keep us in suspense, Emma!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I GOT IN! I got into Stanford! My dream school! I can’t believe it—look, here’s the letter!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Emma, that’s amazing! Oh my gosh, we knew you could do it! I mean, Stanford—wow!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I’m still shaking! I’ve been dreaming about this since, like, middle school! I just—thank you guys for everything. I wouldn’t have done it without you!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You worked so hard for this, Emma. Seriously, we’re so proud of you. You better frame that letter—it’s history!"
+    }
+  ],
+  "eq_scale": "Self-Expression - Emotional Expression",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh my gosh! You guys, you won’t believe what just came in the mail!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/01.mp3",
+      "tone_description": "Speak quickly with a bright, soaring pitch, radiating pure excitement and joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What? Tell us! Don’t keep us in suspense, Emma!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/02.mp3",
+      "tone_description": "Speak with a quick, bright rhythm, bursting with eager anticipation and delight."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I GOT IN! I got into Stanford! My dream school! I can’t believe it—look, here’s the letter!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/03.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch, bursting with uncontainable joy and exhilaration."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Emma, that’s amazing! Oh my gosh, we knew you could do it! I mean, Stanford—wow!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/04.mp3",
+      "tone_description": "Bright pitch, wide smile, rapid pacing: Laugh, clap, lean forward joyfully."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Emma, that’s amazing! Oh my gosh, we knew you could do it! I mean, Stanford—wow!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/05.mp3",
+      "tone_description": "Clipped, tight tone, falling pitch: Cut her off with snappy irritation."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I’m still shaking! I’ve been dreaming about this since, like, middle school! I just—thank you guys for everything. I wouldn’t have done it without you!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/06.mp3",
+      "tone_description": "Speak in a rapid, bursting rhythm, overflowing with ecstatic gratitude and disbelief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You worked so hard for this, Emma. Seriously, we’re so proud of you. You better frame that letter—it’s history!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/07.mp3",
+      "tone_description": "Bright, high-energy tone with wide pitch variance; pace fast and joyful."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You worked so hard for this, Emma. Seriously, we’re so proud of you. You better frame that letter—it’s history!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d/audio/08.mp3",
+      "tone_description": "Clipped delivery with tight vocal effort; tone hostile and dismissive."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233102",
+    "dataset_id": "20260308_233102_a196d418df2d",
+    "subscale_slug": "self_expression_emotional_expression",
+    "output_path": "v2_data/self_expression_emotional_expression/20260308_233102_a196d418df2d",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

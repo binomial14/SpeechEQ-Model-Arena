@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Community Garden Celebration",
+    "context": "A group of neighbors has worked together over several months to create a community garden in a vacant lot. They are hosting a small gathering to celebrate its completion with refreshments, music, and speeches.",
+    "description": "Speaker 1, the Catalyst, has just announced that the community garden project has officially been completed and is open for use. They are bubbling with excitement and gratitude, sharing their deep satisfaction about how the project came together and how it will positively impact the neighborhood. Speaker 2, the Test Subject, is approached by Speaker 1 and needs to show their ability to resonate emotionally with Speaker 1's excitement.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match their intense excitement and celebrate the achievement, validating their pride and enthusiasm while building a warm and connected moment.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Bubbly and ecstatic, speaking rapidly and gesturing with enthusiasm, radiating pride and joy about the garden’s completion.",
+    "speaker1_voice": "onyx",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Jordan matches Alex’s energy by smiling broadly, clapping excitedly, and sharing genuine words of encouragement and admiration for their leadership. She engages by asking meaningful questions about the garden’s potential and expressing gratitude for the work put into the project.",
+    "speaker2_persona_2": "The Toxic Optimist. Jordan responds with loud, excessive cheer to the point of dismissing Alex’s emotional share. Instead of listening, she cuts Alex off with exaggerated exclamations like, ‘Well, obviously it was going to be amazing!’ and shifts the focus to unrelated positive outcomes, losing emotional connection with the moment.",
+    "speaker2_persona_3": "The Impatient Evader. Jordan listens briefly but keeps glancing at her phone or the refreshments table. She mutters a rushed ‘That’s great!’ without any real engagement and quickly tries to slip away to talk to someone else.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Jordan matches Alex’s energy by smiling broadly, clapping excitedly, and sharing genuine words of encouragement and admiration for their leadership. She engages by asking meaningful questions about the garden’s potential and expressing gratitude for the work put into the project.",
+    "speaker2_persona_low": "The Toxic Optimist. Jordan responds with loud, excessive cheer to the point of dismissing Alex’s emotional share. Instead of listening, she cuts Alex off with exaggerated exclamations like, ‘Well, obviously it was going to be amazing!’ and shifts the focus to unrelated positive outcomes, losing emotional connection with the moment.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Self-Perception - Self-Actualization"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, everyone, can we just take a moment to soak this in? After months of hard work, sweat, and, let’s be real, a few hilarious mishaps, the garden is DONE! Look at it—it's a dream come to life!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "It’s incredible, Alex! You all really pulled this off—it’s beautiful. The flowers, the little seating area… everything feels like it belongs here. How did you even manage it all?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, but wait—this isn’t just about plants and benches, Jordan! Guess what? We got approval from the city to turn this into an official green space! Permanent! This is OUR community garden forever!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Are you serious? That’s huge! Alex, this changes everything—not just for us, but for the whole neighborhood. Wow. Did you even think this would happen when you started?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Honestly? No way. I mean, all I wanted was to make something beautiful out of that eyesore. But now—it’s so much bigger than I dreamed. We’re gonna have workshops, potlucks, maybe even a little farmer’s market someday. This is just the beginning!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You’re blowing my mind, Alex. A farmer’s market here? That would be amazing. Honestly, thank you for seeing the potential in this space—you’ve inspired all of us. Let’s make those workshops happen soon!"
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Actualization",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, everyone, can we just take a moment to soak this in? After months of hard work, sweat, and, let’s be real, a few hilarious mishaps, the garden is DONE! Look at it—it's a dream come to life!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/01.mp3",
+      "tone_description": "Speak with a rapid, soaring cadence, bursting with uncontainable pride and joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "It’s incredible, Alex! You all really pulled this off—it’s beautiful. The flowers, the little seating area… everything feels like it belongs here. How did you even manage it all?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/02.mp3",
+      "tone_description": "Speak with a bright, energized tone, bursting with heartfelt admiration and wonder."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, but wait—this isn’t just about plants and benches, Jordan! Guess what? We got approval from the city to turn this into an official green space! Permanent! This is OUR community garden forever!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/03.mp3",
+      "tone_description": "Speak with a rapid, uplifted pitch, bursting with uncontainable joy and pride."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Are you serious? That’s huge! Alex, this changes everything—not just for us, but for the whole neighborhood. Wow. Did you even think this would happen when you started?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/04.mp3",
+      "tone_description": "Bright pitch, laughing tone, energetic pacing with upward inflection and joy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Are you serious? That’s huge! Alex, this changes everything—not just for us, but for the whole neighborhood. Wow. Did you even think this would happen when you started?",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/05.mp3",
+      "tone_description": "Loud, exaggerated enthusiasm, rapid pace, overly cheerful tone, dismissive energy."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Honestly? No way. I mean, all I wanted was to make something beautiful out of that eyesore. But now—it’s so much bigger than I dreamed. We’re gonna have workshops, potlucks, maybe even a little farmer’s market someday. This is just the beginning!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/06.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch, overflowing with vibrant enthusiasm and joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re blowing my mind, Alex. A farmer’s market here? That would be amazing. Honestly, thank you for seeing the potential in this space—you’ve inspired all of us. Let’s make those workshops happen soon!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/07.mp3",
+      "tone_description": "Bright, smiling, laughing; rapid pacing with excited pitch peaks and rising tone."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re blowing my mind, Alex. A farmer’s market here? That would be amazing. Honestly, thank you for seeing the potential in this space—you’ve inspired all of us. Let’s make those workshops happen soon!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_actualization/20260308_232915_602f7006a997/audio/08.mp3",
+      "tone_description": "Loud, exaggerated cheer; overemphasize syllables with forced high pitch variance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_232915",
+    "dataset_id": "20260308_232915_602f7006a997",
+    "subscale_slug": "self_perception_self_actualization",
+    "output_path": "v2_data/self_perception_self_actualization/20260308_232915_602f7006a997",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

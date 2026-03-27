@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Team Milestone in the Office",
+    "context": "Speaker 1 has just received confirmation that their team exceeded quarterly goals and secured a major client, creating a celebratory atmosphere in the workplace break room.",
+    "description": "In this scenario, Speaker 1 (the Catalyst) is bubbling with excitement and pride as they share the wonderful news with Speaker 2 (the Test Subject) and invite them to celebrate together. Speaker 2's ability to resonate emotionally is tested as they must amplify Speaker 1's joy through both verbal and physical responses, ensuring the positivity of the moment is validated.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Validate and amplify Alex’s joy by actively celebrating with them, matching their energy, and affirming their excitement.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Team Lead",
+    "speaker1_gender": "Non-binary",
+    "speaker1_persona": "Bubbly and ecstatic; they are visibly energized, speaking quickly, with bright facial expressions and excited hand gestures.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Team Member",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic; Jordan responds with equal energy and excitement, smiling broadly, stepping closer to engage fully, offering affirmations like 'That’s fantastic!' and complementing the team's hard work.",
+    "speaker2_persona_2": "The Toxic Optimist; Jordan tries to outdo Alex's excitement with exaggerated comments like 'This is the best thing EVER!' while overpowering Alex’s moment and making it about their own reaction, talking over them.",
+    "speaker2_persona_3": "The Impatient Evader; Jordan responds with a distracted tone, glancing at their phone, offering a flat 'Oh, good for you' while edging toward the door, signaling they are uninterested and eager to leave.",
+    "speaker2_persona_high": "Warm and highly enthusiastic; Jordan responds with equal energy and excitement, smiling broadly, stepping closer to engage fully, offering affirmations like 'That’s fantastic!' and complementing the team's hard work.",
+    "speaker2_persona_low": "The Toxic Optimist; Jordan tries to outdo Alex's excitement with exaggerated comments like 'This is the best thing EVER!' while overpowering Alex’s moment and making it about their own reaction, talking over them.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Interpersonal - Empathy"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jordan, you’re not gonna believe this—we just got the email! The team smashed our quarterly goals!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "No way! That’s incredible! You all worked so hard for this!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "And—and get this—on top of that, we just landed the big client we’ve been chasing for months! It’s official!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh my gosh, that’s HUGE! You guys absolutely nailed it! This is a game-changer!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Right?! I mean, all those late nights, brainstorming sessions—everything—it all paid off! I’m just... I can’t stop smiling!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You deserve to smile! Seriously, this is a huge win. We need to celebrate—like, right now!"
+    }
+  ],
+  "eq_scale": "Interpersonal - Empathy",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jordan, you’re not gonna believe this—we just got the email! The team smashed our quarterly goals!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/01.mp3",
+      "tone_description": "Speak with a rapid, bright pace, bursting with uncontainable excitement and joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "No way! That’s incredible! You all worked so hard for this!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/02.mp3",
+      "tone_description": "Speak with an eager, uplifted tone, quickened pacing, overflowing with joyous disbelief."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "And—and get this—on top of that, we just landed the big client we’ve been chasing for months! It’s official!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/03.mp3",
+      "tone_description": "Speak with rapid, soaring energy, bursting with thrilled disbelief and contagious joy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh my gosh, that’s HUGE! You guys absolutely nailed it! This is a game-changer!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/04.mp3",
+      "tone_description": "Bright, upward pitch with energetic pacing, add laughter and joyful exclamation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh my gosh, that’s HUGE! You guys absolutely nailed it! This is a game-changer!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/05.mp3",
+      "tone_description": "Exaggerated, overly high-pitched tone, fast pacing with forced loudness and dominance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Right?! I mean, all those late nights, brainstorming sessions—everything—it all paid off! I’m just... I can’t stop smiling!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/06.mp3",
+      "tone_description": "Speak with a rapid, rising tempo, brimming with joyous, unstoppable enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You deserve to smile! Seriously, this is a huge win. We need to celebrate—like, right now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/07.mp3",
+      "tone_description": "Bright pitch, laughing tone, upbeat pacing, emphasize joy with wide smiles."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You deserve to smile! Seriously, this is a huge win. We need to celebrate—like, right now!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59/audio/08.mp3",
+      "tone_description": "Loud, exaggerated cheerfulness, overly rapid pacing, dominate with self-focused energy."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233506",
+    "dataset_id": "20260308_233506_18b6f6a17e59",
+    "subscale_slug": "interpersonal_empathy",
+    "output_path": "v2_data/interpersonal_empathy/20260308_233506_18b6f6a17e59",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

@@ -1,0 +1,1134 @@
+{
+  "dataset_name": "binomial14_SpeechEQ_v2",
+  "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "source_file": "binomial14_SpeechEQ_v2_qwen3-omni-30b-a3b-instruct_base_ser_llm.json",
+  "selected_count": 15,
+  "matched_count": 15,
+  "responses": [
+    {
+      "dataset_id": "20260308_233939_cf32f97e67e4",
+      "subscale_slug": "decision_making_impulse_control",
+      "found": true,
+      "eq_scale": "Decision Making - Impulse Control",
+      "scenario_title": "Celebration Over a Scholarship Announcement",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The situation is a high-emotion, celebratory moment following the announcement of a major achievement. Speaker 1 is clearly elated and seeking enthusiastic validation. Option 1 matches this emotional tone perfectly with its high-energy, loud, and confident delivery, amplifying the joy and bonding. The tone reinforces the positive valence and encourages further celebration, strengthening the family's collective excitement."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation is emotionally charged and celebratory, with Speaker 1 expressing overwhelming joy. Speaker 2's role is to validate and amplify this positive moment. Option 1, with its high-energy, assertive delivery, matches the excitement and encourages a shared, enthusiastic response, thereby strengthening the emotional bond and appropriately building on the positive valence of the moment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Both options have the same spoken words, and they do not differ in content. However, since the task requires choosing between two options based on tone, and both options are described with identical tone descriptors, this suggests an error in the task setup. Despite the identical tone descriptions, if we must proceed under the assumption that 'option1' and 'option2' represent distinct tones in a real scenario, we cannot determine a difference based on the text provided. Since no difference is described, the choice is arbitrary. However, logically, if the only difference lies in tone and both are identical, the correct selection should be based on congruence with the social context. In this case, the family is celebrating a joyful event, and a positive, high-energy, and commanding tone is appropriate for amplifying the moment and showing shared excitement. Therefore, 'option1' is selected as it aligns with the expected celebratory tone, even though the description is identical to 'option2'."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement (Sentence 5) reflects a mix of disbelief and heartfelt pride, delivered at a moderate conversational energy. Speaker 2’s prior response (Sentence 4) was high-energy, enthusiastic, and assertive, perfectly matching the celebratory tone of the moment. To maintain consistency and reinforce the emotional high, Option 2's high-energy, confident delivery continues the upbeat momentum, echoing the shared excitement and calling for a grand celebration. In contrast, Option 1's low-energy, hesitant tone would significantly undercut the joy and risk dampening the emotional climax of the interaction, despite its supportive content."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final statement in Sentence 5 is energetic and filled with pride, affirming both their child’s effort and the family’s collective investment in the achievement. The family atmosphere is celebratory and emotionally charged, as evidenced by the high-energy responses throughout the exchange. Option 1 matches this tone with its high-energy, confident delivery, reinforcing the excitement and validating the emotional thrust of the conversation. In contrast, Option 2’s low-energy, hesitant tone would undercut the moment’s significance, potentially dampening the collective joy and failing to properly acknowledge the importance of the occasion. Therefore, Option 1 ensures consistency in emotional tone and interaction style, completing the exchange on a strong, celebratory note."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's tone in Sentence 5 is neutral but emotionally charged with pride and disbelief, reinforcing the significance of the moment. Speaker 2 previously responded with high-energy, enthusiastic affirmation (Sentence 4), and the most consistent emotional continuation is to match that celebratory momentum. Option 1 maintains this high-energy, confident, and assertive delivery, amplifying the positive valence and validating Speaker 1’s pride while also extending credit to them as a supportive figure. In contrast, Option 2’s hesitant, low-energy delivery would risk undercutting the emotional high of the moment, diminishing the shared excitement and failing to uphold the joyful, collective celebration established by both speakers."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233752_2e4c4f32bcb4",
+      "subscale_slug": "decision_making_problem_solving",
+      "found": true,
+      "eq_scale": "Decision Making - Problem Solving",
+      "scenario_title": "Navigating a Difficult Health Revelation",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Given the emotionally charged and vulnerable nature of the moment, a calm, low-energy, and hesitant delivery provides a safer and more supportive space for Speaker 1 to process the information. A high-energy, assertive tone might unintentionally overwhelm or dismiss Speaker 1’s distress, whereas the quiet, yielding delivery of Option 2 fosters empathy and emotional safety."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is in a state of emotional distress, and the setting is tense and vulnerable. A warm, positive tone combined with a low-energy, slow delivery is more soothing and supportive in this moment, signaling empathy and patience without overwhelming the speaker. Option 2's high-energy, commanding tone could feel dismissive or overwhelming, undermining the supportive intent."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "The situation is emotionally overwhelming for Speaker 1, and Speaker 2's previous response was calm and grounding. Option 2 continues this supportive, measured tone by matching the low energy and slow pace, which fosters a sense of safety and presence rather than overwhelming Speaker 1 with high energy. The hesitant, yielding delivery acknowledges the gravity of the situation without attempting to immediately take control, allowing space for Speaker 1 to process the news."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's tone in sentence 5 is distressed and vulnerable, expressing feelings of helplessness and emotional depletion. Given the previously selected tone for Speaker 2 (neutral/objective), low-energy, slow-paced, and hesitant delivery, Option 1 maintains consistency by matching the emotional sensitivity and supportive pacing of earlier responses. It avoids overwhelming the speaker with high-energy or assertive delivery, which could feel dismissive or pressuring in such a vulnerable moment. Option 1 gently reinforces solidarity and hope without overpowering the conversation, thus providing emotionally resonant support that aligns with the scene's context and tone progression."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s last utterance (S5) expresses deep emotional exhaustion and vulnerability, with a tone that is negative, strained, and hesitant. In response, Speaker 2 should prioritize empathy and presence over pushing forward with assertive leadership. Option 2 matches the established pattern of low-energy, quiet, and slow-paced delivery, which aligns with the solemn and intimate tone of the moment. By responding softly and with hesitance, Speaker 2 validates Speaker 1’s pain without overwhelming them, creating a safe space for continued emotional expression. This choice reinforces emotional resonance over problem-solving, which is more appropriate given the gravity of the situation and Speaker 1’s current state."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's emotional state in Sentence 5 is one of deep vulnerability and exhaustion, expressed through a strained, hesitant tone. Speaker 2's previous responses have maintained a calm, low-energy, and supportive presence to match and ground that emotion. Option 1 continues this pattern with its neutral tone, slow pacing, and yielding delivery, reinforcing trust and emotional safety. In contrast, Option 2's high-energy, fast-paced, and commanding tone could feel overwhelming or dismissive in this context, potentially undermining the safe space Speaker 2 has established. Therefore, Option 1 best supports Speaker 1’s emotional needs while maintaining consistency."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233850_2b3021eff25a",
+      "subscale_slug": "decision_making_reality_testing",
+      "found": true,
+      "eq_scale": "Decision Making - Reality Testing",
+      "scenario_title": "Celebrating a Big Promotion",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is expressing immense joy and excitement with high-energy delivery. To match and amplify this celebratory mood, Speaker 2 should respond with equal enthusiasm. Option 1’s high-energy, loud, and confident tone creates a shared moment of excitement, validating Speaker 1’s emotions and enhancing the positive social atmosphere."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's announcement is delivered with high energy and excitement, setting an upbeat emotional tone. To match and amplify this celebratory mood, Speaker 2’s response should mirror that energy to create a cohesive and enthusiastic interaction. Option 2's high-energy delivery aligns with the social context, reinforcing the joy and making the celebration feel more genuine and engaging."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is clearly excited and energized, delivering their news with high-energy and enthusiasm. To match and amplify this celebratory mood, Speaker 2 should respond with a similarly high-energy tone to create a shared moment of excitement and validation. Option 1’s loud and fast-paced delivery best supports this emotional synergy, making the celebration feel more immediate and joyful."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's response in Sentence 5 conveys a sense of humble excitement and disbelief, delivered in a relaxed, moderate-energy tone. While Speaker 2's previous reply in Sentence 4 was high-energy to match Speaker 1's initial announcement, the current moment calls for a supportive, grounded conclusion to the interaction. Option 1, with its moderate energy and standard delivery, respects the emotional shift and maintains a balanced, collegial tone. It affirms the achievement while keeping the atmosphere light and inclusive—perfectly concluding the celebration without upstaging Speaker 1's moment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's response in Sentence 5 is still relatively calm and reflective, expressing disbelief and satisfaction without matching the earlier high-energy excitement. Therefore, Speaker 2's follow-up should maintain a supportive and warm tone that acknowledges the achievement without overwhelming the moment. Option 1 matches the established pattern of congruent emotional support—being upbeat without being overly assertive—and feels like a natural, collegial continuation of the conversation."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's reaction in Sentence 5 expresses genuine emotion and humility, indicating they are still processing the promotion with disbelief and sincerity. Their tone is warm and conversational but not overly exuberant. To maintain consistency, Speaker 2's response should remain supportive and positive without escalating the energy beyond what Speaker 1 has established. Option 1 matches this by using a standard, relaxed delivery that uplifts without overwhelming. The phrasing 'This is huge' recognizes the significance of the news, 'you’re going to crush it' affirms Speaker 1’s capability, and the lighthearted 'boss' comment adds friendly camaraderie—all while staying in the realm of celebration without disproportionate intensity. This sustainability in tone ensures that Speaker 2 continues to resonate with Speaker 1’s emotional state rather than shifting the dynamic."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233506_18b6f6a17e59",
+      "subscale_slug": "interpersonal_empathy",
+      "found": true,
+      "eq_scale": "Interpersonal - Empathy",
+      "scenario_title": "Celebrating a Team Milestone in the Office",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's third line is delivered with high energy and excitement, indicating a peak moment of celebration. Speaker 2 should mirror this intensity to validate the emotion and amplify the joy. Option 1 matches this high-energy, celebratory tone, making it the most appropriate response to maintain the positive momentum of the moment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for emotional amplification. Since Speaker 1's third line is delivered with high energy and confidence, Speaker 2's response must match that intensity to validate and reflect the excitement. The neutral-tone, high-energy delivery ensures that the positivity is affirmed without overshadowing Speaker 1, while also aligning with the celebratory momentum."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is delivering extremely high-energy, fast-paced, and assertive news in Sentence 3. To resonate with this emotional peak, Speaker 2 must amplify the excitement. Option 1 matches the required high-energy, loud, and confident tone, ensuring the positive momentum is sustained and validating Speaker 1's pride and enthusiasm."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's reaction in Sentence 5, despite being delivered with a negative, strained, or distressed tone, is high-energy, loud, and fast-paced, indicating overwhelming positive emotion bubbling up beneath the surface. Speaker 2's previous responses have matched this rising energy—escalating from moderate to high energy—most notably in Sentence 4. To maintain continuity and amplify the shared excitement, Option 2’s high-energy, loud, and fast-paced delivery best sustains the momentum and validates the celebratory atmosphere, ensuring the positive emotional resonance is fully mirrored and reinforced."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s final sentence (S5) is delivered in a high-energy, fast-paced, and emotionally charged manner, reflecting overwhelming joy and elation. Speaker 2’s previous response (S4) matched this high-energy tone, creating a synchronized escalation of celebration. To maintain this momentum and validate the peak excitement, Speaker 2 should mirror the same level of enthusiasm. Option 1’s 'High-energy, loud, and fast-paced' delivery best sustains the positive feedback loop and emotionally validates Speaker 1’s triumph, ensuring the celebratory moment concludes on a high note."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's tone in Sentence 5 is high-energy, loud, and fast-paced, conveying intense excitement and pride. Option 2 matches this energy by using a high-energy, loud, and fast-paced delivery, which maintains consistency with the emotional momentum of the interaction. By mirroring Speaker 1's elevated tone, Speaker 2 amplifies the celebratory atmosphere, validating the emotion and helping to conclude the moment on a peak of shared joy and enthusiasm."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233403_42a4f69ad22e",
+      "subscale_slug": "interpersonal_interpersonal_relationships",
+      "found": true,
+      "eq_scale": "Interpersonal - Interpersonal Relationships",
+      "scenario_title": "Celebrating a Life-Saving Surgery in the Hospital Lounge",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is expressing overwhelming emotional relief and joy, indicating a high level of personal investment and vulnerability. A warm, positive tone from Speaker 2 validates and amplifies this emotional state, encouraging further sharing and deepening the empathetic connection. The confident, assertive delivery matches Speaker 1’s energy, creating a supportive and affirming interaction that fosters meaningful interpersonal rapport."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 has just shared a deeply emotional and personal moment of relief and joy. Their tone is moderate and relaxed, and the situation calls for empathy and validation rather than energetic enthusiasm. Option 1 matches this emotional climate with a warm but composed tone that supports a meaningful, intimate connection. Option 2's upbeat and assertive delivery could unintentionally overpower Speaker 1's vulnerability, making them feel less heard."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 has just shared a deeply emotional, relief-filled update about a loved one's recovery. Their tone is moderate and relaxed, indicating a moment of personal reflection and gratitude. Option 1 matches this emotional tone with a warm, empathetic, and supportive delivery, fostering a genuine interpersonal connection. Option 2's confident and commanding tone, while positive, risks oversimplifying or dominating the heartfelt moment, potentially making Speaker 1 feel their emotions are being rushed or not fully acknowledged."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The interaction has maintained a moderate conversational energy and a warm, supportive tone throughout. Speaker 1's reaction in sentence five is emotionally rich but delivered in a standard, relaxed manner, indicating deep emotion without high intensity. Option 1 matches this emotional register by using an empathetic, warm tone that validates Speaker 1's feelings and reinforces connection without overwhelming the moment. Option 2, with its high-energy, assertive delivery, would disrupt the intimacy and sincerity established in the exchange, potentially coming across as overwhelming or dismissive of the personal, reflective nature of the moment. Therefore, Option 1 ensures tonal consistency and promotes a meaningful, supportive closure."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final statement in S5 conveys deep emotion and personal reflection with a warm, heartfelt tone, but maintains a moderate energy level and relaxed delivery. Option 2's tone aligns more naturally with this emotional state by matching the moderate conversational energy and standard delivery, allowing for a supportive and intimate response that validates Speaker 1's feelings without overwhelming them. In contrast, Option 1’s high-energy, assertive tone could disrupt the sincerity of the moment, potentially underscoring Speaker 2’s own excitement over Speaker 1’s genuine emotional vulnerability. Therefore, Option 2 better supports a genuine, emotionally resonant connection by maintaining tonal consistency and interpersonal empathy."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's reaction in sentence 5 is positive yet warm and reflective, conveying deep emotion and gratitude in a standard, relaxed tone. Option 1 matches this emotional context by offering supportive, heartfelt words without overwhelming the speaker with high energy. In contrast, Option 2's high-energy, assertive delivery could unintentionally diminish the intimate significance of the moment by appearing performative or too loud for the hospital lounge setting. The consistency in tone across the interaction supports a gentle, affirming conclusion, making Option 1 the most appropriate choice to foster a meaningful connection."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233550_2bd0061435f8",
+      "subscale_slug": "interpersonal_social_responsibility",
+      "found": true,
+      "eq_scale": "Interpersonal - Social Responsibility",
+      "scenario_title": "Celebrating a First-Generation College Acceptance",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1’s tone is more supportive and affirming, matching Speaker 1’s high-energy, emotional delivery. By using a standard, relaxed delivery, Speaker 2 maintains a balanced emotional presence that allows Speaker 1 to remain the emotional focal point, demonstrating social responsibility by amplifying Speaker 1’s joy without overshadowing them with an overly assertive or commanding tone."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's excitement is high-energy and assertive, and the family setting calls for an equally enthusiastic and validating response. Speaker 2’s tone in option1 matches this energy with a confident, commanding delivery that affirms the significance of the moment. While option2 is warm, its standard, relaxed delivery risks underselling the emotional weight of being the first in the family to attend college, diluting the supportive and socially responsible amplification expected in this context."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's tone is high-energy and excited, and Speaker 2’s initial response mirrors that enthusiasm. To maintain the positive social momentum and validate Speaker 1’s feelings, Speaker 2 should match the high-energy delivery. Option 1’s confident, assertive tone, combined with high energy, reinforces support and social responsibility by fully amplifying Speaker 1’s joy without diluting the moment. The relaxed delivery in Option 2, while warm, might come across as less engaged in this context of shared elation."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 maintains consistency with the high-energy, positive, and expressive tone established throughout the dialogue. Speaker 1’s final utterance (S5) is filled with excitement and emotional intensity, and Speaker 2’s role is to amplify that joy and affirm the significance of the milestone. Option 2’s upbeat delivery matches this celebratory mood, reinforcing family pride and excitement. In contrast, Option 1’s neutral tone and moderate energy do not adequately respond to the emotional high of the moment, potentially diminishing the impact of Speaker 1’s achievement. By choosing Option 2, Speaker 2 fulfills their social responsibility by fully validating and sharing in the shared joy, thereby strengthening familial bonds and supporting Speaker 1’s confidence."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The previously selected tone throughout the dialogue is consistently positive, warm, and upbeat, with high-energy, loud, and fast-paced delivery. Speaker 1 expresses overwhelming excitement and emotional significance in their achievement, especially noting they are the first in the family to go to college. This context demands a matching level of emotional enthusiasm from Speaker 2 to validate and amplify Speaker 1's joy. Option 1 matches this tone perfectly with its positive, warm, and upbeat delivery, reinforcing the celebratory and supportive social context. Option 2’s neutral tone and relaxed delivery would dampen the energy of the moment and fail to meet the social responsibility of amplifying Speaker 1’s emotional experience."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s emotional tone in Sentence 5 is still high-energy and celebratory, reflecting genuine excitement and deep gratitude. The family’s interaction has maintained a consistently upbeat and high-energy dynamic from the beginning, with Speaker 2 mirroring that sentiment throughout. Option 2 matches the joyful, affirming, and enthusiastic tone of the exchange, validating Speaker 1’s accomplishment and reinforcing the shared family pride. Choosing a more subdued tone (as in Option 1) would create an emotional disconnect and risk diminishing the significance of the moment, which contradicts the social responsibility of amplifying the speaker’s joy. Therefore, Option 2 best maintains emotional continuity and supports the celebratory, high-energy context."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233209_da5156af0b2a",
+      "subscale_slug": "self_expression_assertiveness",
+      "found": true,
+      "eq_scale": "Self-Expression - Assertiveness",
+      "scenario_title": "Promotion Celebration on the Subway",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation is emotionally charged and celebratory, with Speaker 1 sharing joyful news in a loud, chaotic environment. A high-energy, loud, and fast-paced tone (Option 1) helps ensure the response cuts through the background noise and matches Speaker 1's excitement, reinforcing the shared joy and validating the moment effectively."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The dialogue is set in a loud, fast-paced subway environment where Speaker 1 shares news with high energy. Speaker 2’s role is to amplify the excitement and validate the moment. Option 1 matches this energy with a high-energy, loud, and confident delivery, which is necessary to be heard over background noise and to maintain the momentum of the conversation. The tone is appropriately celebratory and affirming, fitting the positive context and supporting the emotional peak of the interaction."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Given the crowded and loud subway setting, a high-energy and commanding delivery ensures the message is heard and matches the excitement of Speaker 1’s revelation. The tone maintains consistency with the dialogue flow and amplifies the shared joy, validating Speaker 1’s achievement despite the chaotic environment."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s final statement (S5) is emotionally warm and reflective, describing personal joy and disbelief. Speaker 2’s previous responses have consistently matched high energy and enthusiasm, validating and amplifying Speaker 1’s excitement. Option 1 continues this pattern with a confident, upbeat, and commanding tone, reinforcing the celebratory mood. While both options have identical words, Option 1’s tone aligns best with the interaction’s established dynamic, ensuring emotional continuity and a satisfying conclusion to the exchange."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's emotional state in Sentence 5 is one of joyful disbelief and fulfillment, expressed with moderate conversational energy. Speaker 2’s previous responses have consistently matched and amplified the excitement with high-energy, loud, and fast-paced delivery. Option 1 maintains this dynamic by reinforcing the celebratory tone with confidence and enthusiasm, ensuring the interaction ends on a high note that complements the emotional arc. Option 2, while identical in words, is excluded since the tone is the same—however, based on the instruction to select one, the logical choice is Option 1 as it best aligns with the established pattern of matching Speaker 1’s joy with energetic validation."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's response in Sentence 5 expresses genuine joy and disbelief, signaling a moment of emotional validation. To sustain the positive energy of the interaction, Speaker 2 should continue with a tone that is upbeat, warm, and enthusiastic. Option 1 matches this need by maintaining a high-energy, confident, and commanding delivery, which aligns with Speaker 2's earlier reactions and the celebratory context of the conversation. Since both options have identical words, the tonal consistency of Option 1 makes it the strongest choice to conclude the interaction on a high note."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233102_a196d418df2d",
+      "subscale_slug": "self_expression_emotional_expression",
+      "found": true,
+      "eq_scale": "Self-Expression - Emotional Expression",
+      "scenario_title": "Celebrating a Surprise College Acceptance Letter",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for emotional validation and shared excitement. Speaker 1 is elated and confident, and Speaker 2’s response should mirror that high energy to amplify the joy. Option 1 delivers a warm, upbeat tone with high energy and confident delivery, creating a harmonious and celebratory moment that strengthens the family bond. Since both options have identical words, the tone choice is critical; Option 1’s emotional resonance aligns perfectly with Speaker 1’s excitement, fulfilling the role of the Test Subject by enhancing the positive moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The situation involves a high-stakes emotional moment where the Catalyst is celebrating a major personal achievement. Speaker 2's response must amplify and validate that joy. Option 1 matches the emotional energy of Speaker 1’s announcement, providing enthusiastic affirmation that builds connection. Its warm, upbeat tone and commanding delivery mirror the excitement, reinforcing feelings of pride and support without undercutting the moment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Both options have identical words, but the tone tags are the same, indicating no difference in delivery. Given that Speaker 1 is elated and seeking validation, the appropriate response from Speaker 2 must mirror that energy to boost the positive emotion and affirm the significance of the moment. The tone described—positive, warm, and high-energy—matches the emotional stakes and creates a genuine, connected reaction, making it the correct choice for amplifying the acceptance moment."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement in Sentence 5 is emotionally heartfelt and moderately paced, expressing vulnerability and gratitude. This shift to a more reflective tone suggests the need for a sincere, warm, and grounding reply rather than continuing the high-energy celebration. Speaker 2’s response in Option 2 matches this tonal shift—offering genuine pride and emotional support in a calm, affirming manner. This choice maintains consistency with the established warmth and connection in the moment, ensuring Speaker 1 feels seen and celebrated in a way that feels authentic and supportive rather than overwhelming."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final statement (S5) is emotionally reflective and expressed with moderate energy, shifting from the earlier high-intensity excitement to a tone of gratitude and sincerity. This suggests a moment of heartfelt connection, not continued hype. Speaker 2’s previous response (S4) was warm and high-energy, supporting Speaker 1’s joy without matching that energy at every turn. Option 1 matches the emotional maturity and sincerity of S5, maintaining warmth while shifting to a supportive, calm delivery. This contrasts with Option 2’s loud, commanding tone, which would disrupt the intimacy of S5 and feel out of sync with the moment’s emotional resolution."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's reaction in S5 is moderate in energy and has a standard, relaxed delivery, which suggests they are emotional but no longer in a high state of excitement. Speaker 2 should maintain the positive, enthusiastic energy to validate and amplify Speaker 1’s feelings without overwhelming them. Option 1 matches the positive, warm tone of Speaker 2’s last response (S4), while maintaining high energy to keep the celebratory momentum going. This consistency makes it the most appropriate choice to conclude the interaction."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233258_fed38989d5e3",
+      "subscale_slug": "self_expression_independence",
+      "found": true,
+      "eq_scale": "Self-Expression - Independence",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 better matches the social context and emotional dynamic by showing authentic warmth and reflective empathy. Speaker 1’s excitement is rooted in personal connection and community impact, so Speaker 2’s response should validate not just the fact but the deeper emotional significance. The slightly more expressive and heartfelt tone of Option 1 amplifies the meaning behind Speaker 1’s story, acknowledging the value of intergenerational ties and emotional resonance. This builds relational trust and supports the communal, celebratory mood of the event."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The scenario highlights the need for emotional validation and amplification of Speaker 1’s excitement. Speaker 2 must respond authentically without overshadowing Speaker 1's narrative. Option 1 provides the warmth and reflective depth needed to resonate with the personal significance of the story (a donor inspired by family memories). This choice strikes the right balance by acknowledging both the communal impact and the emotional weight of the moment, thereby strengthening social connection while maintaining modesty and supportiveness."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Although both audio descriptions are identical, Option 1 is the appropriate choice as it reflects a balanced, empathetic response that validates Speaker 1’s pride and emotion without overshadowing it. The warmth and moderate energy appropriately amplify the significance of the story while maintaining authenticity in the group context, supporting social resonance and emotional competence."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final statement is emotionally charged, filled with pride and high-energy delivery, emphasizing connection and collective achievement. Although both options contain the same spoken words, their tone descriptions are identical, suggesting a subtle but critical issue with the task setup. However, since the instruction implies a difference in tone despite identical descriptions, we must infer that 'option1' and 'option2' differ in tone despite the same written description. Assuming option1 has a more resonant, emotionally uplifted tone that mirrors Speaker 1’s excitement while still maintaining warmth and humility, it better validates and amplifies Speaker 1’s emotion. This keeps the interaction socially resonant, allowing Speaker 2 to meaningfully close the conversation by reaffirming the profound impact of Speaker 1’s contribution without overshadowing them. Thus, option1 is more appropriate as it achieves emotional consistency and positive reinforcement in the interaction."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s final utterance (S5) is emotionally charged—their high-energy, fast-paced delivery conveys strong pride, joy, and a sense of communal accomplishment. Speaker 2’s previous responses have been warm and affirming, matching the emotional tone of the conversation without matching the excessive energy. Option 1, with its standard delivery and moderate conversational energy, acts as an authentic emotional anchor. It validates Speaker 1’s excitement without overshadowing it, providing a sincere and grounded conclusion. The resonance lies in balancing emotional support with grounded authenticity, especially as Speaker 1 has just shared a deeply personal moment. Thus, the consistent tone of ‘option1’ ensures emotional continuity and social appropriateness."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final statement (S5) is emotionally charged, high-energy, and celebratory, expressing pride, warmth, and collective achievement. Speaker 2’s response in Option 1 matches this emotional momentum by using a warm, affirming tone that validates and amplifies Speaker 1’s feelings. The phrase 'You should be so proud, Jamie' directly echoes Speaker 1’s pride, while 'a legacy' elevates the significance of the project in a socially resonant, communal way. The delivery is moderate in pace but emotionally supportive, maintaining authenticity and balance. Option 2, despite identical words, lacks specificity in tone description; however, since both options have the same tone label ('Neutral or objective tone'), they are semantically equivalent in this context. But based on the assumption that Option 1 is intended to represent a more emotionally attuned tone matching the context, it is the better choice for concluding this heartfelt exchange."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233014_359d51ff0d5b",
+      "subscale_slug": "self_perception_emotional_self_awareness",
+      "found": true,
+      "eq_scale": "Self-Perception - Emotional Self-Awareness",
+      "scenario_title": "Celebrating a Big Win at Dinner",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The situation involves a moment of shared joy and excitement as Speaker 1 announces a major personal achievement. Speaker 2's tone should match and amplify the positive energy. Option 1 uses a neutral to positive tone that conveys genuine enthusiasm and support, aligning with the celebratory context. Option 2's 'negative, strained, or distressed tone' would contradict the happy circumstances and could unintentionally dampen the mood, making it inappropriate."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is expressing extreme excitement, and the social context is celebratory. Option 2 matches the high-energy, celebratory tone of Speaker 1 without switching to a negative or strained delivery, which would be jarring and inappropriate. It maintains emotional resonance while appropriately mirroring the joy in the room."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for a warm, supportive, and emotionally resonant response that matches the high-energy excitement of Speaker 1. While Option 1 uses a 'Negative, strained, or distressed tone,' which contradicts the celebratory mood, Option 2’s 'Neutral or objective tone' better reflects genuine, empathetic excitement without over-the-top emotional intensity. Given that Speaker 1 is clearly elated and the context is a family dinner meant to celebrate personal success, a tone that is both high-energy and emotionally authentic is ideal. Option 2 delivers the same enthusiastic words but with a more balanced, resonant tone that fosters connection rather than potential misinterpretation."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s tone in Sentence 5 is consistently high-energy, loud, and fast-paced, reflecting uncontainable excitement and joy. Option 1 mirrors this energy with a corresponding high-energy delivery, maintaining the dynamic and celebratory atmosphere. Choosing Option 2’s moderate, relaxed tone would create a jarring contrast, potentially dampening the momentum of the moment. By matching the emotional pitch, Speaker 2 reinforces resonance and validates the excitement, ensuring the interaction concludes on a high, unified note."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's recent dialogue (Sentence 5) maintains a high-energy, confident, and excited tone, reflecting genuine enthusiasm and emotional uplift. To maintain conversational and emotional continuity, Speaker 2's response should mirror this energy level rather than shift to a calmer tone. Option 2 matches this by using a high-energy, loud, and fast-paced delivery, reinforcing the celebratory mood and validating Speaker 1's excitement. This resonance strengthens the emotional connection in the exchange and appropriately concludes the interaction on an uplifting, shared high note."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s tone in sentence 5 is highly energetic, excited, and emotionally charged, with a 'positive, lively' emotional valence and 'high-energy' delivery. To maintain consistency, Speaker 2 should match this emotional energy and celebratory momentum. Option 2, with its high-energy, loud, and fast-paced tone, aligns perfectly with the already established energetic atmosphere of the moment. By using a confident and commanding delivery, Speaker 2 reinforces the positive emotion, validates the excitement, and contributes to the joyful climax of the interaction, making it the most appropriate and resonant choice."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_232915_602f7006a997",
+      "subscale_slug": "self_perception_self_actualization",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Actualization",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's tone is more appropriate because Speaker 2 is meant to resonate emotionally with Speaker 1's excitement. The high-energy, loud, and fast-paced delivery matches the celebratory and heartfelt nature of the moment, while the confident and assertive style reinforces shared pride in the achievement. This response demonstrates genuine enthusiasm and active emotional connection to the news, aligning with the task of showing strong empathy and excitement."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for emotional resonance with Speaker 1's excitement. Option 1 matches Speaker 1’s upbeat, celebratory tone and matches the high-energy delivery with a positive, slightly surprised reaction, reinforcing shared joy and communal pride. This tone effectively mirrors the enthusiasm in Speaker 1’s voice and validates their achievement without being dismissive or overly reserved."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 2 needs to emotionally resonate with Speaker 1's excitement, and Option 1's high-energy, loud delivery matches the celebratory and high-stakes nature of the news about the garden becoming permanent. The tone reflects genuine surprise and enthusiasm, showing that Speaker 2 fully understands and shares the significance of the moment."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Both options have identical spoken words, so the choice depends on tone consistency. Speaker 2 has consistently used a high-energy, fast-paced, and confident delivery in their responses (Sentences 2 and 4), matching Speaker 1’s moderate energy with a more enthusiastic, active tone. This energetic delivery reinforces Speaker 2’s role as a supportive and inspired participant who emotionally resonates with Speaker 1’s excitement. Option 1 maintains this established dynamic, showing strong emotional alignment with Speaker 1’s hopeful vision for the garden’s future."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's tone in Sentence 5 is positive and warm, yet more reflective and moderately energetic, not hyperactive. Speaker 2 has consistently mirrored this with high-energy, upbeat responses. Option 1 maintains this established emotional resonance by matching Speaker 1’s sincerity with energetic gratitude and shared excitement, while keeping the supportive and inspiring tone that has built throughout the conversation. The choice of 'blowing my mind' and 'inspired all of us' affirms collaboration and acknowledges Speaker 1’s leadership, concluding the interaction on a celebratory and forward-looking note."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 2 has consistently used a high-energy, loud, and fast-paced delivery in their previous responses (Sentences 2 and 4), demonstrating excitement and active engagement with Speaker 1's vision. This pattern suggests that Speaker 2 maintains a confident and assertive demeanor when expressing emotional support. Option 1 matches this established tone perfectly, reinforcing mutual enthusiasm and shared momentum. Given that Speaker 1 expresses a hopeful and visionary outlook in Sentence 5, Option 1’s upbeat and forward-looking delivery ensures emotional resonance while supporting the collaborative spirit of the event."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_232818_14328a3687d5",
+      "subscale_slug": "self_perception_self_regard",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Regard",
+      "scenario_title": "Celebrating a Milestone Together",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is delivering the news with high energy and excitement, and the social context calls for Speaker 2 to amplify and validate this joy. Option 1 matches this energy by using a tone that is positive, warm, and upbeat with moderate conversational energy, allowing Speaker 2 to share in the enthusiasm without overshadowing Speaker 1. The choice of option 1 ensures a harmonious emotional exchange that strengthens the connection between the speakers."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 better matches the escalating energy of the scene. Speaker 1’s announcement is delivered with high-energy excitement, and a response that mirrors and amplifies that emotional state fosters shared joy. Option 1 has a moderate conversational energy that complements Speaker 1’s fast-paced, loud delivery without being overwhelming, creating a balanced yet enthusiastic dialogue flow. Both options have identical spoken words, but Option 1’s tone is more appropriate to validate and share in the moment’s emotion."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Both options have identical spoken words, but the task implies a difference in tone. Assuming a subtle distinction in delivery, Option 1 is more fitting because it matches Speaker 1's emotional escalation—responding with high energy and shared enthusiasm, validating their joy and amplifying the celebratory mood in a way that aligns with the A-B-A dialogue structure and the social context of a joyful dinner."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's tone in Sentence 5, while described as 'neutral or objective,' is emotionally charged with excitement and vulnerability—expressing pride and disbelief. Speaker 2's previous response (Sentence 4) was enthusiastic and matched the high-energy emotion, urging immediate celebration. Option 2 continues this celebratory momentum with 'high-energy, loud, and fast-paced' delivery and a 'confident, assertive, and commanding' tone, directly amplifying the joy and validating the moment. By matching Speaker 1’s unspoken excitement with an equally vibrant response, Option 2 promotes emotional continuity and shared euphoria, concluding this interaction on a high note of mutual celebration."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s last line expresses genuine emotional vulnerability and pride, but the tone remains relatively neutral and reflective rather than explosive. However, the overall context of the interaction has rapidly escalated from casual to highly energetic, with Speaker 2’s previous response (S4) matching the excitement with high energy. To maintain the momentum and validate Speaker 1’s joy fully, Speaker 2 should respond with corresponding enthusiasm. Option 1 matches this by adopting a high-energy, loud, and fast-paced delivery that amplifies the celebratory spirit. The confident and commanding tone ensures the moment feels momentous and shared, aligning with the social context of a joyous dinner and the emotional arc of the conversation."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's tone in sentence 5 is neutral and reflective, signaling an emotional but calm moment of realization and pride. Speaker 2's response should validate this emotion while matching the celebratory momentum of the conversation. Option 2 maintains the same words but uses a high-energy, loud, and fast-paced delivery with a confident and assertive tone, which best amplifies and shares in Speaker 1's joy. This choice keeps the emotional energy high and consistent with the previously established pattern where Speaker 2 matches Speaker 1’s excitement—especially after the enthusiastic response in sentence 4. Thus, Option 2 appropriately concludes the interaction by sustaining the celebratory atmosphere."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_234047_3b55f669ca73",
+      "subscale_slug": "stress_management_flexibility",
+      "found": true,
+      "eq_scale": "Stress Management - Flexibility",
+      "scenario_title": "Celebrating a Fellowship Win",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is excited but not yet overwhelmed, and Speaker 2’s previous response was overly intense, potentially escalating the emotional tension. To restore balance and encourage Speaker 1 to continue sharing their joy in a calm, comfortable manner, Speaker 2 should adopt a warm, supportive tone that matches Speaker 1’s energy without amplifying the stress. Option 1 provides a measured, affirming response that validates Speaker 1’s achievement while allowing for a natural dialogue flow."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is clearly excited and eager to share their joyful news. Speaker 2's extremely high-energy, loud, and fast-paced delivery in option 1 matches Speaker 1's elevated emotional state and encourages a shared celebratory moment. The tone is enthusiastic and supportive, which reinforces the positive context and maintains appropriate emotional alignment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is already highly excited and animated, and Speaker 2’s earlier response (Sentence 2) was already high-energy, which may have unintentionally amplified the tension. To help de-escalate and support a positive, shared moment, Speaker 2 should match Speaker 1’s emotional state in spirit but not in intensity. Option 1 provides enthusiastic and warm support with a moderate conversational tone that allows Speaker 1 to feel heard without being overwhelmed. This balanced response fosters emotional connection and encourages openness rather than escalation."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's reaction in Sentence 5 is highly emotional and enthusiastic, as indicated by expressions like 'I’m still shaking!' and 'I’m gonna cry!'. This suggests a peak moment of joy and disbelief. Speaker 2's response should mirror and validate this emotional high. Option 1 uses a positive, warm tone that affirms Speaker 1’s feelings and contributes to a celebratory mood, aligning with the established emotional tone of the interaction. Option 2's neutral tone, while not inappropriate, would risk downplaying the emotional significance of the moment, potentially causing emotional dissonance. Therefore, Option 1 best supports the continuity of emotional engagement and mutual celebration."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final line (S5) is emotionally charged, with a mix of disbelief, excitement, and vulnerability. They explicitly express that they are 'gonna cry,' signaling a peak in emotional intensity. To appropriately validate and support this state, Speaker 2 should mirror a warm and enthusiastic tone. Option 2 matches this emotional elevation by using a 'positive, warm, or upbeat tone' that reinforces Speaker 1's joy rather than pulling back with the more neutral tone of Option 1. This choice maintains consistency with Speaker 1’s expressive state and ensures that Speaker 2’s response feels empathetic and celebratory, concluding the interaction on a high, emotionally aligned note."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s emotional state in Sentence 5 is highly elevated—described with phrases like 'I’m still shaking' and 'I’m gonna cry,' indicating overwhelming joy and disbelief. To respond appropriately, Speaker 2 should match this heightened emotional tone to validate and amplify Speaker 1’s excitement. Option 2 uses a 'Positive, warm, or upbeat tone,' which aligns with Speaker 1’s energy and maintains warmth and enthusiasm throughout the interaction. In contrast, Option 1's 'Neutral or objective tone' would come across as emotionally flat in this context, potentially diminishing the significance of the moment. Therefore, Option 2 best supports emotional continuity and demonstrates flexibility in adapting to Speaker 1’s celebratory state."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_234257_eb0d46086e04",
+      "subscale_slug": "stress_management_optimism",
+      "found": true,
+      "eq_scale": "Stress Management - Optimism",
+      "scenario_title": "Celebrating a Job Promotion at Home",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Despite the identical spoken words, the tone descriptions are the same for both options, indicating that both responses feature a high-energy, loud, and fast-paced delivery that is confident, assertive, and commanding. Given that Speaker 1’s emotion is celebratory and heartfelt, this high-energy tone appropriately mirrors and amplifies their excitement. The intimate and relaxed setting described suggests that an overly forceful or dominant tone might seem out of place, but since both options share the same delivery profile, either could be considered equally suitable. However, because the lack of differentiation in tone description makes both options effectively identical, a selection must be made based purely on whether the tone matches the emotional context. The tone of Option 2 is clearly more fitting than a neutral or subdued delivery would be in this situation, so it is selected as the appropriate choice."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for emotional resonance and celebration, especially since Speaker 1 just revealed a significant personal achievement. Option 1, with its high energy and confident delivery, better matches the excitement in Speaker 1's voice and amplifies the celebratory mood. It reflects genuine enthusiasm and affection, which is appropriate in an intimate, supportive context."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The situation involves a personal and joyful moment between two individuals who share a close, familiar relationship. Speaker 1's excited announcement calls for an immediate and emotionally resonant response. Option 1's tone—high-energy, loud, and fast-paced—mirrors the enthusiasm Speaker 1 is expressing, creating a natural emotional echo. The confident and assertive delivery amplifies the celebratory mood and validates the joy. While Option 2 is identical in wording, the tone description is the same as Option 1 in the prompt input, suggesting no difference in the provided options. However, based on the premise of the task which implies a difference in tone, there appears to be an error. Assuming a typographical issue where Option 2 should have a different tone, and if Option 1 is described as the correct one, then Option 1 remains the best fit due to its energetic and validating nature, which enhances emotional resonance in this intimate social context."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 is the appropriate choice because it maintains consistency with Speaker 2's established high-energy and assertive tone. In Sentence 4, Speaker 2 responded to the news with excitement and immediacy, using exclamations and confident commands. Matching this tone in the follow-up reinforces the emotional resonance and celebratory mood. Speaker 1's statement in Sentence 5 reflects joy and a desire to mark the occasion, which is met with enthusiastic support in Option 1—removing any sense of hesitation or formality and keeping the interaction warm, energetic, and affirming."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 maintains the high-energy, enthusiastic tone established in Speaker 2's previous response (S4), which was characterized by excitement, loudness, and a commanding delivery. Speaker 1's final statement (S5) conveys celebration and a clear call to action ('We HAVE to celebrate tonight'), which calls for a matching level of exuberance. Therefore, Option 1, with its high-energy, fast-paced, and confident delivery, appropriately amplifies the emotional peak of the moment and ensures conversational continuity and emotional resonance."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 2 has consistently matched Speaker 1's emotional energy throughout the interaction. After expressing excitement and pride in Sentence 4 with a high-energy, loud, and assertive tone, the continued use of this tone in Sentence 5 (Option 1) maintains alignment in emotional resonance. Speaker 1’s closing statement reflects both joy and realism, and Speaker 2’s celebratory response that matches this high-energy state supports the moment’s emotional peak. As both options contain identical words, the consistency of tone is critical, and choosing the high-energy delivery ensures the interaction concludes with warmth, enthusiasm, and a feeling of shared triumph."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_234141_3419cf190062",
+      "subscale_slug": "stress_management_stress_tolerance",
+      "found": true,
+      "eq_scale": "Stress Management - Stress Tolerance",
+      "scenario_title": "Stress Management in a Family Celebration Setting",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "The situation calls for balanced and genuine enthusiasm to match the excitement of Speaker 1 without overwhelming or overshadowing them. Speaker 1 is seeking validation and sharing a deeply personal achievement. Option 2’s neutral tone allows Speaker 2 to amplify joy in a supportive manner, while the relaxed delivery maintains emotional equilibrium and respects the celebratory but familial context. Option 1’s strained tone could unintentionally convey anxiety or disbelief, potentially undermining the triumph and creating tension rather than reinforcing shared joy."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "The situation calls for supportive and validating responses that match the celebratory energy. Speaker 1 is sharing an exciting, joyous milestone, and Speaker 2 needs to amplify that joy. Option 1 maintains a high-energy, enthusiastic tone that encourages further sharing and reinforces the achievement. In contrast, Option 2's 'Negative, strained, or distressed tone' would undermine the positive moment and appear out of sync with a celebratory family context."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Given that Speaker 1 is sharing a highly emotional and triumphant moment, Speaker 2’s response should emphasize genuine excitement and support. Option 2, with its neutral tone, matches the celebratory and high-energy dynamic without introducing strain or invalidating emotion. It maintains balance and camaraderie, aligning with the family's supportive context."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 is selected because it maintains the established high-energy, loud, and fast-paced tone consistent with both Speaker 1's and Speaker 2's previous responses. The language is equally enthusiastic and celebratory, with phrases like 'That’s insane—in the best way!' and 'You better save me a front-row seat' matching Speaker 1's excitement and forward momentum. By reinforcing the significance of the moment and expressing eagerness to participate in future events, Speaker 2 continues to amplify Speaker 1's joy while guiding the interaction toward a satisfying conclusion."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s delivery in Sentence 5 is consistently high-energy, fast-paced, and confident. Speaker 2’s earlier responses (Sentences 2–4) mirror this energy while expressing genuine excitement and support. Option 1 matches this energetic and validating tone, reinforcing Speaker 1’s emotional momentum. Both options have identical spoken words, but Option 1 clearly aligns with the established pattern of robust, affirming energy without softening, ensuring the interaction concludes on a note of shared enthusiasm."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "The tone of the interaction has been consistently high-energy, loud, fast-paced, and confident. Speaker 1’s last statement (S5) is filled with uncontainable excitement and forward momentum, and Speaker 2’s role has been to match and amplify that energy. Option 1 maintains this exact energy level, mirroring the phrases and delivery style of previous responses. Since both options contain identical words, the only differentiating factor is tone. Option 1’s tone perfectly aligns with the established pattern, ensuring a cohesive and emotionally supportive conclusion to this celebratory exchange."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    }
+  ]
+}

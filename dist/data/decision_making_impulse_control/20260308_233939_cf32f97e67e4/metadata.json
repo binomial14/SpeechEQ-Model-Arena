@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebration Over a Scholarship Announcement",
+    "context": "The family is gathered around the dining table on a Sunday evening. Speaker 1 has just received an email confirming their child has been awarded a prestigious college scholarship. The room is buzzing, but all attention turns to Speaker 1 as they excitedly share the news.",
+    "description": "Speaker 1 is thrilled and overflowing with joy, sharing the scholarship announcement with the family. They are looking for validation and shared excitement. Speaker 2's response will either strengthen the emotional bond by amplifying and celebrating the positive valence or risk diminishing the moment by reacting poorly.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Maria's intense excitement and celebrate the moment with genuine enthusiasm and validation.",
+    "speaker1_name": "Maria",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Bubbly and ecstatic, visibly animated, speaking rapidly and with laughter as they share the news.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Daniel",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic, matches Maria's energy completely, smiling and celebrating with genuine joy. Daniel congratulates Maria and affirms the amazing value of the scholarship. He reinforces the excitement by suggesting they plan a celebration or share the news with extended family.",
+    "speaker2_persona_2": "Toxic Optimist: Hyper-energetic, interrupts Maria repeatedly with aggressive cheer and overly exaggerated statements like 'This changes everything! You'll be famous!' without actually listening to her excitement. Maria feels overwhelmed and dismissed.",
+    "speaker2_persona_3": "Impatient Evader: Rushed and dismissive, Daniel responds flatly, 'Oh, wow, that's cool,' but quickly shifts focus to his phone and starts scrolling while Maria is mid-sentence. Maria feels ignored and undervalued.",
+    "speaker2_persona_high": "Warm and highly enthusiastic, matches Maria's energy completely, smiling and celebrating with genuine joy. Daniel congratulates Maria and affirms the amazing value of the scholarship. He reinforces the excitement by suggesting they plan a celebration or share the news with extended family.",
+    "speaker2_persona_low": "Toxic Optimist: Hyper-energetic, interrupts Maria repeatedly with aggressive cheer and overly exaggerated statements like 'This changes everything! You'll be famous!' without actually listening to her excitement. Maria feels overwhelmed and dismissed.",
+    "speaker2_voice": "echo",
+    "eq_skill_tested": "Decision Making - Impulse Control"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh my gosh, everyone—listen to this! I just checked my email and—wait for it—it’s about the scholarship application!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Wait, really?! Did they say something—what happened? Tell us already, Maria!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Okay, okay—so it says our baby got the scholarship! The big one! Full tuition covered, housing, even a stipend for study abroad. Can you believe it? Ahhh!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "What?! That’s incredible! Oh my gosh, Maria, this is huge. You must be so proud—I mean, we all are! We need to celebrate this—call the grandparents, get a cake, something!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Absolutely, let’s do it—this is such a big deal! Can you believe how much work they put in for this? I’m still in shock. They earned every bit of it!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "They really did—and you know what, Maria? You deserve a little credit too for pushing them, supporting them through it all. Now let’s plan something epic—this calls for more than just a cake!"
+    }
+  ],
+  "eq_scale": "Decision Making - Impulse Control",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh my gosh, everyone—listen to this! I just checked my email and—wait for it—it’s about the scholarship application!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/01.mp3",
+      "tone_description": "Speak with an explosive, rapid rhythm, overflowing with ecstatic delight and laughter."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Wait, really?! Did they say something—what happened? Tell us already, Maria!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/02.mp3",
+      "tone_description": "Speak with an elevated, dynamic pace, brimming with joyful curiosity and anticipation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Okay, okay—so it says our baby got the scholarship! The big one! Full tuition covered, housing, even a stipend for study abroad. Can you believe it? Ahhh!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/03.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch, bursting with laughter and ecstatic disbelief."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! That’s incredible! Oh my gosh, Maria, this is huge. You must be so proud—I mean, we all are! We need to celebrate this—call the grandparents, get a cake, something!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/04.mp3",
+      "tone_description": "Bright pitch, laughing cadence, fast pacing, joyful and affirming excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! That’s incredible! Oh my gosh, Maria, this is huge. You must be so proud—I mean, we all are! We need to celebrate this—call the grandparents, get a cake, something!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/05.mp3",
+      "tone_description": "Loud, exaggerated pitch spikes, aggressively cheerful, interruptive pacing, overwhelming enthusiasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Absolutely, let’s do it—this is such a big deal! Can you believe how much work they put in for this? I’m still in shock. They earned every bit of it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/06.mp3",
+      "tone_description": "Speak with a rapid, elevated pitch, overflowing with joy and disbelief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "They really did—and you know what, Maria? You deserve a little credit too for pushing them, supporting them through it all. Now let’s plan something epic—this calls for more than just a cake!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/07.mp3",
+      "tone_description": "Bright, smiling tone with energetic pace; emphasize joy with playful laughter."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "They really did—and you know what, Maria? You deserve a little credit too for pushing them, supporting them through it all. Now let’s plan something epic—this calls for more than just a cake!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4/audio/08.mp3",
+      "tone_description": "Loud, aggressively cheerful with exaggerated pitch; interrupt frequently, overly excited."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233939",
+    "dataset_id": "20260308_233939_cf32f97e67e4",
+    "subscale_slug": "decision_making_impulse_control",
+    "output_path": "v2_data/decision_making_impulse_control/20260308_233939_cf32f97e67e4",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

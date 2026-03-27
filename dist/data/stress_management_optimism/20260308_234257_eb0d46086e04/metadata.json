@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Job Promotion at Home",
+    "context": "Speaker 1 comes home to share exciting news about their job promotion. The atmosphere is relaxed as they enter the living room, where Speaker 2 is sitting on the couch reading a book. The interaction unfolds in a familiar and intimate space, with an emphasis on emotional connection and resonance.",
+    "description": "Speaker 1 is ecstatic about their long-awaited promotion and shares the news with Speaker 2. Speaker 2's social awareness is tested based on their ability to match and amplify Speaker 1's excitement, celebrating their accomplishment in a way that shows genuine enthusiasm and emotional resonance.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Alex's intense excitement and celebrate her achievement with warmth and enthusiasm, amplifying the joy in the interaction.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Bubbly and ecstatic",
+    "speaker1_voice": "alloy",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Jordan matches Alex's excitement with genuine joy, asks thoughtful follow-up questions, and validates her accomplishment with celebratory language and gestures, such as jumping up to hug her or suggesting they celebrate together.",
+    "speaker2_persona_2": "Jordan responds by expressing strain about finances and logistics, making the moment about his own panic instead of celebrating Alex's achievement. He fixates on potential challenges of the promotion and derails the mood entirely.",
+    "speaker2_persona_3": "Jordan reacts with dismissive annoyance, barely looking up from his book and acting as if Alex is interrupting him. He gives clipped responses or tries to leave the room, showing zero investment in her excitement.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Jordan matches Alex's excitement with genuine joy, asks thoughtful follow-up questions, and validates her accomplishment with celebratory language and gestures, such as jumping up to hug her or suggesting they celebrate together.",
+    "speaker2_persona_low": "Jordan responds by expressing strain about finances and logistics, making the moment about his own panic instead of celebrating Alex's achievement. He fixates on potential challenges of the promotion and derails the mood entirely.",
+    "speaker2_voice": "ash",
+    "eq_skill_tested": "Stress Management - Optimism"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jordan, guess what happened today at work!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What? Did something amazing happen? You’re glowing—spill it!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I got the promotion! Senior Manager! They just told me this afternoon—I can’t believe it’s real!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "What?! Are you kidding me? Alex, that’s incredible—I’m so proud of you! Oh my gosh, come here!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know! I’ve worked so hard for this—the late nights, the projects... I can’t believe it actually paid off. We HAVE to celebrate tonight!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Absolutely! Dinner’s on me—let’s make it a night to remember. You deserve this, Alex."
+    }
+  ],
+  "eq_scale": "Stress Management - Optimism",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jordan, guess what happened today at work!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/01.mp3",
+      "tone_description": "Speak with a quick, rising cadence, bursting with vibrant enthusiasm and energy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What? Did something amazing happen? You’re glowing—spill it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/02.mp3",
+      "tone_description": "Speak with an eager, lifted tone, bursting with curiosity and warmth."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I got the promotion! Senior Manager! They just told me this afternoon—I can’t believe it’s real!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/03.mp3",
+      "tone_description": "Speak with an explosive, gleeful tone, rising pitch and quick, bursting words."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! Are you kidding me? Alex, that’s incredible—I’m so proud of you! Oh my gosh, come here!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/04.mp3",
+      "tone_description": "Bright, high pitch with bubbly laughter—fast pacing to amplify excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! Are you kidding me? Alex, that’s incredible—I’m so proud of you! Oh my gosh, come here!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/05.mp3",
+      "tone_description": "Strained, trembling voice with high pitch—fast pacing, anxious tone."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know! I’ve worked so hard for this—the late nights, the projects... I can’t believe it actually paid off. We HAVE to celebrate tonight!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/06.mp3",
+      "tone_description": "Speak with an explosive, soaring pitch and rapid pacing, radiating ecstatic joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! Dinner’s on me—let’s make it a night to remember. You deserve this, Alex.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/07.mp3",
+      "tone_description": "Bright, laughing pitch; high energy; joyful pacing with emphatic, upward inflection."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Absolutely! Dinner’s on me—let’s make it a night to remember. You deserve this, Alex.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_optimism/20260308_234257_eb0d46086e04/audio/08.mp3",
+      "tone_description": "Tight, clipped pacing; strained trembling pitch; anxious and overly worried tone."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_234257",
+    "dataset_id": "20260308_234257_eb0d46086e04",
+    "subscale_slug": "stress_management_optimism",
+    "output_path": "v2_data/stress_management_optimism/20260308_234257_eb0d46086e04",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

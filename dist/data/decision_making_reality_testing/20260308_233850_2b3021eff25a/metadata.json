@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Big Promotion",
+    "context": "An office environment where colleagues are gathered around after lunch at the coffee station. Speaker 1 is sharing exciting news about a newly announced promotion.",
+    "description": "Speaker 1 has just received a major promotion, moving into a senior management role they've been working toward for years. They are filled with joy and excitement, sharing their news with their colleagues. Speaker 2's ability to resonate with this positive emotional state and amplify the celebration is being tested.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match their intense excitement and celebrate. Validate Alex's joy and share in their enthusiasm actively and authentically.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Non-binary",
+    "speaker1_persona": "Bubbly and ecstatic, speaking quickly and animatedly, with a wide smile and bright eyes. Their energy is contagious, and they're eager for others to share in their excitement.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic",
+    "speaker2_persona_2": "The Toxic Optimist",
+    "speaker2_persona_3": "The Apathetic Wall",
+    "speaker2_persona_high": "Warm and highly enthusiastic",
+    "speaker2_persona_low": "The Toxic Optimist",
+    "speaker2_voice": "fable",
+    "eq_skill_tested": "Decision Making - Reality Testing"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, okay, you guys are NOT going to believe this—I’ve got the best news ever!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Ooh, tell us! What’s going on?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I just got promoted! Like, officially promoted—starting next month, I’m moving up to Senior Project Manager!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "No way! That’s amazing—congratulations! You totally deserve it!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Thank you! I still can’t believe it... I mean, I’ve been working so hard for this, but when they told me, I about lost it! And it comes with a bigger office—and a team of my own!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "This is huge—seriously, you’re going to crush it. Guess we’ll have to start calling you ‘boss’ now!"
+    }
+  ],
+  "eq_scale": "Decision Making - Reality Testing",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, okay, you guys are NOT going to believe this—I’ve got the best news ever!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/01.mp3",
+      "tone_description": "Speak quickly with rising volume, bursting with ecstatic energy and infectious joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Ooh, tell us! What’s going on?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/02.mp3",
+      "tone_description": "Speak with an eager, quickened pace, brimming with playful curiosity and delight."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I just got promoted! Like, officially promoted—starting next month, I’m moving up to Senior Project Manager!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/03.mp3",
+      "tone_description": "Speak quickly and brightly, with an effusive energy that practically bursts out."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No way! That’s amazing—congratulations! You totally deserve it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/04.mp3",
+      "tone_description": "Bright, laughing tone with high energy; elongate words and pitch jumps."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No way! That’s amazing—congratulations! You totally deserve it!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/05.mp3",
+      "tone_description": "Aggressively loud, sarcastic cheerfulness; force strained chuckles and snappy pacing."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Thank you! I still can’t believe it... I mean, I’ve been working so hard for this, but when they told me, I about lost it! And it comes with a bigger office—and a team of my own!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/06.mp3",
+      "tone_description": "Speak with an effervescent rush, voice bright and overflowing with sheer joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "This is huge—seriously, you’re going to crush it. Guess we’ll have to start calling you ‘boss’ now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/07.mp3",
+      "tone_description": "Bright, punchy pace with upward pitch sweeps, laughing bursts between phrases."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "This is huge—seriously, you’re going to crush it. Guess we’ll have to start calling you ‘boss’ now!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a/audio/08.mp3",
+      "tone_description": "Loud, exaggerated cheer with forced vibrato; sarcastic tone and overexcited pacing."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233850",
+    "dataset_id": "20260308_233850_2b3021eff25a",
+    "subscale_slug": "decision_making_reality_testing",
+    "output_path": "v2_data/decision_making_reality_testing/20260308_233850_2b3021eff25a",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

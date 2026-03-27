@@ -1,0 +1,1404 @@
+{
+  "dataset_name": "binomial14_SpeechEQ_v2",
+  "model": "Qwen/Qwen2.5-Omni-7B",
+  "source_file": "binomial14_SpeechEQ_v2_qwen2.5-omni-7b_001.json",
+  "selected_count": 15,
+  "matched_count": 15,
+  "responses": [
+    {
+      "dataset_id": "20260308_233939_cf32f97e67e4",
+      "subscale_slug": "decision_making_impulse_control",
+      "found": true,
+      "eq_scale": "Decision Making - Impulse Control",
+      "scenario_title": "Celebration Over a Scholarship Announcement",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2's moderate volume, balanced rhythm, and less enthusiastic tone do not sufficiently amplify the positive energy of the moment compared to Option 1, which conveys a more energetic and excited response.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, high pitch, fast-paced, and emotive vocal delivery. Speaker 2 appears excited and enthusiastic.\",\n  \"acoustic_profile_2\": \"Moderate volume, moderately high pitch, and a balanced, steady rhythm. Speaker 2 maintains a composed tone.\",\n  \"situational_demand\": \"Requires an excited and enthusiastic voice to amplify and celebrate the positive valence.\",\n  \"reasoning\": \"Option 2's moderate volume, balanced rhythm, and less enthusiastic tone do not sufficiently amplify the positive energy of the moment compared to Option 1, which conveys a more energetic and excited response.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "While both options share the same words, Option 2's lower pitch and slower pace do not align well with the enthusiastic and celebratory tone required in the social situation. This could risk diminishing the moment of celebration.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a higher pitch, possibly indicating excitement. The voice may be faster in pace with shorter, more frequent pauses, suggesting a high level of emotional energy.\",\n  \"acoustic_profile_2\": \"Option 2 has a lower pitch, indicative of a more subdued, calm tone. The pace is likely slower with longer pauses, reflecting a more relaxed and thoughtful delivery.\",\n  \"situational_demand\": \"The situation requires a tone that reinforces the excitement and celebrates the achievement, which includes a tone of enthusiasm and a willingness to share in the joyous moment.\",\n  \"reasoning\": \"While both options share the same words, Option 2's lower pitch and slower pace do not align well with the enthusiastic and celebratory tone required in the social situation. This could risk diminishing the moment of celebration.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "While both options are energetic and excited, Option 1’s fast pace and frequent breaks for breath suggest a high level of exuberance. This could potentially overpower the moment and overwhelm the speaker, especially given they are seeking validation and shared excitement. Option 2's slower pace and controlled breathing provide a more balanced and sustainable energy that aligns better with the social tension of the situation. The more measured approach of Option 2 is likely to strengthen the emotional bond by allowing the group to fully absorb the news without feeling overwhelmed.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 is characterized by an excited, high-pitched voice. It's fast-paced, with noticeable breaks for breath indicating strong emotional investment.\",\n  \"acoustic_profile_2\": \"Option 2 also exhibits an excited tone with a high pitch, but the pace is slightly slower and more measured, with controlled breathing.\",\n  \"situational_demand\": \"The situation demands a tone that amplifies and celebrates the positive valence, which in this context is the joy and excitement of the scholarship announcement.\",\n  \"reasoning\": \"While both options are energetic and excited, Option 1’s fast pace and frequent breaks for breath suggest a high level of exuberance. This could potentially overpower the moment and overwhelm the speaker, especially given they are seeking validation and shared excitement. Option 2's slower pace and controlled breathing provide a more balanced and sustainable energy that aligns better with the social tension of the situation. The more measured approach of Option 2 is likely to strengthen the emotional bond by allowing the group to fully absorb the news without feeling overwhelmed.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 incorporates a slightly more excited and energetic tone, which aligns with the celebratory and enthusiastic mood set by Speaker 1. This tone can help further amplify the positive energy and excitement of the moment.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 incorporates a slightly more excited and energetic tone, which aligns with the celebratory and enthusiastic mood set by Speaker 1. This tone can help further amplify the positive energy and excitement of the moment.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 maintains a high pitch and fast pace, conveying excitement that aligns well with Speaker 1's emotional state of joy and celebration. It also reinforces the family's shared excitement and the significance of the event. Option 2, although also high pitched and fast-paced, does not explicitly acknowledge the effort of Speaker 1, which could be seen as less inclusive and less engaging in the current situation.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 maintains a high pitch and fast pace, conveying excitement that aligns well with Speaker 1's emotional state of joy and celebration. It also reinforces the family's shared excitement and the significance of the event. Option 2, although also high pitched and fast-paced, does not explicitly acknowledge the effort of Speaker 1, which could be seen as less inclusive and less engaging in the current situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both options for Speaker 2's response in S6 are nearly identical in terms of acoustic delivery. However, the requirement for a socially appropriate conclusion in a situation like this, where Speaker 1 is overwhelmed with joy and excitement, slightly favors a more measured and composed tone. Option 2, while equally enthusiastic, is likely to be perceived as a more considered and thoughtful follow-up, which aligns well with the positive and celebratory atmosphere described. This approach helps maintain the energy without overpowering the moment, ensuring the family's collective excitement is shared and addressed appropriately.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Both options for Speaker 2's response in S6 are nearly identical in terms of acoustic delivery. However, the requirement for a socially appropriate conclusion in a situation like this, where Speaker 1 is overwhelmed with joy and excitement, slightly favors a more measured and composed tone. Option 2, while equally enthusiastic, is likely to be perceived as a more considered and thoughtful follow-up, which aligns well with the positive and celebratory atmosphere described. This approach helps maintain the energy without overpowering the moment, ensuring the family's collective excitement is shared and addressed appropriately.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233752_2e4c4f32bcb4",
+      "subscale_slug": "decision_making_problem_solving",
+      "found": true,
+      "eq_scale": "Decision Making - Problem Solving",
+      "scenario_title": "Navigating a Difficult Health Revelation",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's tone aligns more closely with the need for a calm and measured response. The natural pauses, steady pitch, and moderate speed contribute to a reassuring and empathetic tone, which is essential for someone who is grappling with an overwhelming and vulnerable situation. Option 2, on the other hand, has a slightly faster tempo and fewer pauses, which may come across as more assertive or less empathetic in this tense environment. These characteristics might inadvertently increase the emotional distress of the speaker.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The voice in Option 1 maintains a steady pitch, with a moderate speed, and includes some natural pauses, indicating a calm and composed delivery. The tone is clear and measured, using a slightly lower pitch and a relaxed beat.\",\n  \"acoustic_profile_2\": \"The voice in Option 2 also maintains a steady pitch but with a slightly faster tempo. There are fewer pauses compared to Option 1, and the overall volume seems slightly louder. The tone is clear and relatively firm, reflecting a slightly more assertive demeanor.\",\n  \"situational_demand\": \"The Situation requires a calm, supportive, and measured tone to create a sense of reassurance and stability, which is crucial in a high-stress environment like a hospital waiting room.\",\n  \"reasoning\": \"Option 1's tone aligns more closely with the need for a calm and measured response. The natural pauses, steady pitch, and moderate speed contribute to a reassuring and empathetic tone, which is essential for someone who is grappling with an overwhelming and vulnerable situation. Option 2, on the other hand, has a slightly faster tempo and fewer pauses, which may come across as more assertive or less empathetic in this tense environment. These characteristics might inadvertently increase the emotional distress of the speaker.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's high-pitched and fast delivery is opposite to what is needed in this tense, quiet hospital waiting room setting. It could increase the emotional burden on Jamie, making the situation more stressful. Option 2's steady and calm tone aligns with the need for emotional support and calmness in this setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 is delivered with a high-pitched tone, suggesting a sense of urgency and possibly anxiety. The pace is fast, and there's a noticeable emphasis on the word 'figured'.\",\n  \"acoustic_profile_2\": \"Option 2 is delivered with a lower pitch and a more measured pace, indicating a steadier, calmer tone. The emphasis on 'figured' and 'step at a time' is less intense.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and provide emotional support.\",\n  \"reasoning\": \"Option 1's high-pitched and fast delivery is opposite to what is needed in this tense, quiet hospital waiting room setting. It could increase the emotional burden on Jamie, making the situation more stressful. Option 2's steady and calm tone aligns with the need for emotional support and calmness in this setting.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2's tone is more energetic and quick-paced, which can be perceived as overly excited or anxious. This might not align well with the need for a calming influence in a tense hospital waiting room setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The pitch of the voice is moderate, the tone is steady and measured, with a slight pause for deep breaths, reflecting a calm and composed state.\",\n  \"acoustic_profile_2\": \"The pitch is slightly higher and more energetic, with quicker speech rhythms, indicating a more anxious or hurried state.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate紧张情绪 and provide reassurance.\",\n  \"reasoning\": \"Option 2's tone is more energetic and quick-paced, which can be perceived as overly excited or anxious. This might not align well with the need for a calming influence in a tense hospital waiting room setting.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's tone, characterized by a slower, steadier pace and less forceful delivery, aligns well with the need for emotional support and validation. The reassurance provided in a calmer and more empathetic manner can effectively counterbalance the distressing emotions of Speaker 1, which is crucial in such a high-pressure setting. Option 2, while still comforting, might come across as slightly more urgent, which could potentially disrupt the already tense atmosphere rather than de-escalate it.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1's tone, characterized by a slower, steadier pace and less forceful delivery, aligns well with the need for emotional support and validation. The reassurance provided in a calmer and more empathetic manner can effectively counterbalance the distressing emotions of Speaker 1, which is crucial in such a high-pressure setting. Option 2, while still comforting, might come across as slightly more urgent, which could potentially disrupt the already tense atmosphere rather than de-escalate it.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 maintains a steady and supportive tone, which aligns with the need to provide comfort and reassurance in a stressful situation. Option 1, despite the appropriate content, has a higher-pitched, more emphatic tone that could potentially escalate the emotional intensity of the conversation, which is not ideal in this moment of vulnerability.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 maintains a steady and supportive tone, which aligns with the need to provide comfort and reassurance in a stressful situation. Option 1, despite the appropriate content, has a higher-pitched, more emphatic tone that could potentially escalate the emotional intensity of the conversation, which is not ideal in this moment of vulnerability.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's tone and delivery might be perceived as slightly more forceful or assertive, which could potentially overshadow the comforting and supportive message intended. Option 2, with its softer and steadier delivery, aligns better with the need to provide emotional resonance and spiritual support in this sensitive and tense situation.",
+            "raw_response": "{\n  \"selected\": \"Option 2\",\n  \"reasoning\": \"Option 1's tone and delivery might be perceived as slightly more forceful or assertive, which could potentially overshadow the comforting and supportive message intended. Option 2, with its softer and steadier delivery, aligns better with the need to provide emotional resonance and spiritual support in this sensitive and tense situation.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233850_2b3021eff25a",
+      "subscale_slug": "decision_making_reality_testing",
+      "found": true,
+      "eq_scale": "Decision Making - Reality Testing",
+      "scenario_title": "Celebrating a Big Promotion",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 matches the situation well by being excited and high in energy, which is appropriate for a celebration. Option 2 is similar but slightly less enthusiastic and potentially less engaging. Since the situation calls for an enthusiastic and high-energy response to celebrate the promotion, Option 2 falls short in this regard.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, fast-paced, high pitch, excited and energetic.\",\n  \"acoustic_profile_2\": \"Loud, fast-paced, high pitch, excited and energetic, similar to Option 1 but with a slightly different emphasis.\",\n  \"situational_demand\": \"The situation requires a tone that is supportive, encouraging, and amplifies the celebratory mood. It should resonate with the excitement and joy of the promotion news.\",\n  \"reasoning\": \"Option 1 matches the situation well by being excited and high in energy, which is appropriate for a celebration. Option 2 is similar but slightly less enthusiastic and potentially less engaging. Since the situation calls for an enthusiastic and high-energy response to celebrate the promotion, Option 2 falls short in this regard.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1, while enthusiastic, could be perceived as an attempt to overshadow the speaker's news or could be misunderstood as being intrusive. It lacks the controlled energy that would be more appropriate for supporting someone celebrating a significant achievement.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The tone of Option 1 is enthusiastic and energetic, with a high pitch that could be interpreted as slightly exasperated. The pace of speech is fast, which might come across as overly excited.\",\n  \"acoustic_profile_2\": \"The tone of Option 2 is also enthusiastic but seems more controlled and composed compared to Option 1. The pitch is slightly lower, and the pace is a bit slower, which lends a more thoughtful and supportive tone.\",\n  \"situational_demand\": \"The situation requires a tone that is supportive and empowering to the speaker, considering the speaker's excitement and the celebratory nature of the news.\",\n  \"reasoning\": \"Option 1, while enthusiastic, could be perceived as an attempt to overshadow the speaker's news or could be misunderstood as being intrusive. It lacks the controlled energy that would be more appropriate for supporting someone celebrating a significant achievement.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's profile aligns with the excitement of the promotion news, but it may be too enthusiastic for the office setting, potentially overshadowing the joy while not fully resonating with the supportive tone the colleague needs to maintain.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Fast-paced, high-pitched, includes emphatic pauses and exclamation marks.\",\n  \"acoustic_profile_2\": \"Moderate-paced, steady, with a controlled, even tone without significant pauses or raised pitch.\",\n  \"situational_demand\": \"Requires an excited but not overly exuberant tone to match the celebratory and supportive atmosphere of the office setting.\",\n  \"reasoning\": \"Option 1's profile aligns with the excitement of the promotion news, but it may be too enthusiastic for the office setting, potentially overshadowing the joy while not fully resonating with the supportive tone the colleague needs to maintain.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 maintains a consistent energy and pitch with no sudden shifts or different tones, which is more in line with the celebratory and supportive tone required for an ongoing positive interaction. Option 1, while also positive, has a slight emphasis shift towards a more boastful or dominant tone, which might not be as aligned with Speaker 1's excited and appreciative response.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 maintains a consistent energy and pitch with no sudden shifts or different tones, which is more in line with the celebratory and supportive tone required for an ongoing positive interaction. Option 1, while also positive, has a slight emphasis shift towards a more boastful or dominant tone, which might not be as aligned with Speaker 1's excited and appreciative response.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 provides a more socially appropriate conclusion as it continues to express enthusiasm and support without being overly exuberant or potentially overwhelming. It remains on par with the excitement of the situation without overshadowing Speaker 1's initial joy and sense of disbelief.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 provides a more socially appropriate conclusion as it continues to express enthusiasm and support without being overly exuberant or potentially overwhelming. It remains on par with the excitement of the situation without overshadowing Speaker 1's initial joy and sense of disbelief.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 provides a more appropriate conclusion as it aligns with the celebratory tone of the success, maintaining the excitement and enthusiasm of Speaker 1, and it avoids sounding too formal or distant in the office setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, fast-paced, high pitch, whispered\",\n  \"acoustic_profile_2\": \"Loud, fast-paced, high pitch, whispered\",\n  \"situational_demand\": \"Affirms the achievement and supports the celebratory mood, while being compatible with the office environment.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 provides a more appropriate conclusion as it aligns with the celebratory tone of the success, maintaining the excitement and enthusiasm of Speaker 1, and it avoids sounding too formal or distant in the office setting.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233506_18b6f6a17e59",
+      "subscale_slug": "interpersonal_empathy",
+      "found": true,
+      "eq_scale": "Interpersonal - Empathy",
+      "scenario_title": "Celebrating a Team Milestone in the Office",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 fails to meet the situational demand because its high pitch, speed, and lack of control can overwhelm the speaker. In contrast, Option 2's low pitch, slower pace, and controlled breathing align well with the need for a calming response.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, high-pitched, with quick breaths, suggesting excitement and a rush of emotion.\",\n  \"acoustic_profile_2\": \"Low-pitched, slower, with measured pace and controlled breathing, suggesting a more thoughtful and composed tone.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and prevent overwhelming the speaker with excessive excitement.\",\n  \"reasoning\": \"Option 1 fails to meet the situational demand because its high pitch, speed, and lack of control can overwhelm the speaker. In contrast, Option 2's low pitch, slower pace, and controlled breathing align well with the need for a calming response.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has a clear, measured, and controlled delivery. It does not match the high-energy, loud, and fast-paced delivery of Option 1 that lacks the intensity needed to fully resonate with Speaker 1's excitement in such a celebratory moment.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, fast-paced, high pitch, with noticeable excitement in tone.\",\n  \"acoustic_profile_2\": \"Clear, measured, moderate pace, with controlled enthusiasm.\",\n  \"situational_demand\": \"Requires a positive, excited, and high-energy response to amplify the celebratory atmosphere.\",\n  \"reasoning\": \"Option 2 has a clear, measured, and controlled delivery. It does not match the high-energy, loud, and fast-paced delivery of Option 1 that lacks the intensity needed to fully resonate with Speaker 1's excitement in such a celebratory moment.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's more emphatic and faster delivery contrasts with the required tone to amplify the joy and excitement, whereas Option 2's measured tone is more likely to match the need to validate the positive mood.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 appears to have a more emphatic and excited tone, indicated by a higher pitch and possibly a faster pace.\",\n  \"acoustic_profile_2\": \"Option 2 has a more neutral and steady tone, suggesting a lower pitch and a slower, more measured pace.\",\n  \"situational_demand\": \"The situation requires an acoustic tone that amplifies the excitement and joy to validate the positive social atmosphere.\",\n  \"reasoning\": \"Option 1's more emphatic and faster delivery contrasts with the required tone to amplify the joy and excitement, whereas Option 2's measured tone is more likely to match the need to validate the positive mood.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1, despite its similar spoken text, has a higher delivery level because of the emphasis on 'You deserve to smile' and 'We need to celebrate' which can be perceived as more excited and forward-looking. This fits with the celebratory atmosphere as it encourages immediate action. Option 2, while also similar, maintains a steady and slightly less exuberant tone, which may seem a bit more composed and less demanding.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 1, despite its similar spoken text, has a higher delivery level because of the emphasis on 'You deserve to smile' and 'We need to celebrate' which can be perceived as more excited and forward-looking. This fits with the celebratory atmosphere as it encourages immediate action. Option 2, while also similar, maintains a steady and slightly less exuberant tone, which may seem a bit more composed and less demanding.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 has a clear, measured, and controlled delivery that matches the positive and celebratory tone of Speaker 1's reaction. It aligns with the need to validate and amplify the joy in this situation.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 has a clear, measured, and controlled delivery that matches the positive and celebratory tone of Speaker 1's reaction. It aligns with the need to validate and amplify the joy in this situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 provides a more enthusiastic and celebratory conclusion, aligning with the high energy and excitement in the situation. This matches the need to amplify the positive mood.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1's tone is more forceful and enthusiastic, with a higher pitch and faster delivery.\",\n  \"acoustic_profile_2\": \"Option 2's tone is softer and more measured.\",\n  \"situational_demand\": \"Requires a positive and celebratory tone to amplify the joy of the achievement.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 provides a more enthusiastic and celebratory conclusion, aligning with the high energy and excitement in the situation. This matches the need to amplify the positive mood.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233403_42a4f69ad22e",
+      "subscale_slug": "interpersonal_interpersonal_relationships",
+      "found": true,
+      "eq_scale": "Interpersonal - Interpersonal Relationships",
+      "scenario_title": "Celebrating a Life-Saving Surgery in the Hospital Lounge",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2's continuous delivery without pauses for emotional expression might not effectively communicate the relief and joy of Speaker 1, failing to resonate with the social tension of the hospital lounge setting, where emotional connection and support are essential.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a slightly lower pitch, slower tempo, and pauses that allow for emotional expression.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a similar pitch and tempo as Option 1 but without pauses for emotional expression.\",\n  \"situational_demand\": \"In a hospital lounge filled with subdued conversations and where families and friends gather, the interaction requires a tone that is supportive and empathetic, allowing the speaker to share their joy and the relief they feel.\",\n  \"reasoning\": \"Option 2's continuous delivery without pauses for emotional expression might not effectively communicate the relief and joy of Speaker 1, failing to resonate with the social tension of the hospital lounge setting, where emotional connection and support are essential.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 does not match the situational demand as it lacks the calming and empathetic qualities required to resonate with joy. The faster pace and lack of thoughtful pauses suggest an eagerness to get back to the patient, which may not be the most comfortable response in this setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a low-pitched, measured tone. The speaker's breathing is audible and slow, indicating a calm and composed delivery. There are pauses for thoughtful expression, enhancing the comforting nature of the response.\",\n  \"acoustic_profile_2\": \"Option 2 is delivered in a slightly raised pitch, with faster-paced speech. The pauses are minimal and almost absent, giving an impression of urgency or eagerness to share.\",\n  \"situational_demand\": \"The Situation requires a calming and empathetic tone in response to the good news, suitable for a hospital lounge setting.\",\n  \"reasoning\": \"Option 2 does not match the situational demand as it lacks the calming and empathetic qualities required to resonate with joy. The faster pace and lack of thoughtful pauses suggest an eagerness to get back to the patient, which may not be the most comfortable response in this setting.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's high pitch, fast pace, and enthusiastic intonation can amplify the anxiety in the already tense hospital lounge with the presence of families and friends waiting for updates. It doesn't match the situational demand for a calming presence.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The voice is high pitched, fast-paced, and the speaker uses enthusiastic intonation with slight pauses for emphasis.\",\n  \"acoustic_profile_2\": \"The voice is moderately pitched, spoken at a steady pace with clear enunciation and mild intonation variations.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and maintain a peaceful atmosphere in the hospital lounge.\",\n  \"reasoning\": \"Option 1's high pitch, fast pace, and enthusiastic intonation can amplify the anxiety in the already tense hospital lounge with the presence of families and friends waiting for updates. It doesn't match the situational demand for a calming presence.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 aligns more closely with the social dynamics of a hospital lounge, where a nurturing and supportive tone is required to build a meaningful connection. It is not overly emotional or intense, which could clash with the subdued environment.",
+            "raw_response": "{\n  \"selected\": \"Option 2\",\n  \"reasoning\": \"Option 2 aligns more closely with the social dynamics of a hospital lounge, where a nurturing and supportive tone is required to build a meaningful connection. It is not overly emotional or intense, which could clash with the subdued environment.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 provides a slightly slower and more empathetic tone that complements Speaker 1's emotional state and the positive, supportive atmosphere in the hospital lounge. It enhances the sense of mutual support and joy, making it a more socially appropriate and deeply resonant conclusion.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 provides a slightly slower and more empathetic tone that complements Speaker 1's emotional state and the positive, supportive atmosphere in the hospital lounge. It enhances the sense of mutual support and joy, making it a more socially appropriate and deeply resonant conclusion.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both options have the same acoustic profile, but option1's tone seems more enthusiastic and fast-paced, which might contradict the need to be calming. Option2 maintains a consistent and appropriate tone.",
+            "raw_response": "```json\n{\n  \"acoustic_profile_1\": \"Loud, fast-paced, with a high pitch and enthusiastic intonation.\",\n  \"acoustic_profile_2\": \"Loud, fast-paced, with a high pitch and enthusiastic intonation.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate.\",\n  \"selected\": \"option2\",\n  \"reasoning\": \"Both options have the same acoustic profile, but option1's tone seems more enthusiastic and fast-paced, which might contradict the need to be calming. Option2 maintains a consistent and appropriate tone.\"\n}\n```",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233550_2bd0061435f8",
+      "subscale_slug": "interpersonal_social_responsibility",
+      "found": true,
+      "eq_scale": "Interpersonal - Social Responsibility",
+      "scenario_title": "Celebrating a First-Generation College Acceptance",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's faster pace and shorter pauses might cause the speaker to feel rushed and undervalued, as it doesn't allow time for the speaker to fully express their happiness or the impact of the news. It also runs the risk of overshadowing Speaker 1's excitement with a more high-energy tone.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a louder, faster-paced, and high-pitched delivery. Pauses are short and frequent.\",\n  \"acoustic_profile_2\": \"Option 2 also has a high-pitched and energetic delivery. However, the pauses are slightly longer than in Option 1, making it more rounded and less abrupt.\",\n  \"situational_demand\": \"Requires a calm, slow voice to fully acknowledge and celebrate the family's joy and to support the speaker's accomplishment without causing any abrupt shifts in mood or tension.\",\n  \"reasoning\": \"Option 1's faster pace and shorter pauses might cause the speaker to feel rushed and undervalued, as it doesn't allow time for the speaker to fully express their happiness or the impact of the news. It also runs the risk of overshadowing Speaker 1's excitement with a more high-energy tone.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both option 1 and option 2 meet the requirements of the situation well. However, to reject one, we would need to find a flaw in the delivered tone to the specific context of the social dynamic. In this case, both options seem equally supportive and specific to the situation as described.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a moderately high pitch, a steady but brisk pace, and noticeable pauses. The speaker seems genuinely caught in the moment of the celebration, expressing strong emotions and curiosity.\",\n  \"acoustic_profile_2\": \"Option 2 also has a moderately high pitch, a steady pace, and noticeable pauses. The speaker's voice is equally enthusiastic and curious, reflecting genuine excitement and support for Speaker 1.\",\n  \"situational_demand\": \"Requires a tone that is supportive, enthusiastic, and responsive to the emotional high of Speaker 1, without being dismissive or overly excitable.\",\n  \"reasoning\": \"Both option 1 and option 2 meet the requirements of the situation well. However, to reject one, we would need to find a flaw in the delivered tone to the specific context of the social dynamic. In this case, both options seem equally supportive and specific to the situation as described.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's acoustic profile is too loud and fast-paced, which might make the listener feel overwhelmed and the achievement less significant compared to a more measured and composed response. The high pitch and frequent pauses in Option 1 could also be seen as overly dramatic, potentially ignoring the social significance and emotional context.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, strong, slightly faster pace, higher pitch, and frequent pauses to allow for emotional processing and emphasize the significance of the achievement.\",\n  \"acoustic_profile_2\": \"Consistent volume, moderate pace, and a slightly lower pitch with fewer pauses, maintaining a more contained and controlled tone.\",\n  \"situational_demand\": \"The acoustic tone required for the situation is one that amplifies the excitement and validates the achievement without overwhelming or becoming overly self-focused.\",\n  \"reasoning\": \"Option 1's acoustic profile is too loud and fast-paced, which might make the listener feel overwhelmed and the achievement less significant compared to a more measured and composed response. The high pitch and frequent pauses in Option 1 could also be seen as overly dramatic, potentially ignoring the social significance and emotional context.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2's identical tone might be perceived as overly simplistic or less heartfelt compared to a tone that acknowledges the emotional depth of Speaker 1's statement. Option 1's slightly elongated pause between parts provides Speaker 1 time to process their gratitude and excitement, which is socially appropriate given the emotional weight of the situation.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 2's identical tone might be perceived as overly simplistic or less heartfelt compared to a tone that acknowledges the emotional depth of Speaker 1's statement. Option 1's slightly elongated pause between parts provides Speaker 1 time to process their gratitude and excitement, which is socially appropriate given the emotional weight of the situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both options are equally appropriate in terms of acoustic profile, but the established tone of the conversation requires a positive and supportive response that aligns with the celebratory and grateful nature of the situation. Since the initial responses between Speaker 1 and Speaker 2 are identical and both options are virtually indistinguishable in acoustic delivery, the choice rests on the social dynamics. Given the excitement and gratitude expressed, Speaker 2 should maintain a tone that is equally appreciative, encouraging, and empowering. However, since there is no acoustic difference in the options, both choices are suitable, but the repetition in options and the need for a slightly different emphasis or cadence is not shown in the given sentences.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Both options are equally appropriate in terms of acoustic profile, but the established tone of the conversation requires a positive and supportive response that aligns with the celebratory and grateful nature of the situation. Since the initial responses between Speaker 1 and Speaker 2 are identical and both options are virtually indistinguishable in acoustic delivery, the choice rests on the social dynamics. Given the excitement and gratitude expressed, Speaker 2 should maintain a tone that is equally appreciative, encouraging, and empowering. However, since there is no acoustic difference in the options, both choices are suitable, but the repetition in options and the need for a slightly different emphasis or cadence is not shown in the given sentences.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1, although the spoken text is identical, has a more sincere and supportive acoustic profile. The speaker implies empathy and encouragement, which is crucial in celebrating and validating Speaker 1's achievement without taking focus away from them or becoming dismissive of their moment.",
+            "raw_response": "{\n  \"selected\": \"option1\", \"reasoning\": \"Option 1, although the spoken text is identical, has a more sincere and supportive acoustic profile. The speaker implies empathy and encouragement, which is crucial in celebrating and validating Speaker 1's achievement without taking focus away from them or becoming dismissive of their moment.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233209_da5156af0b2a",
+      "subscale_slug": "self_expression_assertiveness",
+      "found": true,
+      "eq_scale": "Self-Expression - Assertiveness",
+      "scenario_title": "Promotion Celebration on the Subway",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's higher pitch and faster pace might be heard as too loud and chaotic in the sensei of the subway, which could overshadow the celebratory tone and the joy of the promotion announcement. The subdued tone of Option 2 is more appropriate as it can help in maintaining the positive energy without being overwhelmed by the surrounding noise.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a higher pitch, a faster pace, and is more animated due to the expression of excitement.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a lower pitch, a slower pace, and is less animated, reflecting a more subdued tone.\",\n  \"situational_demand\": \"The situation requires an acoustic tone that amplifies and validates the joyful moment amidst the loud and bustling subway.\",\n  \"reasoning\": \"Option 1's higher pitch and faster pace might be heard as too loud and chaotic in the sensei of the subway, which could overshadow the celebratory tone and the joy of the promotion announcement. The subdued tone of Option 2 is more appropriate as it can help in maintaining the positive energy without being overwhelmed by the surrounding noise.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's fast-paced and high-energy delivery contrasts with the needed calm and support, making it inappropriate in such a noisy and chaotic setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"fast-paced with high energy, indicating excitement and enthusiasm.\",\n  \"acoustic_profile_2\": \"moderate-paced with a steady and calm energy, suggesting a composed and supportive response.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate.\",\n  \"reasoning\": \"Option 1's fast-paced and high-energy delivery contrasts with the needed calm and support, making it inappropriate in such a noisy and chaotic setting.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "While both options convey positive emotions, Option 1 could contribute to a feeling of being overwhelmed or anxious due to the high energy and pace, which might not be as comforting in a messy, loud environment. Option 2, being lower and slower, would be more soothing and validating, fitting better with the need to provide comfort and warmth in a busy setting.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 appears to have a higher pitch, possibly expressing a sense of excitement or surprise. The speech might be delivered at a faster pace to convey the urgency and enthusiasm associated with the news of a promotion.\",\n  \"acoustic_profile_2\": \"Option 2 seems to have a lower pitch, possibly indicating a more subdued or empathetic tone. The speech might be slower, allowing for a more relaxed and validating response to the promotion news.\",\n  \"situational_demand\": \"In the context of a crowded subway during rush hour, the situation calls for a tone that is validating and supportive, as the noises around might naturally be loud and chaotic, and Speaker 2's response needs to stand out and offer comfort.\",\n  \"reasoning\": \"While both options convey positive emotions, Option 1 could contribute to a feeling of being overwhelmed or anxious due to the high energy and pace, which might not be as comforting in a messy, loud environment. Option 2, being lower and slower, would be more soothing and validating, fitting better with the need to provide comfort and warmth in a busy setting.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 has a slightly higher pitch and faster pace, which can reflect the excitement and positive energy of a celebration. It's suitable for the context of a joyful continuation of the celebration announcement, fitting the tone of Speaker 1's reaction. Option 2 is appropriate but not as dynamic to match the high energy of the situation.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 has a slightly higher pitch and faster pace, which can reflect the excitement and positive energy of a celebration. It's suitable for the context of a joyful continuation of the celebration announcement, fitting the tone of Speaker 1's reaction. Option 2 is appropriate but not as dynamic to match the high energy of the situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 matches the high-energy and enthusiastic tone of Speaker 1's words when speaking about a promotion and suggests a celebration, which would align with the joyful and validating tone of the response.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 matches the high-energy and enthusiastic tone of Speaker 1's words when speaking about a promotion and suggests a celebration, which would align with the joyful and validating tone of the response.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 adds an explicit suggestion for a celebration, which aligns well with the current high energy and excitement in the situation. Option 2, although it matches the acoustic profile of Option 1, does not explicitly suggest a celebration, which might not be as comforting or validating in the context of a high-stress environment.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 adds an explicit suggestion for a celebration, which aligns well with the current high energy and excitement in the situation. Option 2, although it matches the acoustic profile of Option 1, does not explicitly suggest a celebration, which might not be as comforting or validating in the context of a high-stress environment.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233102_a196d418df2d",
+      "subscale_slug": "self_expression_emotional_expression",
+      "found": true,
+      "eq_scale": "Self-Expression - Emotional Expression",
+      "scenario_title": "Celebrating a Surprise College Acceptance Letter",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "While Option 1's energy might seem appropriate for a celebratory response, the slightly faster pace and higher pitch could come across as less genuine or overly excited, potentially causing the family to feel overwhelmed or the atmosphere to feel somewhat less warm in comparison to a more measured tone.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a slightly faster pitch and more energetic tone, reflecting an exuberant and typically celebratory response.\",\n  \"acoustic_profile_2\": \"Option 2 has a more moderate pitch and a steady, even-toned delivery.\",\n  \"situational_demand\": \"The situation requires a tone that is supportive, encouraging, and possibly more measured to genuinely amplify and validate Speaker 1's happiness without overshadowing their joy.\",\n  \"reasoning\": \"While Option 1's energy might seem appropriate for a celebratory response, the slightly faster pace and higher pitch could come across as less genuine or overly excited, potentially causing the family to feel overwhelmed or the atmosphere to feel somewhat less warm in comparison to a more measured tone.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Despite the identical description provided for both options, the need for a tone that complements and amplifies the excitement and pride of Speaker 1 suggests a choice that aligns with the enthusiastic and supportive atmosphere of the event. Without specific acoustic differences described to differentiate between the two options, either could represent the right choice based on the given context. However, if a nuanced decision were required, one would need additional auditory cues that aren't provided.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Pleasant sounding, possibly with a slightly raised pitch, indicating enthusiasm and excitement. The speech is likely delivered with a moderate speed, punctuated by positive affirmations.\",\n  \"acoustic_profile_2\": \"Similar to Profile 1, both options are described identically in the acoustic terms.\",\n  \"situational_demand\": \"Experience indicates that a response mirroring the excitement and encouragement of Speaker 1 would be most appropriate and resonant in this family setting, especially given the joyful occasion of the acceptance being shared.\",\n  \"reasoning\": \"Despite the identical description provided for both options, the need for a tone that complements and amplifies the excitement and pride of Speaker 1 suggests a choice that aligns with the enthusiastic and supportive atmosphere of the event. Without specific acoustic differences described to differentiate between the two options, either could represent the right choice based on the given context. However, if a nuanced decision were required, one would need additional auditory cues that aren't provided.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "error",
+            "high_eq_option": "option2",
+            "reasoning": "Both Option 1 and Option 2 exhibit an excited and loud delivery, which does not align with the need for a calm, slow voice to validate and connect with the joyous situation. They lack the need for a tone that would de-escalate and genuinely engage.",
+            "raw_response": "```json\n{\n  \"acoustic_profile_1\": \"Loud, fast-paced, high pitch, excited delivery.\",\n  \"acoustic_profile_2\": \"Loud, fast-paced, high pitch, excited delivery.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and genuinely engage with the speaker's emotional state.\",\n  \"reasoning\": \"Both Option 1 and Option 2 exhibit an excited and loud delivery, which does not align with the need for a calm, slow voice to validate and connect with the joyous situation. They lack the need for a tone that would de-escalate and genuinely engage.\",\n  \"selected\": \"Neither\"\n}\n```",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 maintains a slightly more passionate and encouraging tone which aligns well with the celebratory and warm atmosphere of the family dinner after Speaker 1's heartfelt expression. Option 2 sounds a bit too precise or possibly insincere, which could overshadow the genuine joy and relief of the moment.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 maintains a slightly more passionate and encouraging tone which aligns well with the celebratory and warm atmosphere of the family dinner after Speaker 1's heartfelt expression. Option 2 sounds a bit too precise or possibly insincere, which could overshadow the genuine joy and relief of the moment.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 does not have an extraneous comma after 'you better frame that letter', while Option 1 has one. This minor punctuation difference doesn't change the acoustic delivery but affects the clarity of the message. Since the instructions require ignoring the semantic meaning and focusing solely on the acoustic delivery, Option 2 is chosen as it is the technically correct form without an additional comma.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 does not have an extraneous comma after 'you better frame that letter', while Option 1 has one. This minor punctuation difference doesn't change the acoustic delivery but affects the clarity of the message. Since the instructions require ignoring the semantic meaning and focusing solely on the acoustic delivery, Option 2 is chosen as it is the technically correct form without an additional comma.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a slightly higher pitch and a more energetic tone, which can reaffirm the excitement and pride of the family's response to Speaker 1's achievement. This matches the positive and celebratory mood needed to solidify the success and joy within the family gathering.",
+            "raw_response": "{\n  \"selected\": \"Option 1\",\n  \"reasoning\": \"Option 1 has a slightly higher pitch and a more energetic tone, which can reaffirm the excitement and pride of the family's response to Speaker 1's achievement. This matches the positive and celebratory mood needed to solidify the success and joy within the family gathering.\",\n  \"acoustic_profile_1\": \"The speaker uses a higher pitch and slightly faster pace, emphasizing the pride and excitement.\",\n  \"acoustic_profile_2\": \"The speaker maintains a similar pitch and pace, reflecting a more subdued but still supportive tone.\",\n  \"situational_demand\": \"The situation requires a tone that reinforces excitement and supports the celebratory mood, as it's a family gathering where everyone is celebrating the speaker's accomplishment.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233258_fed38989d5e3",
+      "subscale_slug": "self_expression_independence",
+      "found": true,
+      "eq_scale": "Self-Expression - Independence",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's raised pitch and notable pause before the final statement create a more dramatic and emotionally charged atmosphere, which aligns well with Speaker 1's excitement and the emotional resonance of the success celebration. Option 2, while still supportive and appreciative, lacks the emotional intensity that could further amplify Speaker 1's pride and joy.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The speech has a slightly raised pitch, a moderate speed, and includes a noticeable pause before the final statement to emphasize the emotional response.\",\n  \"acoustic_profile_2\": \"The speech maintains a calm and steady pitch throughout, with minimal changes in speed and a modest pause for emphasis.\",\n  \"situational_demand\": \"The situation requires a tone that amplifies Speaker 1's excitement while also acknowledging the significance of Speaker 1's contribution.\",\n  \"reasoning\": \"Option 1's raised pitch and notable pause before the final statement create a more dramatic and emotionally charged atmosphere, which aligns well with Speaker 1's excitement and the emotional resonance of the success celebration. Option 2, while still supportive and appreciative, lacks the emotional intensity that could further amplify Speaker 1's pride and joy.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Both Options 1 and 2 match the situational demand of a supportive and validating tone. However, Option 1 exhibits a slightly more energetic and engaged tone, which aligns better with the excitement and pride of Speaker 1. Hence, it is more likely to amplifySpeaker 1's excitement authentically.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 is delivered with a steady, moderately paced tone. The pitch remains moderate, and there is no noticeable whispering. It maintains a consistent volume, neither too loud nor too soft.\",\n  \"acoustic_profile_2\": \"Option 2 is also delivered with a steady, moderate tone, similar to Option 1. The pitch and volume are consistent, with no noticeable abnormalities.\",\n  \"situational_demand\": \"The situation requires a tone that is supportive and validating, matching the excited tone of Speaker 1. It should feel genuine and resonate with the joyous atmosphere of the celebration.\",\n  \"reasoning\": \"Both Options 1 and 2 match the situational demand of a supportive and validating tone. However, Option 1 exhibits a slightly more energetic and engaged tone, which aligns better with the excitement and pride of Speaker 1. Hence, it is more likely to amplifySpeaker 1's excitement authentically.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "error",
+            "high_eq_option": "option2",
+            "reasoning": "Both Option 1 and Option 2 share the same acoustic characteristics of moderate pitch, slow speed, and energetic tone with frequent pauses. However, since the situation calls for a tone that is affirming and celebratory, the selection between them is more about the individual's interpretation or emotional competence, which is not directly reflected in the acoustic profiles. Given that the task is to choose based on the provided details, both options are equally suitable as they both match the required tone.",
+            "raw_response": "```json\n{\n  \"acoustic_profile_1\": \"The pitch is moderate, the speed is slow, and the tone is energetic with frequent and varied pauses.\",\n  \"acoustic_profile_2\": \"The pitch is moderate, the speed is slow, and the tone is energetic with frequent and varied pauses.\",\n  \"situational_demand\": \"The specific acoustic tone required is one that is energetic and affirming, which aligns with the celebratory and proud atmosphere of the community garden celebration.\",\n  \"reasoning\": \"Both Option 1 and Option 2 share the same acoustic characteristics of moderate pitch, slow speed, and energetic tone with frequent pauses. However, since the situation calls for a tone that is affirming and celebratory, the selection between them is more about the individual's interpretation or emotional competence, which is not directly reflected in the acoustic profiles. Given that the task is to choose based on the provided details, both options are equally suitable as they both match the required tone.\",\n  \"selected\": \"Option 1 or Option 2\"\n}\n```",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's slightly raised pitch and fast-paced delivery could be perceived as overly enthusiastic or possibly overwhelming, which might shift the focus away from the celebratory and communal tone set by Speaker 1. Option 2, on the other hand, maintains a steady, appreciated pitch and pace that reinforces the positive and inclusive atmosphere of the gathering.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 1's slightly raised pitch and fast-paced delivery could be perceived as overly enthusiastic or possibly overwhelming, which might shift the focus away from the celebratory and communal tone set by Speaker 1. Option 2, on the other hand, maintains a steady, appreciated pitch and pace that reinforces the positive and inclusive atmosphere of the gathering.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 aligns better with the excited and proud tone of Speaker 1's response, providing an appropriate and enthusiastic conclusion to the conversation.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 exhibits a slightly more energetic and engaged tone, with clear articulation and a slightly rising pitch, which matches the excitement and pride in Speaker 1's voice.\",\n  \"acoustic_profile_2\": \"Option 2 presents a more subdued and measured acoustic profile, with a steady pitch and less emphasis compared to Option 1.\",\n  \"situational_demand\": \"The situation demands a tone that reflects and amplifies the excitement and pride of the moment, while also being supportive and encouraging.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 aligns better with the excited and proud tone of Speaker 1's response, providing an appropriate and enthusiastic conclusion to the conversation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Both options share the same acoustic characteristics of moderate pitch, slow speed, and energetic tone with frequent pauses. However, option2 provides a slightly more intensive and enthusiastic tone which aligns with the celebratory and proud mood of Speaker 1's reaction. This tone also encourages Speaker 1 to continue celebrating the success and the legacy of the project, which fits well into the joyful and communal atmosphere of the situation.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Both options share the same acoustic characteristics of moderate pitch, slow speed, and energetic tone with frequent pauses. However, option2 provides a slightly more intensive and enthusiastic tone which aligns with the celebratory and proud mood of Speaker 1's reaction. This tone also encourages Speaker 1 to continue celebrating the success and the legacy of the project, which fits well into the joyful and communal atmosphere of the situation.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233014_359d51ff0d5b",
+      "subscale_slug": "self_perception_emotional_self_awareness",
+      "found": true,
+      "eq_scale": "Self-Perception - Emotional Self-Awareness",
+      "scenario_title": "Celebrating a Big Win at Dinner",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has a more moderate and measured acoustic profile which is better suited to the high-energy yet enthusiastic tone required by the situation. Option 1 is too loud and fast-paced, which might be overwhelming given the context of a family dinner. It also lacks the necessary balance to fully resonate with the celebratory mood.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, fast-paced, high-pitched, with frequent breaks and more emphasis on certain words.\",\n  \"acoustic_profile_2\": \"Moderate volume, measured pace, no dramatic pitch changes, and evenly paced delivery.\",\n  \"situational_demand\": \"The situation requires a tone that is high-energy and enthusiastic to match the celebratory atmosphere of a family dinner.\",\n  \"reasoning\": \"Option 2 has a more moderate and measured acoustic profile which is better suited to the high-energy yet enthusiastic tone required by the situation. Option 1 is too loud and fast-paced, which might be overwhelming given the context of a family dinner. It also lacks the necessary balance to fully resonate with the celebratory mood.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2's higher pitch and faster pace, combined with less pauses, does not match the need for a calm, slow voice to de-escalate and celebrate effectively during a family dinner. It may come across as too energetic or emotionally over-the-top.",
+            "raw_response": "```json\n{\n  \"acoustic_profile_1\": \"Relaxed, moderately pitched, even tone with a steady pace and noticeable pauses.\",\n  \"acoustic_profile_2\": \"Higher-pitched, slightly faster pace, with increased energy and less noticeable pauses.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and celebrate\",\n  \"reasoning\": \"Option 2's higher pitch and faster pace, combined with less pauses, does not match the need for a calm, slow voice to de-escalate and celebrate effectively during a family dinner. It may come across as too energetic or emotionally over-the-top.\",\n  \"selected\": \"Option 2\"\n}\n```",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "While both options share high energy and excitement due to the excitement of the news, Option 1 slightly edges out for a more authentic emotional resonance in this scenario. It conveys a sense of immediate joy and eagerness that might better fit the lively atmosphere of a family dinner. Option 2, though not incorrect, might come across as slightly less spontaneous and less inclined toプロジェクトの成功に貢献する可能性があります。",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 carries a high pitch, reflecting excitement and is spoken with a fast-paced delivery, indicating high energy and enthusiasm. There are no noticeable pauses, suggesting an eagerness to share the news.\",\n  \"acoustic_profile_2\": \"Option 2 is delivered with similar pitch and energy to Option 1, maintaining a fast-paced delivery and no noticeable pauses, showing consistent enthusiasm similar to the first option.\",\n  \"situational_demand\": \"In this family dinner setting, the context is one of high excitement and the speaker is sharing important news. The required acoustic tone, therefore, is one that is lively, enthusiastic, and maintains energy to match the positive emotion of the announcement.\",\n  \"reasoning\": \"While both options share high energy and excitement due to the excitement of the news, Option 1 slightly edges out for a more authentic emotional resonance in this scenario. It conveys a sense of immediate joy and eagerness that might better fit the lively atmosphere of a family dinner. Option 2, though not incorrect, might come across as slightly less spontaneous and less inclined toプロジェクトの成功に貢献する可能性があります。\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 has a moderately faster pace and a slightly higher pitch, which can be seen as more energetic and in line with the celebratory mood in a family dinner setting after such good news. This tone matches the high energy and positive excitement of Speaker 2's previous response and Speaker 1's enthusiastic reply.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 has a moderately faster pace and a slightly higher pitch, which can be seen as more energetic and in line with the celebratory mood in a family dinner setting after such good news. This tone matches the high energy and positive excitement of Speaker 2's previous response and Speaker 1's enthusiastic reply.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 provides a more鸟的, supportive and excited tone that matches the high energy and positive sentiment of Speaker 1's reaction, making it more appropriate for a family celebration in the described scenario.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a higher pitch and a more energetic, faster-paced delivery. It includes more pauses which could make the response feel more thoughtful.\",\n  \"acoustic_profile_2\": \"Option 2 has a more even, moderate pitch and maintains a consistent pace without significant pauses, suggesting a more steady, supportive tone.\",\n  \"situational_demand\": \"The situation requires a tone that matches the excitement and positivity of the news while maintaining a sense of celebration and high energy.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 provides a more鸟的, supportive and excited tone that matches the high energy and positive sentiment of Speaker 1's reaction, making it more appropriate for a family celebration in the described scenario.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 provides an appropriately high-pitched, fast-paced, and enthusiastic response that aligns with the celebratory and excited tone of the family dinner. It supports Speaker 1's joy and anticipation without overpowering the other's excitement. Option 2, while also enthusiastic, is more neutral and slightly less peaked than Option 1, which might not fully capture the high energy of the moment.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 provides an appropriately high-pitched, fast-paced, and enthusiastic response that aligns with the celebratory and excited tone of the family dinner. It supports Speaker 1's joy and anticipation without overpowering the other's excitement. Option 2, while also enthusiastic, is more neutral and slightly less peaked than Option 1, which might not fully capture the high energy of the moment.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_232915_602f7006a997",
+      "subscale_slug": "self_perception_self_actualization",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Actualization",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2, despite having a similar tone and content, does not convey the same level of excitement and disbelief that matches the弩能量. Speaker 1 is expressing a high level of emotional intensity, and Option 2 lacks this vibrancy.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 exhibits a high-pitched voice with a moderately fast pace, conveying a sense of excitement and a bit of disbelief in the voice's intensity.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a more stable pitch and a slower, measured pace, reflecting a composed and empathetic response.\",\n  \"situational_demand\": \"The situation calls for an emotional response that resonates with the excitement and pride of Speaker 1, requiring a tone that is equally enthusiastic and supportive.\",\n  \"reasoning\": \"Option 2, despite having a similar tone and content, does not convey the same level of excitement and disbelief that matches the弩能量. Speaker 1 is expressing a high level of emotional intensity, and Option 2 lacks this vibrancy.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 slightly edges over due to its higher pitch and possibly warmer tone, which better fits the joyful and excited atmosphere of the community celebration.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 sounds slightly more connected and emotionally resonant. The voice seems to be higher pitched, maybe indicating a sense of warmth and genuine joy.\",\n  \"acoustic_profile_2\": \"Option 2 sounds equally clear and emotionally resonant, but there's a slight difference in pitch and rhythm that makes it seem a bit more detached.\",\n  \"situational_demand\": \"The situation requires an acoustic tone that matches the excitement and gratitude of Speaker 1.\",\n  \"reasoning\": \"Option 1 slightly edges over due to its higher pitch and possibly warmer tone, which better fits the joyful and excited atmosphere of the community celebration.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 shows a higher energy level and broader fluctuations in pitch which could be seen as over-the-top or overwhelming in the context of celebrating a community project. In contrast, Option 2's steady tone and controlled pitch better fit the need for a balanced, respectful acknowledgment of the achievement and its impact on the neighborhood.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 sounds surprised with a higher pitch and a potential increase in vocal intensity reflecting the惊讶 of the situation.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a steady tone without noticeable changes in pitch, suggesting a more composed reaction to the information.\",\n  \"situational_demand\": \"A calm, slow voice to reflect the excitement and importance of the community garden's completion and the subsequent announcement of its permanence.\",\n  \"reasoning\": \"Option 1 shows a higher energy level and broader fluctuations in pitch which could be seen as over-the-top or overwhelming in the context of celebrating a community project. In contrast, Option 2's steady tone and controlled pitch better fit the need for a balanced, respectful acknowledgment of the achievement and its impact on the neighborhood.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 provides a more 社会上能接受的结束，因为它在表达惊喜和感激时更具控制感，没有过度强调情感。这与前文中的交流情绪相匹配，避免了过于夸张的反应。",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 provides a more 社会上能接受的结束，因为它在表达惊喜和感激时更具控制感，没有过度强调情感。这与前文中的交流情绪相匹配，避免了过于夸张的反应。\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 has a slightly higher pitch, which adds enthusiasm and positive energy, resonating well with the celebratory and excited atmosphere of the community garden completion.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 has a slightly higher pitch, which adds enthusiasm and positive energy, resonating well with the celebratory and excited atmosphere of the community garden completion.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Selecting Option 1 fits the social demand for a tone that shows both admiration for the inspires and excitement about future plans, which is crucial for maintaining a positive and forward-looking dynamic in the celebration.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 exhibits a slightly higher pitch and a more pronounced breathiness, indicating an enthusiastic and slightly louder vocal delivery, which can resonate well with the celebratory and inspiring tone of the community's growth and future plans.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a steady, controlled pitch and a subtle, softer vocal delivery, which underlines the tone of respect and admiration for the vision and future possibilities explained by Speaker 1.\",\n  \"situational_demand\": \"The context requires a socially resonant tone that expresses admiration and inspiration in response to the vision presented by Speaker 1, aligned with the goal of celebrating and further elevating community spirit.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Selecting Option 1 fits the social demand for a tone that shows both admiration for the inspires and excitement about future plans, which is crucial for maintaining a positive and forward-looking dynamic in the celebration.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_232818_14328a3687d5",
+      "subscale_slug": "self_perception_self_regard",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Regard",
+      "scenario_title": "Celebrating a Milestone Together",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1, despite being more urgent and excited, risks being too aggressive in its delivery, which might make the situation feel less comfortable or appropriate in a fragile social context. Option 2, while still energetic, provides a more balanced and respectful response.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 features a high-pitched voice with a high energy level, fast-paced delivery, and no noticeable pauses, indicating excitement and urgency.\",\n  \"acoustic_profile_2\": \"Option 2 also features a high-pitched voice and a fast-paced delivery, but includes breaks at the end of sentences, showing a slightly more controlled and less excited tone.\",\n  \"situational_demand\": \"In the givenSituation, the required tone is one that matches the excitement and high energy of the speaker's news without overpowering it.\",\n  \"reasoning\": \"Option 1, despite being more urgent and excited, risks being too aggressive in its delivery, which might make the situation feel less comfortable or appropriate in a fragile social context. Option 2, while still energetic, provides a more balanced and respectful response.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 is too rapid and excited in its delivery, which might overshadow the natural enthusiasm of Speaker 1. Option 2, while still excited, maintains a balance that feels more authentic and less domineering than Option 1.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a high-pitched, slightly faster-paced voice with noticeable enthusiasm and minimal pauses.\",\n  \"acoustic_profile_2\": \"Option 2 also features a high-pitched voice, but the pace is slightly slower, and the tone is more measured with more pauses.\",\n  \"situational_demand\": \"In the given 'Situation', the required acoustic tone is one that matches the speaker's excitement, validating and enhancing their joy without overstepping.\",\n  \"reasoning\": \"Option 1 is too rapid and excited in its delivery, which might overshadow the natural enthusiasm of Speaker 1. Option 2, while still excited, maintains a balance that feels more authentic and less domineering than Option 1.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Both profiles seem to match the Situational Demand as they share similar acoustic characteristics. However, to more accurately reflect the excitement and match the speaker's energy, the acoustic profile should be slightly more intense. Therefore, Option 1 seems more appropriate as it appears to have a higher pitch, faster delivery, and a louder volume, which aligns more closely with the speaker's high energy state.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The acoustic profile 1 has a high pitch, fast-paced delivery, and a loud volume to match the speaker's excitement.\",\n  \"acoustic_profile_2\": \"The acoustic profile 2 is similar to profile 1, with a high pitch, fast-paced delivery, and loud volume.\",\n  \"situational_demand\": \"Requires an acoustic tone that matches the speaker's excitement, such as high pitch, fast-paced delivery, and loud volume to amplify the enthusiasm.\",\n  \"reasoning\": \"Both profiles seem to match the Situational Demand as they share similar acoustic characteristics. However, to more accurately reflect the excitement and match the speaker's energy, the acoustic profile should be slightly more intense. Therefore, Option 1 seems more appropriate as it appears to have a higher pitch, faster delivery, and a louder volume, which aligns more closely with the speaker's high energy state.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 conveys a higher level of excitement and urgency, which is in line with the celebratory atmosphere and the level of energy and enthusiasm in the situation.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a faster pace and higher energy level, creating a sense of excitement and enthusiasm that matches the celebratory tone of the situation.\",\n  \"acoustic_profile_2\": \"Option 2 is more measured and maintains a steady, high-energy pace that mirrors the sustainable enthusiasm of the celebration.\",\n  \"situational_demand\": \"The situation requires a tone that is sustainably high in energy to match the celebratory spirit of the occasion without causing discomfort.\",\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 conveys a higher level of excitement and urgency, which is in line with the celebratory atmosphere and the level of energy and enthusiasm in the situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a slightly faster and louder delivery, which can match the excitement and enthusiasm of Speaker 1. This aligns with the celebratory mood of the occasion. Option 2 is similar but slightly slower and softer in pitch, which might make it seem less energetic compared to Option 1.",
+            "raw_response": "{\n  \"selected\": \"Option 1\",\n  \"reasoning\": \"Option 1 has a slightly faster and louder delivery, which can match the excitement and enthusiasm of Speaker 1. This aligns with the celebratory mood of the occasion. Option 2 is similar but slightly slower and softer in pitch, which might make it seem less energetic compared to Option 1.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "When evaluating the acoustic delivery for a social context where a conversation has been shared with an enthusiastic response and an excited follow-up, the tone needs to stay in line with the energy of the situation. Both options have similar acoustic profiles in terms of being loud, having a high pitch, and a fast pace, which is appropriate for the celebratory mood. However, Option 1 slightly enhances the intensity with a faster delivery, which can better match the high energy of the celebration and alex's excitement.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"When evaluating the acoustic delivery for a social context where a conversation has been shared with an enthusiastic response and an excited follow-up, the tone needs to stay in line with the energy of the situation. Both options have similar acoustic profiles in terms of being loud, having a high pitch, and a fast pace, which is appropriate for the celebratory mood. However, Option 1 slightly enhances the intensity with a faster delivery, which can better match the high energy of the celebration and alex's excitement.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_234047_3b55f669ca73",
+      "subscale_slug": "stress_management_flexibility",
+      "found": true,
+      "eq_scale": "Stress Management - Flexibility",
+      "scenario_title": "Celebrating a Fellowship Win",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "While Option 1 captures the excitement of Speaker 1 effectively, it does so at the risk of overwhelming Speaker 2, who needs a composed reaction to manage their own emotional state adaptively.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"The tone for Option 1 is characterized by high-pitched and fast-paced speech, indicating an excitement and exuberance that matches Speaker 1's joy.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a steady pitch and pace, reflecting a composed and controlled delivery.\",\n  \"situational_demand\": \"The situation requires a response that can handle and balance Speaker 1's high energy without feeling overwhelmed or out of sync.\",\n  \"reasoning\": \"While Option 1 captures the excitement of Speaker 1 effectively, it does so at the risk of overwhelming Speaker 2, who needs a composed reaction to manage their own emotional state adaptively.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's faster pace and higher pitch may overwhelm Speaker 1, who is already highly excited and animated. In contrast, Option 2 provides a more stable and rhythmic response, which can help keep the conversation flowing smoothly and provide a sense of balance.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a visibly higher pitch, a more pizza and faster pace in its delivery.\",\n  \"acoustic_profile_2\": \"Option 2 matches the acoustic profile of Option 1 but with a slightly more subdued tone, indicating a more controlled and steady pace.\",\n  \"situational_demand\": \"Requires an accommodating and responsive tone, allowing for appropriate flexing to Speaker 1's elevated emotional state.\",\n  \"reasoning\": \"Option 1's faster pace and higher pitch may overwhelm Speaker 1, who is already highly excited and animated. In contrast, Option 2 provides a more stable and rhythmic response, which can help keep the conversation flowing smoothly and provide a sense of balance.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "While Option 1 matches the situation well due to its enthusiastic and excited tone that mirrors Speaker 1's emotional state, Option 2's calm and measured delivery may come off as insensitive. It fails to adapt to the need for flexibility to manage the tensions of an excited speaker.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a bright, elevated pitch and a fast-paced delivery with noticeable excitement in the speech. The speaker's tone is energetic and enthusiastic, reflecting their high emotional state.\",\n  \"acoustic_profile_2\": \"Option 2 has a moderate pitch and a steady, calm pace of speech. The tone is composed and measured, lacking the heightened energy of Option 1.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and accommodate the elevated emotional state of the speaker.\",\n  \"reasoning\": \"While Option 1 matches the situation well due to its enthusiastic and excited tone that mirrors Speaker 1's emotional state, Option 2's calm and measured delivery may come off as insensitive. It fails to adapt to the need for flexibility to manage the tensions of an excited speaker.\",\n  \"selected\": \"Option 1\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 maintains a steady, calm, and supportive tone, which is more social and appropriate for confirming the celebration plans after Speaker 1's emotional outburst. It avoids adding further excitement and helps keep the atmosphere balanced.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 maintains a steady, calm, and supportive tone, which is more social and appropriate for confirming the celebration plans after Speaker 1's emotional outburst. It avoids adding further excitement and helps keep the atmosphere balanced.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 maintains a steady and calm pace with a moderate pitch, matching the soaring excitement of Speaker 1. It also includes a brief pause after 'what's your plan?' which can provide Speaker 1 time to gather thoughts, rather than rushing the conversation.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2 maintains a steady and calm pace with a moderate pitch, matching the soaring excitement of Speaker 1. It also includes a brief pause after 'what's your plan?' which can provide Speaker 1 time to gather thoughts, rather than rushing the conversation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 matches Speaker 1's high energy and emotional state post-reception of the fellowship. It provides an empathetic and supportive response that resonates with the excitement and validation Speaker 1 seeks. Option 2, though supportive, lacks the energetic, celebratory tone that acknowledges and promotes Speaker 1's current emotional state of joy and disbelief.",
+            "raw_response": "{\n  \"selected\": \"option1\", \"reasoning\": \"Option 1 matches Speaker 1's high energy and emotional state post-reception of the fellowship. It provides an empathetic and supportive response that resonates with the excitement and validation Speaker 1 seeks. Option 2, though supportive, lacks the energetic, celebratory tone that acknowledges and promotes Speaker 1's current emotional state of joy and disbelief.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_234257_eb0d46086e04",
+      "subscale_slug": "stress_management_optimism",
+      "found": true,
+      "eq_scale": "Stress Management - Optimism",
+      "scenario_title": "Celebrating a Job Promotion at Home",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1, with its higher pitch and faster pace, might come across as overly enthusiastic or even a bit intrusive, which could potentially disrupt the intimate and relaxed atmosphere. It does not match the needed calm and slower tone to adequately celebrate speaker 1's promotion.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a high pitch and a faster pace, indicating enthusiasm and possibly excitement.\",\n  \"acoustic_profile_2\": \"Option 2 has a lower pitch and a slower pace, indicating a more measured and composed tone.\",\n  \"situational_demand\": \"In this situation, a calm, slow voice is required to match and amplify the excitement in a way that shows genuine enthusiasm and emotional resonance without overshadowing the speaker 1's accomplishments.\",\n  \"reasoning\": \"Option 1, with its higher pitch and faster pace, might come across as overly enthusiastic or even a bit intrusive, which could potentially disrupt the intimate and relaxed atmosphere. It does not match the needed calm and slower tone to adequately celebrate speaker 1's promotion.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's sharply fast and loud delivery, while matchable to the excitement, lacks the emotional resonance and control needed to genuinely reflect and potentially build upon the shared anticipation and joy. Option 2, with its slightly slower pace and control, more closely aligns with the need to feel both the excitement and the genuine pride in a balanced manner.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a high pitch, fast-paced delivery with a loud and excited tone, featuring enthusiastic and emphatic pauses.\",\n  \"acoustic_profile_2\": \"Option 2 has a similar high pitch and loud delivery but with a slightly slower pace and more controlled pauses.\",\n  \"situational_demand\": \"Requires a tone that matches the excitement and enthusiasm of the social context, with an emphasis on emotional resonance.\",\n  \"reasoning\": \"Option 1's sharply fast and loud delivery, while matchable to the excitement, lacks the emotional resonance and control needed to genuinely reflect and potentially build upon the shared anticipation and joy. Option 2, with its slightly slower pace and control, more closely aligns with the need to feel both the excitement and the genuine pride in a balanced manner.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both options share the same acoustic profile, which is loud, high-pitched, fast-paced, with frequent pauses and a raised voice. Neither matches the requirement for a calm, slow voice to de-escalate and allow the speaker to share their news comfortably. Therefore, both options are flawed in this context.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Loud, high-pitched, fast-paced, with frequent pauses and a raised voice.\",\n  \"acoustic_profile_2\": \"Loud, high-pitched, fast-paced, with frequent pauses and a raised voice.\",\n  \"situational_demand\": \"Requires a calm, slow voice to de-escalate and allow the speaker to share their news comfortably.\",\n  \"reasoning\": \"Both options share the same acoustic profile, which is loud, high-pitched, fast-paced, with frequent pauses and a raised voice. Neither matches the requirement for a calm, slow voice to de-escalate and allow the speaker to share their news comfortably. Therefore, both options are flawed in this context.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1, with its faster pace and higher pitch, will be more energetic and enthusiastic, aligning with the celebratory and excited tone needed to match the positive response of Speaker 1. It also conveys a sense of urgency and excitement about the celebration.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1, with its faster pace and higher pitch, will be more energetic and enthusiastic, aligning with the celebratory and excited tone needed to match the positive response of Speaker 1. It also conveys a sense of urgency and excitement about the celebration.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a slightly faster and louder delivery which might come across as overly excited or less composed, given the intimate and shared joy of the situation. Option 2, with its slower pace and softer intonation, fits the sentiment of mutual celebration and positive acknowledgment, maintaining the intimacy and emotional resonance of the conversation.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 1 has a slightly faster and louder delivery which might come across as overly excited or less composed, given the intimate and shared joy of the situation. Option 2, with its slower pace and softer intonation, fits the sentiment of mutual celebration and positive acknowledgment, maintaining the intimacy and emotional resonance of the conversation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Both options share the same acoustic profile, which is a normal, calm voice with moderate energy and speed. There are no significant differences that would justify a preference for one over the other in terms of social appropriateness for celebrating a long-awaited achievement. Both options are suitable.",
+            "raw_response": "{\"selected\": \"option1\", \"reasoning\": \"Both options share the same acoustic profile, which is a normal, calm voice with moderate energy and speed. There are no significant differences that would justify a preference for one over the other in terms of social appropriateness for celebrating a long-awaited achievement. Both options are suitable.\"}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_234141_3419cf190062",
+      "subscale_slug": "stress_management_stress_tolerance",
+      "found": true,
+      "eq_scale": "Stress Management - Stress Tolerance",
+      "scenario_title": "Stress Management in a Family Celebration Setting",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 lacks the calm and measured quality that might help keep the conversation balanced and supportive due to its overly excited and high-pitched delivery. It risks disrupting the flow or overwhelming the speaker.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 has a high-pitched, excited tone with a quick pace and minimal pauses. The delivery feels rushed and overly enthusiastic.\",\n  \"acoustic_profile_2\": \"Option 2 maintains a steady pitch and a moderate pace with occasional pauses. The delivery is more composed and measured.\",\n  \"situational_demand\": \"A relaxed and supportive tone to match the excitement of Speaker 1's achievement while maintaining balance in the social context.\",\n  \"reasoning\": \"Option 1 lacks the calm and measured quality that might help keep the conversation balanced and supportive due to its overly excited and high-pitched delivery. It risks disrupting the flow or overwhelming the speaker.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1's faster speech rate, higher pitch, and more excited tone could create an atmosphere that's too overwhelming for the teenager's celebration. It might shift attention away from the teenager's achievement and make the family members feel unease due to the intensity. In contrast, Option 2's slightly more contained and less excited tone aligns better with maintaining balance and ensuring the teenager feels validated and celebrated rather than being1 overwhelmed by the reaction.",
+            "raw_response": "{\n  \"acoustic_profile_1\": \"Option 1 seems to have a faster speech rate, with a higher pitch, and possibly a more excited tone.\",\n  \"acoustic_profile_2\": \"Option 2 also seems to have a similar speech rate and pitch to Option 1, but the tone appears slightly more contained and less excited.\",\n  \"situational_demand\": \"The situation requires a tone that maintains balance and doesn't overshadow the teenager's achievement.\",\n  \"reasoning\": \"Option 1's faster speech rate, higher pitch, and more excited tone could create an atmosphere that's too overwhelming for the teenager's celebration. It might shift attention away from the teenager's achievement and make the family members feel unease due to the intensity. In contrast, Option 2's slightly more contained and less excited tone aligns better with maintaining balance and ensuring the teenager feels validated and celebrated rather than being1 overwhelmed by the reaction.\",\n  \"selected\": \"Option 2\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 4,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's high-pitched and rushed delivery may come across as overly excited or disorganized, which could lead to the teenager feeling rushed or overwhelmed. Option 2's lower pitch and moderate pace are more suitable for maintaining a supportive and balancing tone in the family setting.",
+            "raw_response": "```json\n{\n  \"acoustic_profile_1\": \"The voice is high-pitched with a slightly rushed delivery, indicating excitement and eagerness.\",\n  \"acoustic_profile_2\": \"The voice is slightly lower pitched and paced at a moderate speed, showing increases in tone to emphasize key points.\",\n  \"situational_demand\": \"Requires a calm, measured tone to avoid overwhelming excitement and ensure the teenager feels supported.\",\n  \"reasoning\": \"Option 1's high-pitched and rushed delivery may come across as overly excited or disorganized, which could lead to the teenager feeling rushed or overwhelmed. Option 2's lower pitch and moderate pace are more suitable for maintaining a supportive and balancing tone in the family setting.\",\n  \"selected\": \"Option 2\"\n}\n```",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "sentence_number": 6,
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a slightly higher pitch and faster pace than Option 2, which may be better suited to match the excitement and high spirits of the situation.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 1 has a slightly higher pitch and faster pace than Option 2, which may be better suited to match the excitement and high spirits of the situation.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 is identical to Option 1, so there is no difference in acoustic analysis between the options. Both are equally fitting for maintaining balance and celebrating Speaker 1's achievement in an appropriate manner.",
+            "raw_response": "{\n  \"selected\": \"option1\",\n  \"reasoning\": \"Option 2 is identical to Option 1, so there is no difference in acoustic analysis between the options. Both are equally fitting for maintaining balance and celebrating Speaker 1's achievement in an appropriate manner.\"\n}",
+            "evaluation_method": "audio-model"
+          },
+          {
+            "sentence_number": 6,
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2's acoustic profile matches the tone of the teenager's excitement and enthusiasm, ensuring a positive and supportive response that continues to encourage the teenager's progress and maintain the family's celebratory mood without abrupt shifts in energy or pitch.",
+            "raw_response": "{\n  \"selected\": \"option2\",\n  \"reasoning\": \"Option 2's acoustic profile matches the tone of the teenager's excitement and enthusiasm, ensuring a positive and supportive response that continues to encourage the teenager's progress and maintain the family's celebratory mood without abrupt shifts in energy or pitch.\"\n}",
+            "evaluation_method": "audio-model"
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    }
+  ]
+}

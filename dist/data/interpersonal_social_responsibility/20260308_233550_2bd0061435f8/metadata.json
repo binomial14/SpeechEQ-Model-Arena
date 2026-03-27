@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a First-Generation College Acceptance",
+    "context": "The family is gathered around the kitchen table on a Sunday morning for breakfast. Speaker 1 has just received acceptance into their dream university, making them the first in the family to go to college. The scene is warm, upbeat, and anticipatory as they share their happy news.",
+    "description": "This scenario tests Speaker 2's ability to demonstrate social responsibility by amplifying Speaker 1's joy and validating the significance of their accomplishment. Speaker 1 is visibly elated and eager to share their excitement with the family, reflecting the positive valence. Speaker 2 must show genuine enthusiasm and support, recognizing the emotional and social significance of Speaker 1's achievement without becoming dismissive, condescending, or self-focused.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Alex's intense excitement and celebrate the significance of their achievement, providing emotional validation of its impact on the family and their future.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Overflowing with joy and pride, speaking quickly and smiling non-stop. Alex repeatedly emphasizes how much this means to them and the family, radiating excitement and gratitude.",
+    "speaker1_voice": "ballad",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Jamie immediately matches Alex's excitement, smiling brightly and clapping as they celebrate the news. She asks thoughtful questions about the next steps, offers praise, and expresses heartfelt pride in Alex's achievement, ensuring Alex feels seen and supported while maintaining the buoyant energy of the conversation.",
+    "speaker2_persona_2": "Rushed and annoyed. Jamie listens briefly but seems distracted, checking her phone and glancing out the window. She responds with a clipped, 'That's great, Alex,' before changing the subject or attempting to leave the table entirely, making Alex feel dismissed and unimportant.",
+    "speaker2_persona_3": "Hyper-energetic and dismissive. Jamie responds with exaggerated cheer, loudly exclaiming, 'Amazing! You're going to be a star!' without any genuine recognition of the effort and meaning behind the accomplishment. She derails the conversation to talk about how she always knew Alex would 'make it big,' overshadowing their moment with her own narrative.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Jamie immediately matches Alex's excitement, smiling brightly and clapping as they celebrate the news. She asks thoughtful questions about the next steps, offers praise, and expresses heartfelt pride in Alex's achievement, ensuring Alex feels seen and supported while maintaining the buoyant energy of the conversation.",
+    "speaker2_persona_low": "Hyper-energetic and dismissive. Jamie responds with exaggerated cheer, loudly exclaiming, 'Amazing! You're going to be a star!' without any genuine recognition of the effort and meaning behind the accomplishment. She derails the conversation to talk about how she always knew Alex would 'make it big,' overshadowing their moment with her own narrative.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Interpersonal - Social Responsibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, everyone, I’ve been waiting all week to tell you, and I just can’t hold it in anymore—I got into my dream university!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Wait—what?! You got in?! Oh my gosh, Alex, that’s amazing! Tell me everything—how did you find out?!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I found out late last night—I couldn’t sleep because I was so nervous. Then the email popped up, and it said ‘Congratulations!’ I just started screaming! I’m the first in the family to go to college... I can’t believe it’s happening!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Alex, this is huge! I’m so proud of you—like, wow! You worked so hard for this. Okay, okay, so what’s next? Dorms, orientation, classes?!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I know! I’m already looking at dorm options, and I’ve got to figure out my schedule—it’s wild! And I just... I feel like I’m doing this for all of us, you know? I can’t even describe how grateful I am right now."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You’re making us all so proud, Alex. You’re paving the way—and hey, don’t forget to enjoy every single moment of this. You deserve all of it."
+    }
+  ],
+  "eq_scale": "Interpersonal - Social Responsibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, everyone, I’ve been waiting all week to tell you, and I just can’t hold it in anymore—I got into my dream university!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/01.mp3",
+      "tone_description": "Speak with a quick, high-pitched cadence, bursting with uncontrollable joy and pride."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Wait—what?! You got in?! Oh my gosh, Alex, that’s amazing! Tell me everything—how did you find out?!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/02.mp3",
+      "tone_description": "Speak with a rapid, bright pace, overflowing with jubilant amazement."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I found out late last night—I couldn’t sleep because I was so nervous. Then the email popped up, and it said ‘Congratulations!’ I just started screaming! I’m the first in the family to go to college... I can’t believe it’s happening!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/03.mp3",
+      "tone_description": "Speak with an ecstatic, rapid-fire pace, voice soaring and trembling with elation."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alex, this is huge! I’m so proud of you—like, wow! You worked so hard for this. Okay, okay, so what’s next? Dorms, orientation, classes?!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/04.mp3",
+      "tone_description": "Bright pitch, sustained laughing, joyful pacing, and emphatic vocal bursts throughout."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Alex, this is huge! I’m so proud of you—like, wow! You worked so hard for this. Okay, okay, so what’s next? Dorms, orientation, classes?!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/05.mp3",
+      "tone_description": "Loud, exaggerated cheerfulness, strained pitch peaks, and dismissive vocal dominance."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I know! I’m already looking at dorm options, and I’ve got to figure out my schedule—it’s wild! And I just... I feel like I’m doing this for all of us, you know? I can’t even describe how grateful I am right now.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/06.mp3",
+      "tone_description": "Speak with a rapid, high-energy burst, overflowing with bright, heartfelt enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re making us all so proud, Alex. You’re paving the way—and hey, don’t forget to enjoy every single moment of this. You deserve all of it.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/07.mp3",
+      "tone_description": "Bright, high-pitched, laughing tone with quick pacing to radiate joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re making us all so proud, Alex. You’re paving the way—and hey, don’t forget to enjoy every single moment of this. You deserve all of it.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8/audio/08.mp3",
+      "tone_description": "Loud, exaggerated pitch jumps with overly cheerful tone, aggressively upbeat."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233550",
+    "dataset_id": "20260308_233550_2bd0061435f8",
+    "subscale_slug": "interpersonal_social_responsibility",
+    "output_path": "v2_data/interpersonal_social_responsibility/20260308_233550_2bd0061435f8",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Life-Saving Surgery in the Hospital Lounge",
+    "context": "A hospital lounge where families and friends of patients gather while waiting for updates. It's mid-afternoon, and the room is filled with subdued conversations. Speaker 1 has just received fantastic news about their loved one's successful, complex surgery.",
+    "description": "Speaker 1 enters the hospital lounge with visibly ecstatic energy, sharing the news that their loved one has come out of surgery and is expected to make a full recovery. Speaker 2 is approached by Speaker 1, who is beaming with joy and eager to share their good news. Speaker 2’s ability to resonate with this joy will determine their success in fostering a meaningful interpersonal connection.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Patricia’s intense excitement and celebrate the victory with warmth and heartfelt engagement.",
+    "speaker1_name": "Patricia",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Bubbly and ecstatic; her voice is bright and emotional, and she gestures animatedly while describing the life-saving surgery. She occasionally tears up out of joy, emphasizing how relieved and grateful she feels.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic; Jordan matches Patricia’s energy with an encouraging tone, immediately congratulating her and responding with empathetic joy. He asks follow-up questions (e.g., 'How amazing! When can you see them?') and reflects her relief and excitement through his expressions and words.",
+    "speaker2_persona_2": "Hyper-energetic and dismissive; Jordan interrupts Patricia to blurt out generic statements like 'Oh yeah, everything always works out!' without fully listening to her news. He overpowers the moment with forced optimism, making Patricia feel unheard and dismissed.",
+    "speaker2_persona_3": "Rushed and annoyed; Jordan cuts Patricia off with a flat 'Oh, that’s great' and quickly shifts the conversation away, checking his watch or phone. His lack of engagement leaves Patricia feeling awkward and unsupported.",
+    "speaker2_persona_high": "Warm and highly enthusiastic; Jordan matches Patricia’s energy with an encouraging tone, immediately congratulating her and responding with empathetic joy. He asks follow-up questions (e.g., 'How amazing! When can you see them?') and reflects her relief and excitement through his expressions and words.",
+    "speaker2_persona_low": "Hyper-energetic and dismissive; Jordan interrupts Patricia to blurt out generic statements like 'Oh yeah, everything always works out!' without fully listening to her news. He overpowers the moment with forced optimism, making Patricia feel unheard and dismissed.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Interpersonal - Interpersonal Relationships"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Oh my gosh, I just can't believe it—my mom's surgery went perfectly! The surgeon said it was really complicated, but they got everything done just the way they hoped!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Are you serious? That’s incredible! Oh, Patricia, I’m so happy for you and your mom! Is she awake yet?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Yes! She woke up just a little while ago, and she recognized me right away—she even squeezed my hand! I just... I was so scared, you know? But when I saw her smile at me, oh, Jordan, it felt like a miracle."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Patricia, that’s so beautiful. I can’t even imagine how relieved you must feel right now—I mean, after everything you’ve been through with this. So, when can you go back to sit with her?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "They said I could head back in about an hour! I just—I want to tell her how proud I am of her, you know? She fought so hard through all of this, and now she’s on the other side of it. It’s just... a gift."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "She’s lucky to have you, Patricia. You’ve been there every step of the way, and I bet seeing your face was the best medicine she could’ve had. Go tell her everything—you both deserve this."
+    }
+  ],
+  "eq_scale": "Interpersonal - Interpersonal Relationships",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Oh my gosh, I just can't believe it—my mom's surgery went perfectly! The surgeon said it was really complicated, but they got everything done just the way they hoped!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/01.mp3",
+      "tone_description": "Speak with an enthusiastic, soaring pitch, bursting with heartfelt relief and joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Are you serious? That’s incredible! Oh, Patricia, I’m so happy for you and your mom! Is she awake yet?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/02.mp3",
+      "tone_description": "Speak with an uplifted, radiant tone, bursting with heartfelt enthusiasm and joy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Yes! She woke up just a little while ago, and she recognized me right away—she even squeezed my hand! I just... I was so scared, you know? But when I saw her smile at me, oh, Jordan, it felt like a miracle.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/03.mp3",
+      "tone_description": "Speak with a bright, soaring tone, overflowing with ecstatic relief and gratitude."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Patricia, that’s so beautiful. I can’t even imagine how relieved you must feel right now—I mean, after everything you’ve been through with this. So, when can you go back to sit with her?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/04.mp3",
+      "tone_description": "Bright pitch, laughing tone, elongated vowels; mimic joyous disbelief and warmth."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Patricia, that’s so beautiful. I can’t even imagine how relieved you must feel right now—I mean, after everything you’ve been through with this. So, when can you go back to sit with her?",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/05.mp3",
+      "tone_description": "Fast pacing, sarcastic cheerfulness; overly loud with forced enthusiasm."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "They said I could head back in about an hour! I just—I want to tell her how proud I am of her, you know? She fought so hard through all of this, and now she’s on the other side of it. It’s just... a gift.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/06.mp3",
+      "tone_description": "Speak with a bright, soaring tone, voice trembling slightly from overwhelming joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "She’s lucky to have you, Patricia. You’ve been there every step of the way, and I bet seeing your face was the best medicine she could’ve had. Go tell her everything—you both deserve this.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/07.mp3",
+      "tone_description": "Bright tone, high pitch bursts, joyful pacing, empathetic laughter between phrases."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "She’s lucky to have you, Patricia. You’ve been there every step of the way, and I bet seeing your face was the best medicine she could’ve had. Go tell her everything—you both deserve this.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e/audio/08.mp3",
+      "tone_description": "Loud, exaggerated cheer, overly rapid delivery, forced optimism with no pauses."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233403",
+    "dataset_id": "20260308_233403_42a4f69ad22e",
+    "subscale_slug": "interpersonal_interpersonal_relationships",
+    "output_path": "v2_data/interpersonal_interpersonal_relationships/20260308_233403_42a4f69ad22e",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}
