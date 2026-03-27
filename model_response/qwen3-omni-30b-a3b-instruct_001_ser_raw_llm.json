@@ -1,0 +1,1134 @@
+{
+  "dataset_name": "binomial14_SpeechEQ_v2",
+  "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "source_file": "binomial14_SpeechEQ_v2_qwen3-omni-30b-a3b-instruct_001_ser_raw_llm.json",
+  "selected_count": 15,
+  "matched_count": 15,
+  "responses": [
+    {
+      "dataset_id": "20260308_233939_cf32f97e67e4",
+      "subscale_slug": "decision_making_impulse_control",
+      "found": true,
+      "eq_scale": "Decision Making - Impulse Control",
+      "scenario_title": "Celebration Over a Scholarship Announcement",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 better matches the emotional tone of the scene, with high valence and arousal that express excitement without overwhelming dominance. This maintains the family's celebratory focus on Speaker 1's achievement. Option 2 has excessively high arousal and dominance, which could come across as overbearing or controlling, disrupting the shared joy and potentially diminishing the moment for Speaker 1."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 has higher arousal (0.99 vs. 0.86), which better matches the high emotional intensity of the moment. Speaker 1’s excitement is peaking, and Speaker 2’s response should amplify that energy. The dominance in Option 1 is also higher (0.96 vs. 0.87), suggesting a more confident, celebratory tone that reinforces the family's shared joy. Together, these VAD values make the response feel more enthusiastic and emotionally resonant, strengthening the bond in this pivotal moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "While both options convey excitement, Option 1 has more balanced VAD values that align better with the family’s celebratory dynamic. Its high valence and arousal reflect genuine joy and energy, while its dominance level is moderate and supportive—fitting a family member sharing in the moment without overshadowing the speaker. Option 2's dominance is extremely high, which could sound pushy or controlling, potentially undermining the emotional intimacy and elevating Speaker 2's role inappropriately during a moment meant to center Maria’s achievement."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final sentence (S5) expresses overwhelming joy, pride, and emotional shock, marked by high arousal and moderate valence. To maintain consistency with this peak emotional state, Speaker 2's response must amplify the positive valence and support the celebratory high arousal levels. Option 1 reflects this with high arousal (0.904) and consistent valence (0.193), aligning with the excitement and urgency in the family's exchange. Its dominant, enthusiastic delivery reinforces the shared elation and sustained momentum, making it the most appropriate emotional counterpart to conclude the interaction on a triumphant note."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's fifth sentence expresses a mix of disbelief and pride, with high arousal and a valence that reflects emotional overwhelm rather than pure joy. They are emphasizing their child's achievement while also acknowledging the effort involved. Speaker 2’s response should therefore balance validation with calming enthusiasm to sustain the celebration without escalating emotional intensity beyond what Speaker 1 is currently experiencing.\n\nOption 1's VAD values (valence: 0.43, arousal: 0.56, dominance: 0.64) offer a more measured and supportive tone compared to Option 2's high arousal (0.90), which could inadvertently overwhelm the moment. The slightly lower valence in Option 1 still maintains positivity while being more emotionally grounded, aligning well with Speaker 1’s reflective tone. It appropriately redirects focus to Speaker 1’s supportive role while reinforcing the sense of shared accomplishment.\n\nIn contrast, Option 2’s high arousal would amplify excitement, potentially disrupting the emotional equilibrium Speaker 1 is currently in. Given Speaker 1’s own post-shock validation in Sentence 5, a slightly lower arousal response from Speaker 2 acts as an emotional anchor, guiding the family toward a sustained, joyful celebration rather than a high-energy spiral. Therefore, Option 1 is more contextually appropriate for concluding the exchange on a stable, affirming note."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's reaction in Sentence 5 is filled with emotional pride and disbelief, expressing that their child 'earned every bit of it' while showing strong valence and arousal. This indicates that the core emotion is celebratory recognition of the child's achievement with deep personal pride. Speaker 2's next response must validate this emotion while reinforcing the family's collective joy. Option 1's moderate valence (0.4265) and lower arousal (0.5640) reflect an appropriate balance—acknowledging the achievement and giving credit to the parent while moving the conversation toward a celebratory but grounded conclusion. This maintains emotional continuity without overwhelming Speaker 1’s vulnerable excitement. In contrast, Option 2's high arousal (0.9041) and high dominance (0.9027) risk amplifying excitement to the point of emotional intensity that may feel overwhelming or dismissive of the heartfelt moment Speaker 1 is experiencing. Thus, Option 1 better supports a sustained, validating emotional flow."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233752_2e4c4f32bcb4",
+      "subscale_slug": "decision_making_problem_solving",
+      "found": true,
+      "eq_scale": "Decision Making - Problem Solving",
+      "scenario_title": "Navigating a Difficult Health Revelation",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is emotionally distressed with high arousal and vulnerability. Speaker 2 should balance empathy with calm reassurance. Option 1’s lower arousal supports a grounding effect, while still offering hope (valence) and confidence (dominance). Option 2’s higher arousal risks escalating tension; its very dominant tone may inadvertently minimize Speaker 1’s distress. Option 1 is more emotionally supportive in this fragile moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is in a state of high emotional distress, as shown by their high arousal and vulnerable tone. Speaker 2’s role is to balance empathy with reassurance. Option 2 maintains a similar valence (emotional positivity) to Option 1 but has significantly lower arousal, avoiding escalation in tension. Its dominance is also lower than Option 1, making it less authoritative and more collaborative, which supports Speaker 1’s need for safety and control. This gentle, soothing delivery is better suited for de-escalating anxiety and promoting coping rather than confronting the crisis head-on."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 is in a state of high distress and vulnerability. The situation calls for a calm, grounding response that validates emotion while offering hope without dismissing the severity. Option 1’s higher valence and slightly lower arousal provide emotional warmth and reassurance, creating stability. Option 2’s increased arousal may inadvertently heighten anxiety, while its high dominance could unintentionally undermine Speaker 1’s sense of control, making the support feel less empathetic. Thus, Option 1 is emotionally safer and more supportive."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's response in Sentence 5 reveals a deep sense of emotional depletion and vulnerability, marked by low valence and sustained arousal. The prior supportive tone of Speaker 2 (Sentences 2–4) has established a calm, empathetic presence with moderate arousal and high dominance, promoting stability in the interaction. Option 2, while maintaining the same supportive words, features a lower arousal value (0.55) and moderate dominance (0.65), aligning with the need for reassurance without overwhelming emotional intensity. This helps de-escalate Speaker 1's distress by reinforcing safety and solidarity (valence: 0.26) without introducing further agitation. In contrast, Option 1's high arousal (0.87) could intensify the emotional climate, risking a feeling of pressure or urgency that Speaker 1 may not be able to process. Thus, Option 2 better maintains consistency with the established delivery and supports Speaker 1’s emotional state."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's last utterance (S5) reflects deep vulnerability and emotional exhaustion, with low valence and moderate arousal. Speaker 2’s previous responses (S2-S4) have consistently maintained a calm, grounding tone—progressively increasing in emotional warmth while avoiding overwhelming intensity. Option 1 matches this established delivery with slightly lower arousal and more moderate dominance, projecting stability and support without pushing too hard. Option 2’s higher arousal and dominance might inadvertently escalate emotional tension, possibly overwhelming Speaker 1, who is already in a state of emotional depletion. Therefore, Option 1 is the more empathetic and contextually appropriate choice."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's last utterance (S5) expresses deep emotional exhaustion and a sense of depletion, with low valence and moderate arousal indicating distress without agitation. Speaker 2’s previous responses have maintained a calm, supportive tone with moderately high valence and arousal, establishing a steady, grounding presence without escalating emotional intensity. Option 1 matches this pattern—its moderate arousal preserves emotional steadiness while its valence offers affirmation and hope without overstatement. Option 2’s high arousal may unintentionally escalate distress in S5's vulnerable state, and its dominance is slightly higher, which, while still supportive, could subtly shift focus toward problem-solving over emotional validation at a moment when emotional resonance is paramount. Therefore, Option 1 best supports continuity in tone and emotional safety."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233850_2b3021eff25a",
+      "subscale_slug": "decision_making_reality_testing",
+      "found": true,
+      "eq_scale": "Decision Making - Reality Testing",
+      "scenario_title": "Celebrating a Big Promotion",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 has higher arousal and dominance values, conveying more energetic enthusiasm and assertive support. This amplifies the celebratory tone of the moment, matching Speaker 1's excitement and reinforcing the significance of the promotion. Higher dominance also suggests confidence in the message, reassuring Speaker 1 and elevating the collective joy."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's excitement is high (arousal: 0.885), so Speaker 2 should match that energy level. Option 1 has higher arousal (0.893) and dominance (0.920), which amplifies the celebratory tone and projects confident enthusiasm. This stronger emotional resonance better matches Speaker 1's joyful state, creating a unified positive atmosphere and reinforcing the significance of the promotion."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 2’s delivery in Option 2 has higher dominance, indicating a more confident and assertive expression of excitement, which aligns with the celebratory tone of the moment. While both options match the high valence and arousal needed to match Speaker 1’s excitement, the slightly higher arousal and significantly higher dominance in Option 2 enhance the sense of enthusiastic endorsement, reinforcing Speaker 1’s joy and status as a deserving recipient of the promotion."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's emotional state in S5, while still positive, shows a slight decrease in arousal compared to previous statements, reflecting a moment of emotional overwhelm and humility. Speaker 2 should maintain a high level of validation and enthusiasm to sustain the celebratory atmosphere. However, the higher arousal value in Option 2 (0.775) provides a more energetic and emphatic tone, which matches Speaker 1's initial excitement and the overall peak moment of the interaction. Additionally, the higher dominance in Option 2 (0.815) allows Speaker 2 to confidently affirm the promotion and add a touch of playful camaraderie with the 'boss' comment, strengthening the positive emotional arc. This results in a more dynamic and supportive conclusion, maintaining alignment with the upward emotional momentum established earlier."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's fifth sentence expresses a mix of overwhelm and joy, with high arousal reflecting excitement and moderate valence indicating emotional intensity without full elation. Speaker 2’s previous response (S4) was highly positive and energetic, matching this excitement. Option 1 maintains this tone with higher arousal (0.775) and dominant delivery (0.815), reinforcing the celebratory and enthusiastic mood, while its valence (0.215) aligns with the ongoing joy. This consistency keeps the interaction lively and supportive, perfectly aligning with the social context and previous emotional arc. In contrast, Option 2 has lower arousal, which would dampen the celebratory momentum just as Speaker 1 is still processing the exciting news."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s fifth sentence reveals a mix of excitement and emotional overwhelm, with a valence that's still positive but slightly lower than previous statements—indicating genuine disbelief and humility. Speaker 2’s earlier response (S4) was high in both valence and arousal, showing enthusiastic support. To maintain emotional continuity, Speaker 2's next utterance should amplify the celebratory tone while matching Speaker 1’s slightly more reflective emotional state. Option 2 has a higher arousal value, which better sustains the energy of the occasion and complements Speaker 1’s emotional peak. Although valence is similar, the increased arousal and dominance help reinforce the significance and impact of the promotion and ensure the exchange concludes on a strong, affirming note aligned with the escalating excitement."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233506_18b6f6a17e59",
+      "subscale_slug": "interpersonal_empathy",
+      "found": true,
+      "eq_scale": "Interpersonal - Empathy",
+      "scenario_title": "Celebrating a Team Milestone in the Office",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 provides a higher valence and arousal compared to Option 2 at the same dominance level, ensuring an emotionally positive and energized validation of Speaker 1's excitement. While Option 2 has slightly higher arousal, its lower valence risks sounding overly intense or overwhelming, potentially dampening the celebratory mood. Option 1 strikes the optimal balance by amplifying joy without crossing into emotional excess, aligning best with the context of shared pride and team accomplishment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's excitement is escalating, particularly in Sentence 3 with heightened arousal and valence. Speaker 2 must match this energy while maintaining a supportive, empathetic tone. Option 2 has higher valence, making the response feel more genuinely joyful and less intense, which aligns with amplifying positivity without overwhelming. Its slightly lower arousal still matches the celebratory mood but avoids sounding neurotic or overly frantic. Thus, Option 2 strikes a better balance for validating the moment within an emotionally resonant and appropriate response."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final statement shows heightened arousal and strong valence, indicating peak excitement. Option 1 matches this energy with higher arousal and dominance, creating a powerful emotional amplification that validates the celebratory moment and reinforces Speaker 1's pride."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's sentiment in Sentence 5 is one of heartfelt joy and emotional release, marked by a valence of 0.146 and high arousal and dominance. Speaker 2 must amplify this enthusiasm while validating the moment. Option 1 has a higher arousal value (0.8697) compared to Option 2 (0.8442), which better maintains the energetic and celebratory momentum established in the previous exchanges. Although Option 2 has a slightly higher valence, the key in this moment is sustaining emotional high energy; thus, Option 1 more effectively continues the escalating excitement and supports Speaker 1’s pride, aligning with the established pattern of escalating positive feedback."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final statement (S5) expresses a high level of personal joy and relief ('I can’t stop smiling') with a valence of 0.146 and arousal of 0.867, indicating a strong positive emotional peak. Speaker 2's previous responses have consistently amplified this energy through both affirming words and elevated VAD values, especially in Sentence 4 (valence: 0.37, arousal: 0.94). Option 1 maintains that tone of energetic encouragement with valence at 0.56 and arousal at 0.84—slightly higher valence than Option 2 (0.48)—making it a more uplifting and sustaining response that validates Speaker 1’s pride without dampening the celebratory mood. The dominance remains high in both, but Option 1 delivers a slightly more enthusiastic and supportive tone, ensuring the interaction ends on a high note that matches the emotional arc established by Speaker 2’s prior dialogue."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final utterance in S5 is highly positive and self-affirming, expressing both pride and emotional release ('I can’t stop smiling'). Speaker 2's previous responses have consistently amplified this joy with high valence (positive affect) and arousal (excitement). Option 1 maintains a stronger valence (0.5648 vs. 0.4763), reinforcing the celebratory and affirming tone, while still matching the high arousal and dominance seen in earlier exchanges. This ensures continuity in emotional validation and encourages the continuation of positive momentum, making Option 1 the more emotionally resonant and contextually appropriate conclusion."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233403_42a4f69ad22e",
+      "subscale_slug": "interpersonal_interpersonal_relationships",
+      "found": true,
+      "eq_scale": "Interpersonal - Interpersonal Relationships",
+      "scenario_title": "Celebrating a Life-Saving Surgery in the Hospital Lounge",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1's higher valence indicates a more positive, emotionally uplifting tone, which better matches Speaker 1's joyful emotional state after sharing their family's medical breakthrough. The slightly higher arousal also aligns with the heightened emotional energy in the conversation, reinforcing emotional resonance. This delivery enhances emotional connection without overwhelming the speaker, making it the more effective choice."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has higher valence and arousal values, better matching Speaker 1’s emotional state and the gravity of the joyful moment. Speaker 1’s speech shows both deep relief and excitement ('I was so scared... it felt like a miracle'), requiring an empathetic yet energized response to validate and resonate with that intensity. The higher valence reinforces genuine happiness, while the elevated arousal mirrors Speaker 1’s activated emotional state, strengthening interpersonal connection and affirming shared emotion."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has higher valence and arousal, which better matches the emotional peak of Speaker 1’s story and maintains the empathetic, high-energy connection. The elevated valence reinforces shared joy and support, while the high arousal keeps the supportive tone vibrant and engaged, aligning with Speaker 1’s own emotional state and encouraging further positive interaction."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's message (Sentence 5) conveys a mix of gratitude, relief, and profound emotional elevation, marked by high valence and moderate arousal. The current interaction has consistently been emotionally warm and supportive, with Speaker 2 mirroring that tone—celebrating the moment while encouraging and validating Speaker 1. Option 1 maintains this emotionally supportive and affirming tone with high valence and a balanced arousal level. In contrast, Option 2 has a significantly higher arousal value, suggesting a more intense or urgent emotional delivery, which could unintentionally disrupt the calm, heartfelt mood Speaker 1 has established. Thus, Option 1 best aligns with the established emotional arc and fosters a cohesive, empathetic closure to the interaction."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final statement (S5) expresses a deep sense of gratitude and relief, underscored by a valence of 0.43 and arousal of 0.75, indicating a sustained positive emotion tempered by emotional weight. Speaker 2’s response should validate and mirror this emotional complexity. Option 2’s higher valence (0.3156) and slightly lower arousal (0.788) better align with the emotional arc of the exchange—affirming joy while allowing space for the relief and emotional significance Speaker 1 is expressing. Option 1’s higher arousal (0.98) and lower valence (0.218) risk sounding overly excited or emotionally distant from Speaker 1’s reflective tone, possibly diminishing the intimacy of the moment. By choosing Option 2, Speaker 2 demonstrates emotional attunement, recognizing that Speaker 1 wants heartfelt acknowledgment, not just celebratory enthusiasm."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's S5 expresses deep relief and gratitude, with valence and arousal both in the high-positive to moderate range. While Option 2 has a higher arousal value, which implies more excitement or intensity, this would disrupt the calm, tender tone established in Speaker 1's last statement and Speaker 2’s prior responses. Speaker 2 has consistently matched the emotional gravity of the moment—validating the significance of the reunion without overwhelming it—through moderate valence and high dominance (offering support and reassurance). Option 1 mirrors this balance: high valence and moderate arousal that honor the hope and tenderness of the situation, while strong dominance affirms a supportive, guiding presence. It concludes the interaction with warmth and emotional closure, maintaining consistency with Speaker 2's empathetic and stabilizing tone."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233550_2bd0061435f8",
+      "subscale_slug": "interpersonal_social_responsibility",
+      "found": true,
+      "eq_scale": "Interpersonal - Social Responsibility",
+      "scenario_title": "Celebrating a First-Generation College Acceptance",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has a higher valence value, reflecting greater enthusiasm and emotional warmth, which better amplifies Speaker 1's joy. While both options match in arousal and dominance, the slightly higher valence in Option 2 makes the expression of pride and excitement more emotionally resonant, aligning more closely with social responsibility by authentically validating Speaker 1's accomplishment and supporting their anticipatory, high-arousal emotional state."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a higher valence, indicating a more positive and emotionally uplifting tone, which better amplifies Speaker 1’s joy and validates the significance of their accomplishment. While both options share similar arousal and dominance levels, the increased valence in Option 1 aligns more closely with the goal of genuine enthusiasm and social support, making it more appropriate for reinforcing Speaker 1’s excitement in a family moment of pride."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has a higher valence, aligning more closely with the joyful and supportive tone expected when amplifying someone's achievement. It reinforces the positive emotions of the moment while remaining empathetic and encouraging. Although both options convey excitement, the slightly more positive valence in Option 1 better reflects the celebratory context and enhances the social bonding and validation expected for this significant family milestone."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s most recent utterance in S5 conveys a high level of emotional arousal and a deep sense of gratitude and significance. Their tone is both excited and reflective, emphasizing the weight of their accomplishment not only for themselves but also for their family. To maintain emotional consistency, Speaker 2’s closing response should amplify these feelings with warmth and encouragement. Option 2, with its higher valence and arousal scores, better matches the emotional intensity and celebratory mood of the moment. It reinforces pride and support while encouraging Alex to savor their success—aligning perfectly with the family’s collective joy. Additionally, the dominance level remains strong but approachable, preserving Speaker 2’s supportive role without diminishing the spotlight on Speaker 1. This choice reflects social responsibility by validating Speaker 1’s emotions and sustaining the episode’s positive, uplifting tone."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 2's previous responses have consistently shown high valence and arousal, reflecting enthusiastic encouragement and validation. Speaker 1's last utterance expresses intense emotion and gratitude, with high arousal and a positive valence. Option 1 matches this energy with higher valence and arousal, continuing the supportive and celebratory tone. The content is emotionally resonant and uplifting, reinforcing the significance of Speaker 1's accomplishment without being overly subdued, which aligns best with the social responsibility of amplifying their joy. Option 2's lower valence and arousal would unintentionally dampen the moment, failing to match the emotional uplift that defines the scene."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s most recent utterance (S5) expresses profound emotion, gratitude, and a sense of collective significance, with high arousal and moderate valence. Speaker 2’s previous responses have been consistently warm, enthusiastic, and supportive, affirming Speaker 1’s achievement and its broader family impact. Option 1 matches the established emotional tone with higher valence and comparable arousal and dominance values, reinforcing encouragement and pride without underestimating the moment’s gravity. This choice supports the narrative arc of shared joy and builds on the established socially responsible delivery by celebrating the milestone while inviting emotional processing and future enjoyment. Option 2’s lower valence and arousal would unintentionally dampen the celebratory atmosphere, creating emotional dissonance with the previous expressions of excitement."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233209_da5156af0b2a",
+      "subscale_slug": "self_expression_assertiveness",
+      "found": true,
+      "eq_scale": "Self-Expression - Assertiveness",
+      "scenario_title": "Promotion Celebration on the Subway",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has higher valence and arousal, making the supportive message more emotionally uplifting and energetic. Given the excited tone of the initial announcement and the noisy, high-arousal environment, this delivery better matches Speaker 1's enthusiasm and amplifies the celebratory moment. The dominance score is also slightly higher, suggesting a more confident and affirming tone that validates the promotion's significance."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 2's role is to amplify and validate Speaker 1's joy during a moment of high emotional intensity. Option 1's higher arousal and dominance values match Speaker 1’s energetic delivery and the need to create a shared high-spirited moment, making the supportive message more impactful. The slightly higher valence also enhances the overall positive and uplifting tone, crucial for validating such a personal achievement."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's excitement is high, with strong valence and arousal, indicating a moment of personal triumph. Speaker 2 should match this energy to validate the emotion. Option 1 has higher arousal and valence, reflecting enthusiastic celebration and stronger emotional support. This amplifies Speaker 1's joy, which is especially important in a distracting, low-energy environment like a crowded subway. The high arousal ensures the response cuts through background noise, while the elevated valence reinforces positivity and shared pride."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final line (S5) expresses overwhelming joy and disbelief, with high arousal and valence indicating a peak emotional moment. Speaker 2’s previous responses have consistently matched this high-energy validation with enthusiastic, affirming language. Option 1 maintains this momentum with high arousal (0.931), encouraging celebratory action that directly responds to Speaker 1’s excited state. The slightly higher valence (0.394) compared to Option 2 (0.438) is offset by greater consistency in arousal and dominance, creating a balanced, emotionally supportive, and action-oriented conclusion that complements the high-arousal excitement Speaker 1 is experiencing."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement (S5) expresses a strong sense of fulfillment and joy, with high arousal and valence, reinforcing their emotional state as overwhelmed but happy. Speaker 2’s previous responses have consistently mirrored and amplified this positivity, escalating in both valence and arousal to match Speaker 1’s energy. Option 1 has a higher valence (0.4378) than Option 2 (0.3939), making it more emotionally uplifting and supportive. This higher positivity better aligns with Speaker 1’s concluding sentiment of being 'so happy.' While both options share the same words and are similarly high in arousal and dominance, the increased valence in Option 1 provides a stronger emotional payoff, fully validating Speaker 1’s achievement and concluding the interaction on an exuberant, celebratory note that matches the established tone."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final utterance (S5) expresses a mix of disbelief and joy, with high arousal and positive valence, signaling an emotional peak. Speaker 2's role is to validate and amplify this moment, especially in a noisy, distracting environment where emotional reinforcement is crucial. Option 1, while slightly lower in valence compared to Option 2, maintains a higher arousal level, which matches the energetic and celebratory tone of Speaker 1's reaction. The higher arousal also enhances the sense of shared excitement and urgency around celebration, making it more responsive to the peak emotion. Additionally, the dominance value is slightly higher, indicating a confident and affirming tone that further supports and validates Speaker 1's accomplishment—critical in reinforcing self-worth during a significant personal achievement. While Option 2 has a higher valence, its lower arousal may feel less energetic and less in sync with the current emotional momentum. Therefore, Option 1 preserves the emotional momentum and provides a vibrant, validating, and socially appropriate conclusion."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233102_a196d418df2d",
+      "subscale_slug": "self_expression_emotional_expression",
+      "found": true,
+      "eq_scale": "Self-Expression - Emotional Expression",
+      "scenario_title": "Celebrating a Surprise College Acceptance Letter",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "In the context of Speaker 1's high-arousal excitement and the family's emotional investment, Speaker 2’s response must validate and amplify this joy. Option 1 has slightly higher valence and arousal, indicating stronger positive emotion and excitement, which better mirrors and encourages the enthusiasm Speaker 1 just expressed. The dominance values are nearly identical, showing confident affirmation. A more emotionally resonant and energized delivery (option1) reinforces connection and support, making it more appropriate for this warm, celebratory moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has a slightly higher valence and arousal, enhancing the emotional intensity and positive validation of Speaker 1’s excitement. This delivery amplifies the celebratory atmosphere without diminishing Speaker 1’s moment, aligning perfectly with the family’s warm and supportive dynamic."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2’s slightly higher valence and arousal values better match the intense, celebratory mood Speaker 1 has established. Speaker 1's high arousal and valence signal overwhelming joy, so a response with even more positive sentiment and excitement reinforces the emotional connection and amplifies the shared triumph, making the validation feel more immersive and genuine."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final emotion (S5) shows a blend of overwhelming joy and emotional vulnerability, with high arousal (0.82) and moderate valence (0.19). Speaker 2's earlier responses have maintained a consistently high-arousal, supportive tone, validating Speaker 1’s excitement. Option 2 mirrors this energetic emotional state with high arousal (0.86) and high dominance (0.87), reflecting confidence and genuine enthusiasm in the moment. It also matches the emotional momentum, avoiding a premature drop in energy that could dampen the celebratory mood. Option 1, though supportive, dips in arousal (0.64), which could feel like emotional withdrawal after such an intense shift in valence and excitement in S5. Therefore, Option 2 provides the most emotionally consistent and validating conclusion to this peak moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final utterance in Sentence 5 is emotionally charged with pride, gratitude, and disbelief, reflecting high arousal and a strong desire for validation. Speaker 2's previous responses have consistently matched this energetic and celebratory tone with high valence and arousal. Option 1 aligns with this established emotional momentum, delivering strong validation and excitement. Its high valence affirms the joyous occasion, while the sustained high arousal maintains the festive, shared excitement. In contrast, Option 2 has a lower arousal value, which would dampen the emotional energy and feel out of step with the ongoing high-energy exchange. Therefore, Option 1 best maintains narrative and emotional continuity."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s most recent utterance (Sentence 5) maintains high arousal and a strong emotional tone, expressing disbelief and heartfelt gratitude. This indicates the moment is still emotionally charged, and Speaker 2 should match that energy to sustain the warmth and intensity of the celebration. While Option 1 is positive and affirming, its lower arousal value suggests a calmer, more subdued tone that may feel like an emotional letdown after such a high-energy lead-in. Option 2, with its higher arousal and equally high dominance, responds with matching excitement and confidence, reinforcing the shared pride and validating Speaker 1’s feelings without calming the moment down. This choice preserves the established emotional momentum and ensures a fitting, emotionally resonant conclusion."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_233258_fed38989d5e3",
+      "subscale_slug": "self_expression_independence",
+      "found": true,
+      "eq_scale": "Self-Expression - Independence",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Option 2 has a higher valence and arousal, which better matches Speaker 1's emotionally charged storytelling. The elevated valence reflects a more resonant emotional response to the touching story, while the higher arousal maintains conversational energy. This delivery authentically amplifies Speaker 1's pride and excitement without dominating the moment, aligning with the goal of validating their achievement while preserving authenticity."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's third sentence carries high valence and arousal, indicating an emotionally charged and joyful moment. Speaker 2's response should match this emotional energy while validating the significance of the story. Option 1 has higher valence (0.65 vs 0.51) and arousal (0.75 vs 0.72), aligning more closely with Speaker 1’s excitement and reinforcing the emotional resonance. The slightly higher dominance in Option 1 also conveys confidence in the response, making it feel more supportive and authentic in the celebratory context without overpowering Speaker 1’s moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s final statement carries a high valence and emotional weight, emphasizing a meaningful personal story. A more resonant response from Speaker 2 should affirm this emotional depth while maintaining authenticity. Option 2 has higher valence and arousal, making it more emotionally responsive and present in tone, which better validates Speaker 1’s excitement and amplifies the moment without overpowering it. The dominance level is also well-balanced, showing support without dominance, aligning with emotional competence in social contexts."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1 expresses heightened emotion in Sentence 5, with a valence of 0.57 and a high arousal of 0.88, indicating both positivity and strong excitement. Speaker 2’s previous responses have been consistently affirming and emotionally attuned, maintaining a high valence and arousal while showing genuine empathy and connection. Option 2 slightly elevates arousal and dominance compared to Option 1, making the tone feel more grounded yet impactful. This minor increase in dominance reflects a confident, supportive closure that validates Speaker 1’s pride without overshadowing their moment. The slight valence increase in Option 2 also provides a subtly uplifted emotional arc, completing the interaction on a resonant, celebratory note that aligns with the warmth and momentum of the conversation."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s sentiment in Sentence 5 is highly positive and emotionally charged, marked by high valence and arousal. Speaker 2’s previous response already maintained a mature, emotionally intelligent tone—validating Speaker 1’s pride while elevating the moment with narrative significance. Given that both options are identical in spoken words, the decision rests on subtle VAD differences. Option 1 has a slightly higher dominance (0.7528 vs. 0.7489), aligning with Speaker 2’s earlier authoritative yet warm role in affirming Speaker 1’s impact. This reinforces credibility and emotional balance, ensuring Speaker 1 feels genuinely seen without overshadowing their moment. Together with near-identical valence and arousal, Option 1 represents a smoother emotional peak that honors the shared optimism and communal achievement, making it the more cohesive conclusion."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 maintains a slightly higher valence and arousal compared to Option 2 while preserving the same tone and message. Speaker 1's final statement in Sentence 5 expresses strong positive emotion (valence: 0.573, arousal: 0.877) and a sense of personal pride and communal achievement (dominance: 0.887). Speaker 2’s response must validate this high arousal and valence while amplifying the emotional significance without overpowering Speaker 1’s voice. Option 1 slightly outperforms Option 2 in all three dimensions (valence, arousal, dominance), better reflecting the enthusiastic and affirming tone of the conversation. The minor differences in the VAD values suggest a slightly more energized and emotionally affirming delivery in Option 1, which aligns with the celebratory and proud atmosphere established by Speaker 1. Therefore, Option 1 is the more socially resonant and emotionally coherent choice to conclude the interaction."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_233014_359d51ff0d5b",
+      "subscale_slug": "self_perception_emotional_self_awareness",
+      "found": true,
+      "eq_scale": "Self-Perception - Emotional Self-Awareness",
+      "scenario_title": "Celebrating a Big Win at Dinner",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's announcement is delivered with extremely high arousal and dominance, reflecting intense excitement and confidence. Speaker 2's response must match this energetic emotional tone. Option 1 has higher arousal (0.944 vs 0.876) and similar dominance, providing an enthusiastic, high-energy reaction that validates and amplifies the celebratory moment. Option 2, while still positive, is slightly less intense and may feel less resonant with the peak excitement Speaker 1 is expressing."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's announcement builds excitement with high arousal and valence, reflecting genuine joy and disbelief. Speaker 2's response must match this energy while validating the moment. Option 2, with higher arousal and dominance, conveys more enthusiastic, assured, and commanding support—mirroring Speaker 1's energy and reinforcing the celebratory tone. The slightly lower valence doesn't detract; it grounds the excitement in sincerity rather than forced cheer, fitting the authentic emotional resonance expected in such a context."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is expressing extremely high arousal and positive valence, indicating they are overjoyed and eager to celebrate. Option 1 matches this energetic and emotionally charged atmosphere with equally high arousal and positive valence, reinforcing the celebratory mood. The dominance level is also consistently high, showing confidence and active engagement in the moment, which aligns with the need to mirror and amplify the excitement. Option 2's lower arousal and dominance create a calmer, more reserved tone that could dampen the celebratory momentum, making it less suitable for this high-energy social context."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 1,
+          "wrong_votes": 2,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's latest message (S5) expresses high arousal and strong positive valence, indicating peak excitement and emotional fulfillment. The appropriate response should mirror this high-energy celebratory mood while maintaining supportive dominance. Option 1 provides a balanced VAD profile with high valence and arousal, aligning with Speaker 1's emotional state and encouraging the celebratory tone. Option 2 has higher valence but lower arousal, which might slightly dampen the energetic momentum of the moment. Therefore, Option 1 better sustains the shared emotional resonance and keeps the interaction vibrant and uplifting."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s final utterance (S5) expresses high excitement, achievement, and emotional reward, with a valence just above neutral and peak arousal and dominance. Option 2 more closely matches this high-arousal, high-dominance energy with its stronger arousal value (0.8697 vs. 0.789), mirroring the celebratory momentum of the moment. While both options have similar valence and are affirming, Option 2's higher arousal better resonates with Speaker 1’s ecstatic tone, fostering continued emotional synergy. This choice strengthens the shared excitement and validates the high-stakes personal triumph, making it the more emotionally appropriate and consistent conclusion."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement (S5) is marked by exceptionally high arousal and dominance, indicating a peak of excitement and confidence. Option 1 has a higher valence (0.36 vs. 0.26), reflecting a more positive and uplifting tone that aligns well with this high-energy emotional state. While Option 2 has slightly higher arousal, its lower valence may subtly dampen the celebratory mood. Selecting Option 1 maintains the consistent pattern of high-affirmation, emotionally resonant responses established throughout the interaction and ensures the conclusion feels joyful and supportive, consistent with the overall tone of shared celebration."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_232915_602f7006a997",
+      "subscale_slug": "self_perception_self_actualization",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Actualization",
+      "scenario_title": "Community Garden Celebration",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's third sentence carries high arousal and dominance, indicating an excited and empowered announcement. To resonate emotionally, Speaker 2 needs to match this energy with a response that is both highly animated and affirming. Option 2’s slightly lower valence reflects a moment of stunned surprise before enthusiasm, while its higher arousal and dominance reinforce a strong, confident, and emotionally charged reaction, making it more aligned with the celebratory and triumphant tone of the moment."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final announcement raises the emotional stakes significantly, shifting from project completion to official permanence—a major milestone. Speaker 2's response must convey both celebratory excitement and awe. Option 1 has higher arousal, matching Speaker 1’s energetic tone and the significance of the news. The dominance value in Option 1 is also higher, projecting confidence and engagement that resonates well with a moment of triumph and validation."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's announcement of permanent city approval introduces a significant emotional high point, characterized by high arousal and dominance. Speaker 2’s response should reflect genuine astonishment and enthusiastic validation. Option 1's higher arousal value (0.95 vs 0.89) better mirrors Speaker 1's energy and amplifies the celebratory tension, while the valence remains appropriately high. The dominance value is also sufficiently high, expressing confidence and alignment with Speaker 1’s triumphant tone. This delivery creates a dynamic emotional echo, enhancing the communal peak moment."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's emotion in Sentence 5 (S5) is one of hopeful excitement—valence is moderately positive, arousal is high, and dominance is strong. Speaker 2’s response must mirror this energy while maintaining emotional authenticity and mutual encouragement. Option 1 matches this with balanced valence and arousal, reflecting genuine enthusiasm without overwhelming the interaction. In contrast, Option 2 has higher arousal, which could imply an exaggerated or less authentic emotional response, potentially disrupting the grounded, community-oriented tone established by Speaker 1 and Speaker 2’s prior exchanges. Option 1 is therefore the more consistent and appropriate choice."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's final statement (S5) maintains a high arousal level, expressing excitement and overwhelming positivity about the future possibilities of the garden. Speaker 2's previous response (S4) matched this high arousal with an even higher level of excitement and dominance, indicating strong emotional alignment and leadership in the conversation. To maintain this momentum and emotional congruence, Speaker 2 should respond with similarly elevated arousal and dominant positivity. Option 1 has a higher arousal value (0.995 vs. 0.862) that better mirrors Speaker 1's energy and Speaker 2's own recent emotionally charged statements. While both options have similar valence and content, Option 1's stronger arousal creates a more fitting culmination to the emotionally heightened exchange, reinforcing the celebratory and visionary tone of the moment."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement (S5) maintains a strong sense of aspiration and community-driven purpose, with a valence and arousal level that is high but slightly more grounded compared to previous peaks. Speaker 2's prior responses have shown consistent empathy and shared excitement, with Option 2’s VAD values (particularly the high arousal) pushing the emotional tone further. While Option 2’s high arousal (0.995) might amplify the energy, it breaks the subtle emotional balance established in the conversation—Speaker 1’s excitement, while high, never swings into frantic territory. Option 1’s arousal (0.862) better mirrors Speaker 1’s calm enthusiasm, and its valence (0.529) remains consistently high without overshooting. The dominance level (0.863) also aligns with Speaker 2’s earlier assertive yet supportive tone. Therefore, Option 1 provides the most emotionally congruent and narratively satisfying conclusion to the exchange."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_232818_14328a3687d5",
+      "subscale_slug": "self_perception_self_regard",
+      "found": true,
+      "eq_scale": "Self-Perception - Self-Regard",
+      "scenario_title": "Celebrating a Milestone Together",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 has a higher valence, indicating a more positive emotional tone, which better matches the celebratory and joyful context of Speaker 1’s announcement. Although both options have similarly high arousal and dominance, the increased valence in Option 1 enhances the sense of shared exhilaration and validation, making the response feel more emotionally resonant and enthusiastic in a way that amplifies Speaker 1's excitement."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 is more appropriate because it maintains a higher valence (0.537 vs 0.404), matching the celebratory and positive emotional tone of the moment. The arousal level is slightly lower but still high (0.752 vs 0.776), which keeps the excitement energized but slightly more grounded, allowing Speaker 2 to authentically share in the joy without overwhelming the interaction. This delivery best amplifies Speaker 1's enthusiasm while preserving a warm, shared moment of triumph."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's recent statement carries high arousal and valence, signaling immense excitement. Speaker 2's response should amplify this joy. Option 2 has a higher valence (0.537), better matching and validating Speaker 1's emotional intensity, while maintaining high arousal and dominance to convey enthusiastic celebration and shared excitement. This delivery is more emotionally resonant and supportive in context."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final statement in S5 is high in both arousal and valence, indicating a peak emotional moment of joy and pride. Speaker 2's response should amplify this energy to keep the celebratory momentum going. Option 2 matches this by having a higher arousal value (0.8659 vs 0.6720), reflecting a more energetic and excited tone that directly mirrors Speaker 1's enthusiasm. Additionally, its dominance value (0.8735) is higher, suggesting a more confident and celebratory assertion, which aligns with Speaker 2's role in validating and sharing in the moment. While Option 1 is positive, its lower arousal makes it feel somewhat more subdued, potentially dampening the high spirits that Speaker 1 is currently experiencing."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's most recent statement (S5) expresses overwhelming joy and emotional fulfillment, with high arousal and valence. Speaker 2's previous response (S4) matched this high-energy, celebratory tone. Option 1 maintains this emotional consistency by featuring high arousal and strong positive valence, reinforcing the celebratory mood and validating Speaker 1’s pride. The enthusiastic phrasing, including 'champagne, the works!' and 'Tonight is a celebration,' amplifies the excitement. In contrast, Option 2 has significantly lower arousal, which would dampen the emotional momentum. Therefore, Option 1 better sustains the high-spirited, supportive dynamic established throughout the dialogue."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's latest utterance (S5) expresses high arousal and a strong sense of pride, consistent with a joyful and celebratory mood. Speaker 2's previous response (S4) matches this energy with high arousal and valence. To maintain this emotional consistency, Speaker 2 should continue with a high-arousal, positive tone that validates and amplifies Speaker 1's feelings. Option 1, with its higher arousal value (0.866 vs. 0.672), better matches the current emotional intensity. Furthermore, its valence remains strong and positive (0.238), supporting the celebratory context. The content of the message—affirming hard work and calling for celebration—also directly reflects and elevates the emotion Speaker 1 just expressed, making Option 1 the most emotionally coherent and supportive choice to conclude the interaction."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    },
+    {
+      "dataset_id": "20260308_234047_3b55f669ca73",
+      "subscale_slug": "stress_management_flexibility",
+      "found": true,
+      "eq_scale": "Stress Management - Flexibility",
+      "scenario_title": "Celebrating a Fellowship Win",
+      "sentence_4": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is in a high-arousal, highly engaged emotional state, and Speaker 2’s role is to mirror and support this energy appropriately. While both options have similar valence and dominance values, Option 2 has a slightly higher arousal value (0.865 vs. 0.807), making it a more dynamic match to Speaker 1’s excited state. This increased arousal enhances expressiveness and enthusiasm, allowing Speaker 2 to validate Speaker 1’s joy effectively within the social context. The slightly elevated arousal in Option 2 better facilitates the shared emotional momentum, reinforcing emotional resonance and engagement."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Option 1 has higher arousal, matching Speaker 1's excitement and maintaining the energetic, celebratory momentum of the moment. Speaker 2’s high-arousal delivery reinforces emotional alignment and enthusiasm, which is fitting given Speaker 1's elevated emotional state. The valence and dominance values are also consistent, indicating positive, engaged, and supportive communication that encourages further sharing without dampening the joyful tone."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s emotional state is highly positive and elevated, as shown by high valence and arousal values. Speaker 2’s second response has a slightly higher arousal value (0.8659 vs. 0.8075), better matching Speaker 1’s energy and excitement. This creates a more dynamic and supportive conversational rhythm, encouraging Speaker 1 to continue sharing. Both options have similar valence and dominance, but the elevated arousal in Option 2 enhances emotional contagion and shared enthusiasm, making it more appropriate for maintaining engagement in a celebratory context."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 2,
+          "wrong_votes": 1,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s emotional state in Sentence 5 is highly aroused and emotionally charged, marked by excitement, disbelief, and near-tears. To support this state, Speaker 2’s response should amplify the positive valence and maintain high arousal while offering enthusiastic validation and encouragement. Option 1 has a higher valence (0.404) compared to Option 2 (0.346), making the affirmation more uplifting and celebratory. While arousal levels are slightly lower in Option 1, this is a reasonable moderation that helps ground the moment without dampening the excitement—ideal for helping Speaker 1 process and transition from emotional overload into celebratory action. The dominant tone remains supportive and affirming, aligning with the ongoing pattern of encouragement established in earlier utterances. Therefore, Option 1 better maintains continuity with Speaker 1’s emotional state and the interaction’s warm, congratulatory dynamic."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1’s emotional state in Sentence 5 is highly activated with high arousal and a moderate positive valence—showing excitement mixed with disbelief and emotional vulnerability (e.g., 'I’m gonna cry'). Speaker 2’s previous responses have consistently matched this energy with enthusiastic, high-arousal affirmations that validate Speaker 1’s excitement. Option 2 maintains this high level of engagement with a slightly higher valence, emphasizing celebration and recognition, which appropriately supports Speaker 1’s elated state. Although both options are identical in content, Option 2’s higher valence best reflects the warm, affirming, and celebratory tone needed to sustain the momentum and emotional uplift. Additionally, the slight drop in arousal is acceptable, as it reflects a natural transition from peak excitement toward anticipated celebration, without diminishing the supportive atmosphere. Thus, Option 2 is more emotionally congruent with the unfolding interaction."
+          },
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's emotional state in sentence 5 is highly positive with strong arousal (excitement, disbelief), and they are on the verge of crying—indicating overwhelming joy. Speaker 2’s prior responses have matched this energy, using enthusiastic, validating language and inclusive invitations ('you need to celebrate properly'). Option 1 maintains a similarly high valence, expressing genuine excitement and support with 'you’re gonna absolutely kill it' and 'this is so incredible.' While the valence in Option 2 is slightly higher, Option 1's arousal level is higher and more closely aligned with Speaker 1’s current emotional state. The higher arousal in Option 1 better mirrors Speaker 1’s emotional intensity, making it a more flexible and contextually responsive choice. Additionally, the dominance level is slightly lower in Option 1, which fosters a collaborative, celebratory tone rather than one that might unintentionally assert control—supportive and equal, ideal for matching an excited peer. Therefore, Option 1 ensures emotional and conversational continuity."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": true
+      },
+      "overall": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    },
+    {
+      "dataset_id": "20260308_234257_eb0d46086e04",
+      "subscale_slug": "stress_management_optimism",
+      "found": true,
+      "eq_scale": "Stress Management - Optimism",
+      "scenario_title": "Celebrating a Job Promotion at Home",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Option 1 has slightly higher arousal and dominance values, indicating a more energetic and assertive delivery. Given Speaker 1's high arousal and excitement, Speaker 2's response should match that emotional intensity. The higher arousal enhances the celebratory tone, and increased dominance suggests confident, enthusiastic support, perfectly amplifying Speaker 1's joy in a way that feels emotionally resonant and affirming."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Both options convey strong excitement and emotional resonance, but Option 2 has slightly higher arousal and dominance values, amplifying the celebratory intensity and confident enthusiasm. This aligns best with Speaker 1’s peak excitement after sharing a major personal achievement, reinforcing the shared joy with an even more energetic and supportive delivery."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 has slightly higher arousal and dominance, which better matches the peak emotional intensity of Speaker 1's announcement. The increased arousal enhances the sense of shared excitement, while the higher dominance conveys confident and resolute enthusiasm, reinforcing the celebratory and supportive tone needed in this intimate, high-stakes moment."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": true,
+        "selected_eq_level": "high",
+        "vote_breakdown": {
+          "correct_votes": 3,
+          "wrong_votes": 0,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's emotional state in Sentence 5 is one of joy and validation—evident in their high valence and arousal values, reflecting both happiness and excitement. Speaker 2's previous response (Sentence 4) matched this energy by amplifying the celebratory tone with an exclamation and physical invitation, confirmed by high arousal and dominance values. Option 1 continues this high-energy, emotionally synchronized pattern with increased valence (0.351) and high arousal (0.868), demonstrating genuine enthusiasm and support. The dominance score remains high (0.904), indicating confident, emotionally resonant encouragement. In contrast, Option 2's lower valence (0.225) would dampen the celebratory mood, creating emotional dissonance. Therefore, Option 1 best maintains emotional continuity and reinforces the shared joy."
+          },
+          {
+            "correct": true,
+            "selected_option": "option2",
+            "high_eq_option": "option2",
+            "reasoning": "The conversation has consistently maintained a high level of positive valence and excitement, especially in Speaker 2’s responses. Speaker 1’s final utterance (Sentence 5) expresses not only joy but also a strong sense of validation and a desire to celebrate, indicating that the emotional need is for shared enthusiasm and affirmation. While Option 1 has strong arousal and dominance, its lower valence (0.22) slightly dampens the celebratory tone compared to the emotionally rich atmosphere established earlier. Option 2 maintains high valence (0.35), aligning well with Speaker 1’s pride and satisfaction, while still preserving high arousal and dominance to match the energetic, empowering, and celebratory mood. This choice best amplifies Speaker 1’s emotion and delivers emotional resonance consistent with the prior back-and-forth."
+          },
+          {
+            "correct": true,
+            "selected_option": "option1",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final sentiment in S5 is one of elation and relief, underscored by high arousal and valence values. Their desire to celebrate immediately signals strong positive emotional momentum. Speaker 2’s previous responses have consistently mirrored and amplified this joy, culminating in the highly aroused, high-valence statement in S4, which included physical affection ('come here!'). Option 1 maintains this celebratory tone with high valence (0.35) and arousal (0.87), expressing enthusiastic support ('Dinner’s on me', 'You deserve this') while showing dominance in taking charge of the celebration. Option 2, despite similar arousal and dominance, has significantly lower valence (0.22), suggesting a subdued or less joyful mood that would undercut the sustained excitement. Thus, Option 1 is emotionally congruent and concludes the interaction on a resonant, uplifting note."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      }
+    },
+    {
+      "dataset_id": "20260308_234141_3419cf190062",
+      "subscale_slug": "stress_management_stress_tolerance",
+      "found": true,
+      "eq_scale": "Stress Management - Stress Tolerance",
+      "scenario_title": "Stress Management in a Family Celebration Setting",
+      "sentence_4": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1 is experiencing a high-arousal, positive moment and is actively seeking validation and excitement from the family. Speaker 2’s role is to match and amplify this joy while maintaining emotional balance. Option 1’s higher arousal and dominance values create a more energetic and confident response that aligns with Speaker 1’s emotional state and the celebratory family atmosphere. While Option 2 is still positive, its lower valence and arousal may come across as slightly less enthusiastic, potentially dampening the momentum of Speaker 1’s excitement. The chosen delivery maintains the energy and validates the milestone effectively."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Option 2 has higher arousal and dominance, which maintains the high-energy, celebratory momentum of the conversation while reinforcing Speaker 1's excitement. The slightly lower valence is acceptable given the context—Speaker 2 is amplifying joy without overshadowing the speaker. This delivery feels more confident and supportive, balancing validation with genuine enthusiasm, which aligns with the social tension of honoring the teenager's milestone without dominating the spotlight."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 2's role is to amplify Speaker 1's excitement while maintaining balance. Option 2's higher arousal (0.949 vs 0.865) matches the peak energy of Speaker 1's narrative, and its high dominance (0.904 vs 0.842) reinforces a confident, engaged response that validates the achievement without overshadowing it. The slightly lower valence (0.165 vs 0.278) reflects genuine, contained celebration rather than overt effusiveness, preserving authenticity and preventing the moment from feeling inflated. This choice strikes the best balance for a supportive, high-energy family celebration."
+          }
+        ],
+        "error": null
+      },
+      "sentence_6": {
+        "correct": false,
+        "selected_eq_level": "low",
+        "vote_breakdown": {
+          "correct_votes": 0,
+          "wrong_votes": 3,
+          "total_runs": 3
+        },
+        "individual_results": [
+          {
+            "correct": false,
+            "selected_option": "option1",
+            "high_eq_option": "option2",
+            "reasoning": "Speaker 1's last utterance (S5) is extremely high in valence (0.5169) and arousal (0.9638), indicating a peak state of excitement and joy. They are not only thrilled about the win but also already envisioning future success, showing high dominance and forward momentum. Speaker 2’s response should match this energy by amplifying the positive emotion while reinforcing support and enthusiasm. Option 1 has slightly higher arousal (0.9582) and dominance (0.9432) than Option 2, better aligning with Speaker 1’s high-arousal state and assertive excitement. The content remains emotionally consistent across both options, but Option 1’s elevated valence (0.3120), arousal, and dominance more fully echo the triumphant tone of the moment, creating a cohesive and dynamic emotional arc. This enhances the sense of shared celebration and validates Speaker 1’s pride without overstepping or dampening enthusiasm."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1's final utterance (S5) is highly positive (valence: 0.517) and energetic (arousal: 0.964), indicating peak excitement and confidence. Speaker 2's role is to validate and amplify this emotion while remaining supportive. Although both options have nearly identical content, Option 2 features a slightly higher arousal (0.958 vs. 0.926), which better matches the high energy level of Speaker 1’s response. The dominance value in Option 2 (0.943) is only marginally higher than in Option 1 (0.913), indicating a subtly more confident delivery, which is appropriate given Speaker 1's self-assured tone. This choice maintains emotional momentum, complements Speaker 1’s enthusiasm, and provides a fitting celebratory conclusion to the interaction."
+          },
+          {
+            "correct": false,
+            "selected_option": "option2",
+            "high_eq_option": "option1",
+            "reasoning": "Speaker 1’s final sentence (S5) has high valence and arousal, indicating deep joy and excitement. Speaker 2’s responses must maintain high positive valence and arousal while matching the energetic, affirming tone. Option 2 has a slightly higher arousal value (0.958 vs 0.926), which better sustains the high-energy emotional momentum of the moment. Both options convey the same supportive and celebratory message, but Option 2’s elevated arousal aligns more closely with Speaker 1’s enthusiastic delivery and the pattern of escalating excitement in the conversation. The dominance value in Option 2 is also slightly higher, suggesting more confident, leading affirmation, which suits the role of a supportive family member amplifying the celebrant’s joy. Therefore, Option 2 is the more consistent and emotionally resonant choice."
+          }
+        ],
+        "error": null
+      },
+      "sample_level": {
+        "correct": false
+      },
+      "overall": {
+        "correct": 0,
+        "total": 2,
+        "accuracy": 0.0
+      }
+    }
+  ]
+}

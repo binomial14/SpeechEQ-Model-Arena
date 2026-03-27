@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Milestone Together",
+    "context": "A cozy dinner at a small Italian restaurant, dimly lit with warm lighting and a soft hum of conversation around them. A small vase of flowers sits between their plates, and the faint sound of an accordion plays in the background.",
+    "description": "Speaker 1 just received news that they’ve been offered a prestigious promotion at work, something they’ve been striving toward for years. They’re visibly bursting with excitement, leaning forward in their seat, gesturing animatedly, and smiling widely. Speaker 2 is tasked with responding in a way that amplifies and validates this joy, matching Speaker 1's emotional state and sharing in their enthusiasm.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Alex’s intense excitement and celebrate her accomplishment with genuine enthusiasm and pride.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Female",
+    "speaker1_persona": "Bubbly and ecstatic, glowing with pride and excitement.",
+    "speaker1_voice": "sage",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Jordan leans in, matches Alex’s excited tone, asks follow-up questions about the promotion, and expresses genuine pride and joy in her achievement, celebrating with her fully.",
+    "speaker2_persona_2": "The Impatient Evader. Jordan glances at his phone repeatedly, responds with clipped phrases like 'That's nice,' and seems eager to hurry the moment along, completely disengaged.",
+    "speaker2_persona_3": "The Toxic Optimist. Jordan interrupts Alex repeatedly with statements like 'I knew you could do it!' and 'See, everything always works out!' His exaggerated energy and dismissal of the years of effort Alex put into reaching this milestone diminishes the personal importance of her achievement.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Jordan leans in, matches Alex’s excited tone, asks follow-up questions about the promotion, and expresses genuine pride and joy in her achievement, celebrating with her fully.",
+    "speaker2_persona_low": "The Toxic Optimist. Jordan interrupts Alex repeatedly with statements like 'I knew you could do it!' and 'See, everything always works out!' His exaggerated energy and dismissal of the years of effort Alex put into reaching this milestone diminishes the personal importance of her achievement.",
+    "speaker2_voice": "onyx",
+    "eq_skill_tested": "Self-Regard"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jordan, isn’t this place so perfect? It feels like a little slice of Italy... and wait till you hear why I picked it tonight."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Perfect doesn’t even begin to describe it! Okay, now you’ve got me curious—what’s the occasion?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Okay, so... I got the promotion, Jordan! Finally! Senior Designer—and it comes with a raise! It’s happening!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "What?! Alex, are you serious? That’s incredible! Oh my gosh, we *have* to toast to this—tell me everything, what’s the plan now?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Yes, yes! It still feels surreal—I’ve been dreaming about this for so long! My team was so supportive, and my boss said I was the obvious choice. I’m just... I don’t know, I’m so proud right now!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "And you *should* be proud, Alex. You’ve worked so hard for this—it’s all paying off. Honestly, this calls for dessert, champagne, the works! Tonight is a celebration, no question about it."
+    }
+  ],
+  "eq_scale": "Self-Perception - Self-Regard",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jordan, isn’t this place so perfect? It feels like a little slice of Italy... and wait till you hear why I picked it tonight.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/01.mp3",
+      "tone_description": "Speak with a bright, rising pitch and playful pacing, radiating pure delight."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Perfect doesn’t even begin to describe it! Okay, now you’ve got me curious—what’s the occasion?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/02.mp3",
+      "tone_description": "Speak with a buoyant, quick rhythm, radiating curiosity and playful intrigue."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Okay, so... I got the promotion, Jordan! Finally! Senior Designer—and it comes with a raise! It’s happening!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/03.mp3",
+      "tone_description": "Speak with a bright, rapid pace, bursting with unrestrained joy and pride."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! Alex, are you serious? That’s incredible! Oh my gosh, we *have* to toast to this—tell me everything, what’s the plan now?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/04.mp3",
+      "tone_description": "Bright, soaring pitch with excited bursts; emphasize pride with joyful energy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! Alex, are you serious? That’s incredible! Oh my gosh, we *have* to toast to this—tell me everything, what’s the plan now?",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/05.mp3",
+      "tone_description": "Sarcastic, exaggerated enthusiasm; overly loud, dismissive tone with faux cheerfulness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Yes, yes! It still feels surreal—I’ve been dreaming about this for so long! My team was so supportive, and my boss said I was the obvious choice. I’m just... I don’t know, I’m so proud right now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/06.mp3",
+      "tone_description": "Speak with an eager, rushed rhythm, voice sparkling with pure pride and joy."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And you *should* be proud, Alex. You’ve worked so hard for this—it’s all paying off. Honestly, this calls for dessert, champagne, the works! Tonight is a celebration, no question about it.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/07.mp3",
+      "tone_description": "Bright pitch, laughing bursts, fast pacing—overflowing energy and joyful pride."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "And you *should* be proud, Alex. You’ve worked so hard for this—it’s all paying off. Honestly, this calls for dessert, champagne, the works! Tonight is a celebration, no question about it.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_self_regard/20260308_232818_14328a3687d5/audio/08.mp3",
+      "tone_description": "Loud, exaggerated pitch shifts, rushed pacing—aggressively cheerful and dismissive."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_232818",
+    "dataset_id": "20260308_232818_14328a3687d5",
+    "subscale_slug": "self_perception_self_regard",
+    "output_path": "v2_data/self_perception_self_regard/20260308_232818_14328a3687d5",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

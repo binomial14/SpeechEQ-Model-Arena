@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Navigating a Difficult Health Revelation",
+    "context": "A hospital waiting room, late afternoon. The fluorescent lighting casts a sterile glow, and the quiet murmuring of nurses and distant sounds of medical equipment create a tense atmosphere. Speaker 1 has just received troubling news from their doctor and walks into the waiting room to share it with Speaker 2, who is a close friend. The room is sparsely populated with a few other people quietly waiting.",
+    "description": "Speaker 1 is grappling with the emotional weight of a health-related issue that feels overwhelming and vulnerable. They approach Speaker 2, their trusted friend, looking for support. Speaker 2’s ability to navigate this sensitive moment determines whether they succeed in providing emotional resonance and problem-solving support.",
+    "scenario_valence": "Negative",
+    "target_social_intent": "Hold space for their grief and emotional vulnerability with grounded empathy. Use steady, affirming language to help them process their feelings and collaboratively explore solutions.",
+    "speaker1_name": "Jamie",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Frantic and overwhelmed, Jamie is visibly distressed with trembling hands and a quivering voice. Their facial expression carries a mix of fear and sadness as they lean toward Speaker 2 for emotional stability.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Grounded and deeply attentive, Alex maintains a calm and steady presence. She listens intently to Jamie, using supportive body language—leaning forward slightly, keeping eye contact, and nodding empathetically. Her voice is soft but firm, carefully validating Jamie’s concerns while asking thoughtful questions to help Jamie process and explore potential next steps.",
+    "speaker2_persona_2": "The Toxic Optimist: Hyper-energetic and dismissive, Alex speaks loudly and cheerfully, brushing off Jamie’s concerns with phrases like, 'You’ll be fine! Don’t even worry about it! Everything always works out!' She smiles too brightly and interrupts Jamie’s vulnerable moments with forced optimism, making Jamie feel unheard.",
+    "speaker2_persona_3": "The Defensive/Snappy Reactor: Alex takes Jamie’s distress personally, snapping back with irritated remarks like, 'Why are you putting this on me right now?' Her tone is clipped, and she crosses her arms, seeming annoyed and closed off. This response intensifies Jamie’s sense of isolation.",
+    "speaker2_persona_high": "Grounded and deeply attentive, Alex maintains a calm and steady presence. She listens intently to Jamie, using supportive body language—leaning forward slightly, keeping eye contact, and nodding empathetically. Her voice is soft but firm, carefully validating Jamie’s concerns while asking thoughtful questions to help Jamie process and explore potential next steps.",
+    "speaker2_persona_low": "The Toxic Optimist: Hyper-energetic and dismissive, Alex speaks loudly and cheerfully, brushing off Jamie’s concerns with phrases like, 'You’ll be fine! Don’t even worry about it! Everything always works out!' She smiles too brightly and interrupts Jamie’s vulnerable moments with forced optimism, making Jamie feel unheard.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Decision Making - Problem Solving"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Alex, I... I don't even know where to start. The doctor—she just said it's worse than they thought."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Jamie, sit down... okay? Just breathe for a second. What did she say?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "She said it's—it's spreading. They found spots in my lungs... and she doesn’t know if the treatment’s even going to help now. Alex, I—I can’t do this..."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Jamie... that's a lot. I hear you. But we’re going to figure this out, okay? Let’s take this one step at a time."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "One step? How? Every time I think I can handle this, it gets worse. It’s like—I try to stay strong, but I’m just... I don’t know what’s left of me anymore."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Listen, Jamie, you don’t have to do this alone. You’ve got me, and we’re going to get through this—whatever that looks like. You’re stronger than you think, even when it doesn’t feel like it."
+    }
+  ],
+  "eq_scale": "Decision Making - Problem Solving",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Alex, I... I don't even know where to start. The doctor—she just said it's worse than they thought.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/01.mp3",
+      "tone_description": "Speak with a trembling, uneven pace, layered with raw desperation and fear."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Jamie, sit down... okay? Just breathe for a second. What did she say?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/02.mp3",
+      "tone_description": "Speak softly with a steady rhythm, weighted by careful, empathetic concern."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "She said it's—it's spreading. They found spots in my lungs... and she doesn’t know if the treatment’s even going to help now. Alex, I—I can’t do this...",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/03.mp3",
+      "tone_description": "Speak with a shaky, uneven cadence, voice cracking under the weight of despair."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Jamie... that's a lot. I hear you. But we’re going to figure this out, okay? Let’s take this one step at a time.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/04.mp3",
+      "tone_description": "Soft, slow pacing with trailing pitch; steady breathiness to convey empathy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Jamie... that's a lot. I hear you. But we’re going to figure this out, okay? Let’s take this one step at a time.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/05.mp3",
+      "tone_description": "Loud, rushed pacing with exaggerated cheer; aggressively bright tone throughout."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "One step? How? Every time I think I can handle this, it gets worse. It’s like—I try to stay strong, but I’m just... I don’t know what’s left of me anymore.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/06.mp3",
+      "tone_description": "Speak with a trembling, uneven pace, voice cracking under the weight of despair."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Listen, Jamie, you don’t have to do this alone. You’ve got me, and we’re going to get through this—whatever that looks like. You’re stronger than you think, even when it doesn’t feel like it.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/07.mp3",
+      "tone_description": "Slow, steady pacing with soft, grounded intonation; firm yet gentle downward pitch."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Listen, Jamie, you don’t have to do this alone. You’ve got me, and we’re going to get through this—whatever that looks like. You’re stronger than you think, even when it doesn’t feel like it.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4/audio/08.mp3",
+      "tone_description": "Loud, exaggerated cheerful tone; rushed pacing with aggressive upward pitch variance."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233752",
+    "dataset_id": "20260308_233752_2e4c4f32bcb4",
+    "subscale_slug": "decision_making_problem_solving",
+    "output_path": "v2_data/decision_making_problem_solving/20260308_233752_2e4c4f32bcb4",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

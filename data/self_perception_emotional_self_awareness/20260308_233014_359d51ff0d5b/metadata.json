@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Big Win at Dinner",
+    "context": "A family dinner at a local restaurant where everyone is gathered around the table. The atmosphere is lively with background chatter and clinking of plates. Speaker 1 (the Catalyst) shares exciting personal news during the meal.",
+    "description": "Speaker 1 has just received a major promotion at work and is bursting with excitement while announcing it to the family. This is a chance for Speaker 2 (the Test Subject) to demonstrate emotional self-awareness and resonance by responding appropriately to the positive energy in the room.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Alex’s intense excitement and celebrate authentically and attentively, amplifying their joy without overshadowing or dismissing it.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Male",
+    "speaker1_persona": "Bubbly and ecstatic, speaking quickly and with animated gestures, clearly overjoyed about their achievement while looking for validation from the family.",
+    "speaker1_voice": "verse",
+    "speaker2_name": "Jamie",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic, immediately matches Alex's excitement by smiling broadly, clapping for Alex, and verbally affirming the achievement with celebratory comments like 'That’s amazing! You deserve it!' Jamie remains attentive and engaged throughout the conversation, amplifying Alex’s joy.",
+    "speaker2_persona_2": "The Toxic Optimist: Hyper-energetic to the point of overshadowing Alex. Jamie interrupts, speaks louder about unrelated successes or jokes excessively, dismissing Alex’s need for authentic validation with phrases like 'Oh, that's great, but let me tell you this even better thing!'",
+    "speaker2_persona_3": "The Impatient Evader: Annoyed and trying to rush past the conversation. Jamie responds briefly with a flat 'Congrats,' avoids eye contact, and starts scrolling on their phone or asks for the check, signaling they’re eager to move on instead of celebrating Alex's moment.",
+    "speaker2_persona_high": "Warm and highly enthusiastic, immediately matches Alex's excitement by smiling broadly, clapping for Alex, and verbally affirming the achievement with celebratory comments like 'That’s amazing! You deserve it!' Jamie remains attentive and engaged throughout the conversation, amplifying Alex’s joy.",
+    "speaker2_persona_low": "The Toxic Optimist: Hyper-energetic to the point of overshadowing Alex. Jamie interrupts, speaks louder about unrelated successes or jokes excessively, dismissing Alex’s need for authentic validation with phrases like 'Oh, that's great, but let me tell you this even better thing!'",
+    "speaker2_voice": "sage",
+    "eq_skill_tested": "Self-Perception - Emotional Self-Awareness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, okay, everyone—guess what?! I’ve been dying to tell you all this, but I wanted to wait until we were together. It's BIG news!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "Ooh, this sounds good already! Alright, spill—what’s going on?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I GOT THE JOB! That dream position I interviewed for last month—the one I thought was a total long shot—they called me this morning and said I start in two weeks! I’m still pinching myself!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "What?! No way! Alex, that’s incredible! You absolutely earned this—I mean, they’d be crazy not to pick you. We need to toast to this right now!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Right?! I still can’t believe it! They said my ideas blew them away, and I just—I don’t know, this feels like everything I’ve been working for finally paying off. I’m SO ready to dive in!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "Honestly, this is just the beginning for you. You’re going to crush it, Alex—I can already see it. Let’s make tonight all about celebrating YOU!"
+    }
+  ],
+  "eq_scale": "Self-Perception - Emotional Self-Awareness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, okay, everyone—guess what?! I’ve been dying to tell you all this, but I wanted to wait until we were together. It's BIG news!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/01.mp3",
+      "tone_description": "Speak with a quick, rising pitch and sparkling enthusiasm, overflowing with joy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "Ooh, this sounds good already! Alright, spill—what’s going on?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/02.mp3",
+      "tone_description": "Speak with an upbeat, quickened pace, bursting with contagious enthusiasm and curiosity."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I GOT THE JOB! That dream position I interviewed for last month—the one I thought was a total long shot—they called me this morning and said I start in two weeks! I’m still pinching myself!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/03.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch and overflowing elation, almost shouting with joy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! No way! Alex, that’s incredible! You absolutely earned this—I mean, they’d be crazy not to pick you. We need to toast to this right now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/04.mp3",
+      "tone_description": "Bright, energetic tone; rapid pacing; wide pitch range with joyful laughter."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "What?! No way! Alex, that’s incredible! You absolutely earned this—I mean, they’d be crazy not to pick you. We need to toast to this right now!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/05.mp3",
+      "tone_description": "Excessively loud tone; forced chuckling; exaggerated upbeat pitch and rushed delivery."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Right?! I still can’t believe it! They said my ideas blew them away, and I just—I don’t know, this feels like everything I’ve been working for finally paying off. I’m SO ready to dive in!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/06.mp3",
+      "tone_description": "Speak in a rapid, soaring cadence, bursting with uncontainable joy and disbelief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Honestly, this is just the beginning for you. You’re going to crush it, Alex—I can already see it. Let’s make tonight all about celebrating YOU!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/07.mp3",
+      "tone_description": "Bright, smiling tone with upward pitch; pacing joyful and rhythmically dynamic."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "Honestly, this is just the beginning for you. You’re going to crush it, Alex—I can already see it. Let’s make tonight all about celebrating YOU!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b/audio/08.mp3",
+      "tone_description": "Sarcastically loud with exaggerated pitch swings; overly cheerful and dominating pace."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233014",
+    "dataset_id": "20260308_233014_359d51ff0d5b",
+    "subscale_slug": "self_perception_emotional_self_awareness",
+    "output_path": "v2_data/self_perception_emotional_self_awareness/20260308_233014_359d51ff0d5b",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

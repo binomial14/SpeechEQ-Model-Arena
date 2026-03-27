@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Promotion Celebration on the Subway",
+    "context": "A crowded subway during rush hour, where Speaker 1 excitedly shares the news of a promotion they've worked hard for. The setting is loud and bustling, adding a layer of distraction to the interaction.",
+    "description": "Speaker 1 is bubbling with excitement about their recent promotion and shares the news with Speaker 2. Speaker 2's reaction is key to amplifying and validating this joyful moment amidst the chaotic setting.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Alex's intense excitement and celebrate their success while demonstrating genuine interest and validating their happy moment.",
+    "speaker1_name": "Alex",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Bubbly and ecstatic, speaking quickly, smiling broadly, and gesturing with excitement.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Jordan",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Male",
+    "speaker2_persona_1": "Warm and highly enthusiastic, actively matching Alex’s excitement with affirmations like, 'That’s incredible! Tell me more!' and smiling openly. Jordan leans in to show genuine interest despite the noisy setting.",
+    "speaker2_persona_2": "The Impatient Evader: Rushed and visibly annoyed, Jordan glances at his phone repeatedly, gives curt responses like, 'Yeah, that’s cool,' and visibly disengages from the conversation.",
+    "speaker2_persona_3": "The Defensive/Snappy Reactor: Takes Alex’s excitement personally and snaps back with comments like, 'Well, some of us are still stuck in the same job,' or, 'Good for you, I guess,' with a clipped tone and crossed arms.",
+    "speaker2_persona_high": "Warm and highly enthusiastic, actively matching Alex’s excitement with affirmations like, 'That’s incredible! Tell me more!' and smiling openly. Jordan leans in to show genuine interest despite the noisy setting.",
+    "speaker2_persona_low": "The Defensive/Snappy Reactor: Takes Alex’s excitement personally and snaps back with comments like, 'Well, some of us are still stuck in the same job,' or, 'Good for you, I guess,' with a clipped tone and crossed arms.",
+    "speaker2_voice": "verse",
+    "eq_skill_tested": "Self-Expression - Assertiveness"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Jordan, guess what! You won’t believe it—I got the promotion! The one I’ve been talking about forever!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What?! That’s incredible! Oh my gosh, Alex, tell me everything! I knew you could do it!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Okay, so... it’s official! I’m gonna be managing the whole project team now. They said my presentation last week sealed the deal! I mean, I was nervous but I guess it paid off!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "No way—that’s huge! Managing the whole team? You deserve this so much. I can’t imagine how proud you must feel right now!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Ahh, I’m still kind of in shock! Honestly, it’s like everything I worked for finally clicked. I’m just... so happy right now!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You should be! This is amazing, Alex. We have to celebrate—like, properly. Dinner, drinks, the works. You earned it!"
+    }
+  ],
+  "eq_scale": "Self-Expression - Assertiveness",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Jordan, guess what! You won’t believe it—I got the promotion! The one I’ve been talking about forever!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/01.mp3",
+      "tone_description": "Speak with a rapid, rising pitch, overflowing with exhilaration and smiling vibrancy."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What?! That’s incredible! Oh my gosh, Alex, tell me everything! I knew you could do it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/02.mp3",
+      "tone_description": "Speak with a lifted, vibrant pitch and quick pacing, radiating pure, ecstatic joy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Okay, so... it’s official! I’m gonna be managing the whole project team now. They said my presentation last week sealed the deal! I mean, I was nervous but I guess it paid off!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/03.mp3",
+      "tone_description": "Speak with a rapid, bright pace, overflowing with elated enthusiasm and delight."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No way—that’s huge! Managing the whole team? You deserve this so much. I can’t imagine how proud you must feel right now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/04.mp3",
+      "tone_description": "Bright, energetic tone with rising pitch and audible smile; fast, joyful pacing."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "No way—that’s huge! Managing the whole team? You deserve this so much. I can’t imagine how proud you must feel right now!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/05.mp3",
+      "tone_description": "Sharp, defensive tone with falling pitch; hard consonants and tight phrasing."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Ahh, I’m still kind of in shock! Honestly, it’s like everything I worked for finally clicked. I’m just... so happy right now!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/06.mp3",
+      "tone_description": "Speak quickly with bright, rising tones, bursting with uncontainable joy and excitement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You should be! This is amazing, Alex. We have to celebrate—like, properly. Dinner, drinks, the works. You earned it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/07.mp3",
+      "tone_description": "Bright, high-pitched, fast, with joyful bursts and a breathy laugh."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You should be! This is amazing, Alex. We have to celebrate—like, properly. Dinner, drinks, the works. You earned it!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a/audio/08.mp3",
+      "tone_description": "Sharp, hostile, low pitch, tight tone with stressed consonants."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233209",
+    "dataset_id": "20260308_233209_da5156af0b2a",
+    "subscale_slug": "self_expression_assertiveness",
+    "output_path": "v2_data/self_expression_assertiveness/20260308_233209_da5156af0b2a",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

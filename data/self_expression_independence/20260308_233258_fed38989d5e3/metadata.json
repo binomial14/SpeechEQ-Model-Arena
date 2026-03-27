@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Community Garden Celebration",
+    "context": "A group of volunteers has gathered at the local community garden to celebrate the successful completion of a new greenhouse project. The garden is bustling with activity as people admire the progress and share refreshments under a banner that reads 'Thank You, Volunteers!'",
+    "description": "In this scenario, Speaker 1 is excited and proud to share their personal contribution to the greenhouse project's success. Speaker 2's emotional competence is tested in their ability to validate and amplify Speaker 1's excitement in a socially resonant way while maintaining authenticity and balance.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Jamie’s intense excitement and celebrate their accomplishment authentically while valuing their independence and personal contribution.",
+    "speaker1_name": "Jamie",
+    "speaker1_role": "Community Volunteer",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Bubbly and ecstatic. Jamie is visibly thrilled and eager to share about how they sourced donations that were crucial for completing the greenhouse. Their energy is infectious, and they look around for validation from others.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Alex",
+    "speaker2_role": "Garden Member",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Alex listens intently, matches Jamie’s excitement with cheerful affirmations, and expresses genuine admiration for Jamie’s contributions. She maintains eye contact and actively engages by asking follow-up questions that highlight Jamie’s achievements.",
+    "speaker2_persona_2": "The Defensive/Snappy Reactor. Alex reacts dismissively to Jamie’s excitement, cutting them off with clipped comments like, 'Well, you weren’t the only one working on this, you know.' Her tone is cold and irritable, creating tension and shutting down Jamie’s celebratory mood.",
+    "speaker2_persona_3": "The Impatient Evader. Alex seems distracted and rushed, barely acknowledging Jamie’s excitement. She mutters a quick 'That’s nice' before glancing at her phone and walking away, leaving Jamie feeling unsupported and ignored.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Alex listens intently, matches Jamie’s excitement with cheerful affirmations, and expresses genuine admiration for Jamie’s contributions. She maintains eye contact and actively engages by asking follow-up questions that highlight Jamie’s achievements.",
+    "speaker2_persona_low": "The Defensive/Snappy Reactor. Alex reacts dismissively to Jamie’s excitement, cutting them off with clipped comments like, 'Well, you weren’t the only one working on this, you know.' Her tone is cold and irritable, creating tension and shutting down Jamie’s celebratory mood.",
+    "speaker2_voice": "nova",
+    "eq_skill_tested": "Self-Expression - Independence"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "I can’t believe it’s finally done! The greenhouse looks amazing—I mean, can you believe we pulled this off? Oh, and guess what? A bunch of the donations came from people I met at the farmer's market last month! They were so generous."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "You’re kidding! That’s incredible! You were talking about the farmer’s market last time, but I didn’t realize so much came from there. You really made it happen."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, wait till you hear this—one woman donated because her grandparents used to grow tomatoes in this garden back in the ‘70s! She said the greenhouse reminded her of them and wanted to be part of it. Isn’t that just the coolest thing?"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Wow, that’s... honestly so beautiful. It’s like this garden isn’t just growing plants—it’s growing memories, connections. That must’ve felt so rewarding to hear."
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "Totally! I mean, I was tearing up when she told me. This is what it’s all about—bringing people together. And now, look at everyone here, celebrating something we all made happen. It’s just so awesome."
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "It really is. You know, seeing everyone here and hearing stories like hers—it makes all the hard work worth it. You should be so proud, Jamie. This greenhouse isn’t just a structure—it’s a legacy."
+    }
+  ],
+  "eq_scale": "Self-Expression - Independence",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "I can’t believe it’s finally done! The greenhouse looks amazing—I mean, can you believe we pulled this off? Oh, and guess what? A bunch of the donations came from people I met at the farmer's market last month! They were so generous.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/01.mp3",
+      "tone_description": "Speak with a quickened, lively rhythm, overflowing with vibrant enthusiasm."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "You’re kidding! That’s incredible! You were talking about the farmer’s market last time, but I didn’t realize so much came from there. You really made it happen.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/02.mp3",
+      "tone_description": "Speak with an animated pace, overflowing with bright admiration and cheerful energy."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, wait till you hear this—one woman donated because her grandparents used to grow tomatoes in this garden back in the ‘70s! She said the greenhouse reminded her of them and wanted to be part of it. Isn’t that just the coolest thing?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/03.mp3",
+      "tone_description": "Speak with an animated, quickened pace, overflowing with sheer joy and amazement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that’s... honestly so beautiful. It’s like this garden isn’t just growing plants—it’s growing memories, connections. That must’ve felt so rewarding to hear.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/04.mp3",
+      "tone_description": "Lift pitch and pace dramatically, with bright enthusiasm and joyful energy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Wow, that’s... honestly so beautiful. It’s like this garden isn’t just growing plants—it’s growing memories, connections. That must’ve felt so rewarding to hear.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/05.mp3",
+      "tone_description": "Clip pitch tightly, with sharp consonants and cold, irritable tone shifts."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "Totally! I mean, I was tearing up when she told me. This is what it’s all about—bringing people together. And now, look at everyone here, celebrating something we all made happen. It’s just so awesome.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/06.mp3",
+      "tone_description": "Speak with a bright, electrified pitch, pouring out contagious joy and amazement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It really is. You know, seeing everyone here and hearing stories like hers—it makes all the hard work worth it. You should be so proud, Jamie. This greenhouse isn’t just a structure—it’s a legacy.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/07.mp3",
+      "tone_description": "Bright, high-energy tone with upward pitch sweeps; pace steady but enthusiastic."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "It really is. You know, seeing everyone here and hearing stories like hers—it makes all the hard work worth it. You should be so proud, Jamie. This greenhouse isn’t just a structure—it’s a legacy.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/self_expression_independence/20260308_233258_fed38989d5e3/audio/08.mp3",
+      "tone_description": "Fast, breathless delivery with strained pitch; tone annoyed and dismissive."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_233258",
+    "dataset_id": "20260308_233258_fed38989d5e3",
+    "subscale_slug": "self_expression_independence",
+    "output_path": "v2_data/self_expression_independence/20260308_233258_fed38989d5e3",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

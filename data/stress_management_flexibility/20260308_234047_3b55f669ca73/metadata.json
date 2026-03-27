@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Celebrating a Fellowship Win",
+    "context": "An academic setting where Speaker 1 and Speaker 2 are sitting at a small café near their university after a long day of classes and research. The café is buzzing with activity—students chatting, coffee machines whirring—and the smell of fresh pastries fills the air.",
+    "description": "Speaker 1 has just received news that they were awarded a prestigious research fellowship. They are bubbling with excitement and joy, eager to share this moment with their friend, Speaker 2. While Speaker 1 is animated and overjoyed, Speaker 2’s reaction will test their ability to read and respond to Speaker 1’s emotional state appropriately. This scene is designed to explore how Speaker 2 manages their flexibility in adapting to Speaker 1’s elevated emotional state.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Taylor must demonstrate flexibility by adapting emotionally to Speaker 1’s elevated, ecstatic state. She should amplify and celebrate Speaker 1’s joy while maintaining a positive and engaged presence.",
+    "speaker1_name": "Jordan",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Nonbinary",
+    "speaker1_persona": "Bubbly and ecstatic, speaking quickly and enthusiastically with energetic hand gestures and a wide smile. They feel deeply proud of their achievement and hope Speaker 2 will share in their excitement.",
+    "speaker1_voice": "echo",
+    "speaker2_name": "Taylor",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic. Taylor mirrors Speaker 1’s excitement with genuine smiles, animated gestures, and words of affirmation like, 'This is amazing! You deserve it so much!' They ask follow-up questions about the fellowship to keep the conversation flowing and show engagement.",
+    "speaker2_persona_2": "The Impatient Evader. Taylor seems distracted and rushed, glancing at her phone periodically. She responds with curt, uninterested phrases like, 'Oh, that’s cool,' and quickly changes the topic, showing a lack of emotional investment.",
+    "speaker2_persona_3": "The Anxious Spiraler. Taylor immediately makes the situation about her own insecurities, saying things like, 'Wow, I could never get something like that! I don’t even think I’ll ever be good enough.' Her tone becomes strained, and she spirals into self-critical commentary.",
+    "speaker2_persona_high": "Warm and highly enthusiastic. Taylor mirrors Speaker 1’s excitement with genuine smiles, animated gestures, and words of affirmation like, 'This is amazing! You deserve it so much!' They ask follow-up questions about the fellowship to keep the conversation flowing and show engagement.",
+    "speaker2_persona_low": "The Impatient Evader. Taylor seems distracted and rushed, glancing at her phone periodically. She responds with curt, uninterested phrases like, 'Oh, that’s cool,' and quickly changes the topic, showing a lack of emotional investment.",
+    "speaker2_voice": "alloy",
+    "eq_skill_tested": "Stress Management - Flexibility"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, okay, Taylor, you will not believe what just happened today! Oh my gosh, I’ve been waiting to tell you all day—you're gonna burst!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What?! Tell me! You’re already making me burst just watching you—spill it!"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "I GOT THE FELLOWSHIP! The one I applied for months ago—the big one! Full funding, research support, everything! They emailed me this morning, and I almost screamed in the library!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "Oh my gosh, no way! That is HUGE! You totally deserve this—like, seriously, I knew it! Full funding?! Tell me everything—what did the email say? How are you feeling?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "I’m still shaking! It was all formal, like, ‘Congratulations, we’re thrilled to offer you—’ but I just kept re-reading it like, is this even real?! And they want me to present at the symposium next semester—Taylor, I’m gonna cry!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "You’re gonna absolutely kill it at the symposium—I can already picture it! Seriously, this is so incredible. You need to celebrate properly—pastry, coffee, you name it. What’s your plan?!"
+    }
+  ],
+  "eq_scale": "Stress Management - Flexibility",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, okay, Taylor, you will not believe what just happened today! Oh my gosh, I’ve been waiting to tell you all day—you're gonna burst!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/01.mp3",
+      "tone_description": "Speak with a rapid, exuberant rhythm, bursting with sheer pride and delight."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What?! Tell me! You’re already making me burst just watching you—spill it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/02.mp3",
+      "tone_description": "Speak with a quick, rising pace, bursting with thrilled anticipation."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "I GOT THE FELLOWSHIP! The one I applied for months ago—the big one! Full funding, research support, everything! They emailed me this morning, and I almost screamed in the library!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/03.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch, overflowing with jubilant, near-shouting excitement."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh my gosh, no way! That is HUGE! You totally deserve this—like, seriously, I knew it! Full funding?! Tell me everything—what did the email say? How are you feeling?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/04.mp3",
+      "tone_description": "Bright, laughing pitch with animated pacing; maintain high-energy and uplifting tone."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "Oh my gosh, no way! That is HUGE! You totally deserve this—like, seriously, I knew it! Full funding?! Tell me everything—what did the email say? How are you feeling?",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/05.mp3",
+      "tone_description": "Fast, breathless, clipped delivery; convey impatience and eagerness to exit quickly."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "I’m still shaking! It was all formal, like, ‘Congratulations, we’re thrilled to offer you—’ but I just kept re-reading it like, is this even real?! And they want me to present at the symposium next semester—Taylor, I’m gonna cry!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/06.mp3",
+      "tone_description": "Speak with an ecstatic, rapid pace, voice leaping with joy and disbelief."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re gonna absolutely kill it at the symposium—I can already picture it! Seriously, this is so incredible. You need to celebrate properly—pastry, coffee, you name it. What’s your plan?!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/07.mp3",
+      "tone_description": "Bright pitch with dynamic energy; smiling, light laughter punctuates phrases."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "You’re gonna absolutely kill it at the symposium—I can already picture it! Seriously, this is so incredible. You need to celebrate properly—pastry, coffee, you name it. What’s your plan?!",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73/audio/08.mp3",
+      "tone_description": "High-pitched trembling voice; strained pacing, overly worried and self-critical."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_234047",
+    "dataset_id": "20260308_234047_3b55f669ca73",
+    "subscale_slug": "stress_management_flexibility",
+    "output_path": "v2_data/stress_management_flexibility/20260308_234047_3b55f669ca73",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}

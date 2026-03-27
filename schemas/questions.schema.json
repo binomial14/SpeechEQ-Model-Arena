@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpeechEQ Model Arena Questions Manifest",
+  "type": "object",
+  "required": ["questions"],
+  "properties": {
+    "questions": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "items": {
+        "type": "object",
+        "required": ["id", "subscale", "path", "metadataPath", "modelResponsePath"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "subscale": { "type": "string", "minLength": 1 },
+          "path": { "type": "string", "minLength": 1 },
+          "metadataPath": { "type": "string", "minLength": 1 },
+          "modelResponsePath": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

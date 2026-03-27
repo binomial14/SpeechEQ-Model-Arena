@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 980px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 12px 36px rgba(31, 41, 55, 0.12);
+  padding: 28px;
+}
+
+.center-panel {
+  max-width: 700px;
+  margin: 64px auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.error,
+.error-banner {
+  color: #991b1b;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 12px;
+}
+
+.lead {
+  line-height: 1.6;
+}
+
+.progress {
+  margin: 8px 0 16px;
+  color: #4338ca;
+  font-weight: 600;
+}
+
+.question-card,
+.ranking-card,
+.feedback-card {
+  margin-top: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.subscale {
+  margin-top: 4px;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+.model-row {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.model-header {
+  margin-bottom: 4px;
+}
+
+.model-response {
+  background: #f8fafc;
+  border-radius: 8px;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.sentence-eval {
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.sentence-eval.correct {
+  background: #ecfdf3;
+  border: 1px solid #86efac;
+}
+
+.sentence-eval.incorrect {
+  background: #fef2f2;
+  border: 1px solid #fca5a5;
+}
+
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.score-btn {
+  min-width: 40px;
+  padding: 8px 10px;
+}
+
+.score-btn[aria-pressed='true'] {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+
+select,
+textarea {
+  width: 100%;
+  margin-top: 6px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+  color: #111827;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

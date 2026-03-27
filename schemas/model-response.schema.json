@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpeechEQ Model Response",
+  "type": "object",
+  "required": ["questionId", "models"],
+  "properties": {
+    "questionId": { "type": "string", "minLength": 1 },
+    "models": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["modelId", "displayName", "responseText"],
+        "properties": {
+          "modelId": { "type": "string", "minLength": 1 },
+          "displayName": { "type": "string", "minLength": 1 },
+          "responseText": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

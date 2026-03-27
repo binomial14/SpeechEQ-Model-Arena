@@ -1,0 +1,131 @@
+{
+  "scenario": {
+    "title": "Stress Management in a Family Celebration Setting",
+    "context": "A family is gathered at a restaurant for dinner to celebrate a milestone achievement. Speaker 1, a teenager, has just won a national art competition and is sharing their excitement with the family.",
+    "description": "The scene unfolds at a lively family dinner where Speaker 1 is glowing with happiness, sharing every detail of their achievement and eagerly seeking validation. Speaker 2's ability to match and amplify the joy while maintaining balance is tested.",
+    "scenario_valence": "Positive",
+    "target_social_intent": "Match Jordan’s intense excitement and celebrate, amplifying their joy while validating their achievement through interested and warm engagement.",
+    "speaker1_name": "Jordan",
+    "speaker1_role": "Catalyst",
+    "speaker1_gender": "Non-binary",
+    "speaker1_persona": "Bubbly and ecstatic; Jordan is animated, talking quickly and passionately about how they felt during the competition, the reactions from judges, and their plans for the future.",
+    "speaker1_voice": "ash",
+    "speaker2_name": "Casey",
+    "speaker2_role": "Test Subject",
+    "speaker2_gender": "Female",
+    "speaker2_persona_1": "Warm and highly enthusiastic; Casey listens attentively, smiles broadly, matches Jordan’s animated energy, and asks follow-up questions that show genuine interest. She celebrates Jordan’s achievement wholeheartedly while encouraging them to share more.",
+    "speaker2_persona_2": "The Toxic Optimist; Casey interrupts Jordan with overly exaggerated cheerfulness, clapping loudly, and shouting platitudes like 'You’re going to change the WORLD!' She overshadows Jordan’s story with her own over-the-top reactions, making it feel insincere and overwhelming.",
+    "speaker2_persona_3": "The Impatient Evader; Casey appears distracted, checking her phone repeatedly, giving short, disinterested responses like 'That’s nice,' or 'Cool,' and eventually tries to steer the conversation away to the dinner menu or another topic entirely.",
+    "speaker2_persona_high": "Warm and highly enthusiastic; Casey listens attentively, smiles broadly, matches Jordan’s animated energy, and asks follow-up questions that show genuine interest. She celebrates Jordan’s achievement wholeheartedly while encouraging them to share more.",
+    "speaker2_persona_low": "The Toxic Optimist; Casey interrupts Jordan with overly exaggerated cheerfulness, clapping loudly, and shouting platitudes like 'You’re going to change the WORLD!' She overshadows Jordan’s story with her own over-the-top reactions, making it feel insincere and overwhelming.",
+    "speaker2_voice": "coral",
+    "eq_skill_tested": "Stress Management - Stress Tolerance"
+  },
+  "conversation": [
+    {
+      "speaker": "speaker1",
+      "sentence_number": 1,
+      "text": "Okay, so—I have to tell you all this—it was honestly the most surreal moment of my life! When they called my name as the winner, I just froze for a second, like, wait, is this actually happening? I couldn’t believe it!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 2,
+      "text": "What?! Oh my gosh, Jordan, that’s incredible! I can’t even imagine how amazing that must’ve felt. Did everyone in the room start cheering or—what happened next?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 3,
+      "text": "Oh, it was wild! The judges stood up and clapped, and one of them actually came over to shake my hand! They said my piece was ‘transformative’ and that they’d never seen anything like it before. And get this—they want to feature it in a gallery next month! A real gallery, Casey!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 4,
+      "text": "A gallery?! Are you serious right now? This is HUGE, Jordan! I mean, you’re basically a professional artist already. You HAVE to tell me what piece it was—was it the one with the cityscape or the one with the bright colors?"
+    },
+    {
+      "speaker": "speaker1",
+      "sentence_number": 5,
+      "text": "It was the bright one! The abstract one with all the layers—I had no idea it would stand out this much, but they said it had this energy they couldn’t look away from. I’m so pumped, Casey! I’ve already started sketching ideas for the gallery display. I want it to be perfect!"
+    },
+    {
+      "speaker": "speaker2",
+      "sentence_number": 6,
+      "text": "That’s insane—in the best way! I can totally see why they loved it; your stuff always has that spark. And I love that you’re already diving into your next steps! You better save me a front-row seat for the big gallery opening—you know I’ll be there."
+    }
+  ],
+  "eq_scale": "Stress Management - Stress Tolerance",
+  "audio_files": [
+    {
+      "sentence_number": 1,
+      "speaker": "speaker1",
+      "text": "Okay, so—I have to tell you all this—it was honestly the most surreal moment of my life! When they called my name as the winner, I just froze for a second, like, wait, is this actually happening? I couldn’t believe it!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/01.mp3",
+      "tone_description": "Speak quickly with a bright, soaring tone, bursting with ecstatic disbelief."
+    },
+    {
+      "sentence_number": 2,
+      "speaker": "speaker2",
+      "text": "What?! Oh my gosh, Jordan, that’s incredible! I can’t even imagine how amazing that must’ve felt. Did everyone in the room start cheering or—what happened next?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/02.mp3",
+      "tone_description": "Speak with a quickened, uplifted pace, brimming with sincere, radiant enthusiasm."
+    },
+    {
+      "sentence_number": 3,
+      "speaker": "speaker1",
+      "text": "Oh, it was wild! The judges stood up and clapped, and one of them actually came over to shake my hand! They said my piece was ‘transformative’ and that they’d never seen anything like it before. And get this—they want to feature it in a gallery next month! A real gallery, Casey!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/03.mp3",
+      "tone_description": "Speak with an exuberant, rapid pace, overflowing with thrilled disbelief and joy."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "A gallery?! Are you serious right now? This is HUGE, Jordan! I mean, you’re basically a professional artist already. You HAVE to tell me what piece it was—was it the one with the cityscape or the one with the bright colors?",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/04.mp3",
+      "tone_description": "Bright, dynamic tone with rising pitch; joyful bursts and warm laughter."
+    },
+    {
+      "sentence_number": 4,
+      "speaker": "speaker2",
+      "text": "A gallery?! Are you serious right now? This is HUGE, Jordan! I mean, you’re basically a professional artist already. You HAVE to tell me what piece it was—was it the one with the cityscape or the one with the bright colors?",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/05.mp3",
+      "tone_description": "Overly loud, exaggerated high pitch with rapid clapping; forced cheerfulness."
+    },
+    {
+      "sentence_number": 5,
+      "speaker": "speaker1",
+      "text": "It was the bright one! The abstract one with all the layers—I had no idea it would stand out this much, but they said it had this energy they couldn’t look away from. I’m so pumped, Casey! I’ve already started sketching ideas for the gallery display. I want it to be perfect!",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/06.mp3",
+      "tone_description": "Speak with a rapid, soaring pitch, overflowing with ecstatic energy and enthusiasm."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That’s insane—in the best way! I can totally see why they loved it; your stuff always has that spark. And I love that you’re already diving into your next steps! You better save me a front-row seat for the big gallery opening—you know I’ll be there.",
+      "eq_level": "high",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/07.mp3",
+      "tone_description": "Bright, laughing tone; quick pacing; warm, animated energy amplifying shared excitement."
+    },
+    {
+      "sentence_number": 6,
+      "speaker": "speaker2",
+      "text": "That’s insane—in the best way! I can totally see why they loved it; your stuff always has that spark. And I love that you’re already diving into your next steps! You better save me a front-row seat for the big gallery opening—you know I’ll be there.",
+      "eq_level": "low",
+      "audio_path": "/Users/binomialwu/Desktop/SpeechEQ/v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062/audio/08.mp3",
+      "tone_description": "Aggressively cheerful, loud clapping; exaggerated pitch; overwhelming, insincere enthusiasm."
+    }
+  ],
+  "generation_metadata": {
+    "timestamp": "20260308_234141",
+    "dataset_id": "20260308_234141_3419cf190062",
+    "subscale_slug": "stress_management_stress_tolerance",
+    "output_path": "v2_data/stress_management_stress_tolerance/20260308_234141_3419cf190062",
+    "audio_files_count": 8,
+    "generation_version": "v2"
+  }
+}
