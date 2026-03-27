@@ -1,0 +1,54 @@
+# Build Vite app and deploy ./dist to GitHub Pages.
+# Repo Settings → Pages → Source: GitHub Actions.
+# If the site 404s assets, ensure vite.config.js `base` matches the repo name (default: /SpeechEQ-Model-Arena/).
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, prolific]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+        env:
+          # Optional: add these in Repo → Settings → Secrets and variables → Actions
+          VITE_GOOGLE_FORM_URL: ${{ secrets.VITE_GOOGLE_FORM_URL }}
+          VITE_PROLIFIC_EXIT_URL: ${{ secrets.VITE_PROLIFIC_EXIT_URL }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
