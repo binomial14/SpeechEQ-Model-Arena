@@ -39,8 +39,15 @@ function resolveAppsScriptUrl(raw) {
   return trimmed
 }
 
+/**
+ * Optional static fallback when `VITE_GOOGLE_FORM_URL` is unset at build time (e.g. GitHub Pages
+ * without Actions secrets). Env wins when set. URL must be full `https://script.google.com/.../exec`.
+ */
+const FALLBACK_GOOGLE_FORM_URL = 'https://script.google.com/macros/s/AKfycby-eYCgmiEXzxNozmtDs2p1d9nC6NgRZcY7ohddYhceQkKcd549hVevcgCqfQ_pAmjP/exec'
+
 function getGoogleFormUrl() {
-  return resolveAppsScriptUrl(import.meta.env.VITE_GOOGLE_FORM_URL || '')
+  const raw = (import.meta.env.VITE_GOOGLE_FORM_URL || FALLBACK_GOOGLE_FORM_URL || '').trim()
+  return resolveAppsScriptUrl(raw)
 }
 const PROLIFIC_EXIT_URL =
   import.meta.env.VITE_PROLIFIC_EXIT_URL ||
@@ -299,6 +306,12 @@ function App() {
       sessionId: urlParams.get('SESSION_ID') || ''
     })
   }, [])
+
+  useEffect(() => {
+    if (!showIntro && !loading && questions.length > 0) {
+      window.scrollTo(0, 0)
+    }
+  }, [currentQuestionIndex, showIntro, loading, questions.length])
 
   /**
    * Ask Apps Script for the next QUESTION_COUNT ids (lowest assignment_count first, cap 5 each).
